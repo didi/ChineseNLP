@@ -4,6 +4,10 @@
 
 ## List of Fields
 
+[Word Segmentation](docs/word_segmentation.md)
+
+
+
 ## Contribute
 
 ## Contact
