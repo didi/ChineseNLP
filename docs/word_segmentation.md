@@ -42,5 +42,63 @@ F1 = 0.857
 
 ### The Second International Chinese Word Segmentation Bakeoff in SIGHAN 2005 Workshop (Emerson, 2005)
 
-* [Website](http://sighan.cs.uchicago.edu/bakeoff2005/), [Detailed Instruction](http://sighan.cs.uchicago.edu/bakeoff2005/data/instructions.php.htm), [Overview Paper](http://aclweb.org/anthology/I05-3017)
+* [Website](http://sighan.cs.uchicago.edu/bakeoff2005/), [Detailed Instruction](http://sighan.cs.uchicago.edu/bakeoff2005/data/instructions.php.html), [Overview Paper](http://aclweb.org/anthology/I05-3017)
 * Includes 4 datasets: AS, CityU in traditional Chinese, PK, MSR in simplified Chinese.
+
+| Corpus | Abbrev. | Encoding | Test Size (Tokens/Types) |
+| ---: | ---: | ---: | ---: |
+| **Traditional Chinese** |
+|Academia Sinica(Taipei)|AS|Unicode/Big Five Plus|122K / 19K|
+|City University of Hong Kong|CityU|HKSCS Unicode/Big Five|104K / 13K|
+| **Simplified Chinese** |
+|Peking University|PK|CP936/Unicode|41K / 9K|
+|Microsoft Research|MSR|CP936/Unicode|107K / 13K|
+
+### Chinese Penn Treebank
+
+* [Website](https://verbs.colorado.edu/chinese/ctb.html)
+* Includes 2 datasets:
+  * [CTB6](https://catalog.ldc.upenn.edu/LDC2007T36): consisting of 780,000 words (over 1.28 million Chinese characters)
+  * [CTB7](https://catalog.ldc.upenn.edu/LDC2010T07): consists of 2,448 text files, 51,447 sentences, 1,196,329 words and 1,931,381 hanzi (Chinese characters)
+
+
+|Data set|Test set (Tokens)|
+| ---: | ---: |
+|CTB6|81,578|
+|CTB7|81,578|
+
+### Chinese Universal Treebank (UD)
+
+* [Website](https://universaldependencies.org/), [Github](https://github.com/UniversalDependencies/UD_Chinese-GSD)
+
+|Data set|Test set(Tokens)|
+| ---: | ---: |
+|UD|12,012|
+
+## Baselines and state-of-art results
+
+Systems
+
+|  Model | description | paper | code |
+| --- | --- | --- | --- |
+|  Ma et al. (2018) | Bidirectional LSTM + Pre-trained Embedding + Dropout + Hyperparameter tuning | [EMNLP 2018](http://aclweb.org/anthology/D18-1529) |  |
+
+Performance
+
+|  Model | AS | CITYU | CTB6 | CBT7 | MSR | PKU | UD |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+|  Ma et al. (2018) | 96.2 | 97.2 | 96.7 | 96.6 | 97.4 | 96.1 | 96.9 |
+
+## Resources
+
+There are several datasets in this area. Many of them are free for download except CTB7 ($300)
+
+|  Train set | Training Size(Tokens) |
+| --- | ----: |
+|  AS | 5.45M |
+|  CityU | 1.46M |
+|  MSR | 2.37M |
+|  CTB6 | 641,368 |
+|  CTB7 | 950,138 |
+|  PKU | 1.1M |
+|  UD | 98,608 |
