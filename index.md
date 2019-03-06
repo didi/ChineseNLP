@@ -6,6 +6,7 @@
 
 [Word Segmentation](docs/word_segmentation.md)
 
+[Entity Linking](docs/entity_linking.md)
 
 
 ## Contribute
