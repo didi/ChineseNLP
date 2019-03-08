@@ -159,7 +159,7 @@ Accuracy
 ### Resources
 | **Source** | **Genre** | **# Classes** | **Size****(sentences)**|**Size****(words)** |
 | --- | --- | --- | --- | --- |
-| Dianping | restaurant reviews | 2 | 2,000,000 |   |
+| **Dianping** | **restaurant reviews** | 2 | 2,000,000 |   |
 
 
 ---
@@ -169,7 +169,7 @@ Accuracy
 
 | **Source** | **Genre** | **# Classes** | **Size****(sentences)**|**Size****(words)** |
 | --- | --- | --- | --- | --- |
-| **JD Full** | ** shopping reviews** | **5** | **250,000** | **N/A** |
+| **JD Full** | **shopping reviews** | **5** | **250,000** | **N/A** |
 
 ### Metrics
 Accuracy
@@ -185,7 +185,7 @@ Accuracy
 ### Resources
 | **Source** | **Genre** | **# Classes** | **Size****(sentences)**|**Size****(words)** |
 | --- | --- | --- | --- | --- |
-| JD full | shopping reviews | 5 | 3,000,000 |   |
+| **JD Full** | **shopping reviews** | 5 | 3,000,000 |   |
 
 ---
 ## Standard Test Set 7
@@ -193,7 +193,7 @@ Accuracy
 
 | **Source** | **Genre** | **# Classes** | **Size****(sentences)**|**Size****(words)** |
 | --- | --- | --- | --- | --- |
-| **JD Binary** | ** shopping reviews** | **2** | **360,000** | **N/A** |
+| **JD Binary** | **shopping reviews** | **2** | **360,000** | **N/A** |
 
 ### Metrics
 Accuracy
@@ -208,7 +208,7 @@ Accuracy
 ### Resources
 | **Source** | **Genre** | **# Classes** | **Size****(sentences)**|**Size****(words)** |
 | --- | --- | --- | --- | --- |
-| JD binary | shopping reviews | 2 | 4,000,000 |   |
+| **JD Binary** | **shopping reviews** | 2 | 4,000,000 |   |
 
 
 ---
