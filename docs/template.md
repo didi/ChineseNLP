@@ -22,28 +22,31 @@ This is output
 
 ## Standard Metrics
 
+Precision, Recall, F1 
+  * Description.
+  * Link to paper that introduced it.
+  * Link to metric implementation (if exists)
+
 
 ---
 
 ## Test Set 1
 
-* Shared Task 2050
-  * Link to paper that introduced it.
-  * Data table (dev/test, sizes, genre, provenance)
+Shared Task 2050
+* Link to paper that introduced it.
+* Data table (dev/test, sizes, genre, provenance)
   
-  | | size | genre | license |
-  | --- | --- | --- | --- |
-  | Data Small| 400 | News | MIT |
-  | Data Large| 400,000 | News | MIT |
+| | size | genre | license |
+| --- | --- | --- | --- |
+| Data Small| 400 | News | MIT |
+| Data Large| 400,000 | News | MIT |
   
   
   
 ### Metrics
 
-Precision, Recall, F1 
-  * Description.
-  * Link to paper that introduced it.
-  * Link to metric implementation (if exists)
+Metrics specific to this test set
+* Evaluation script/code
 
 ### Results
 
@@ -63,23 +66,21 @@ Precision, Recall, F1
 
 ## Test Set 2
 
-* Shared Task 2051
-  * Link to paper that introduced it.
-  * Data table (dev/test, sizes, genre, provenance)
+Shared Task 2051
+* Link to paper that introduced it.
+* Data table (dev/test, sizes, genre, provenance)
   
-  | | size | genre | license |
-  | --- | --- | --- | --- |
-  | Data Small| 400 | News | MIT |
-  | Data Large| 400,000 | News | MIT |
+| | size | genre | license |
+| --- | --- | --- | --- |
+| Data Small| 400 | News | MIT |
+| Data Large| 400,000 | News | MIT |
   
   
   
 ### Metrics
 
-Precision, Recall, F1 
-  * Description.
-  * Link to paper that introduced it.
-  * Link to metric implementation (if exists)
+Metrics specific to this test set
+* Evaluation script/code
 
 ### Results
 
