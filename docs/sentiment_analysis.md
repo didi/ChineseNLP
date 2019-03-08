@@ -216,6 +216,7 @@ Accuracy
 
 ## Other Resources
 
+
 * Overview paper in this area: 
     * [chinese-sentiment-analysis-review](http://sentic.net/chinese-sentiment-analysis-review.pdf)
 
