@@ -119,7 +119,7 @@ F1-score
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |   
-| IT168Test | Product review | 2 | 29531 | N/A |
+| IT168Test | Product review | 2 | 29531 |  |
 
 ### Metrics
 Accuracy
@@ -145,7 +145,7 @@ F1-score
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |   
-| Dianping | restaurant reviews | 2 | 500,000 | N/A |
+| Dianping | restaurant reviews | 2 | 500,000 |  |
 
 ### Metrics
 Accuracy
@@ -171,7 +171,7 @@ Accuracy
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
-| JD Full | shopping reviews | 5 | 250,000 | N/A |
+| JD Full | shopping reviews | 5 | 250,000 |  |
 
 ### Metrics
 Accuracy
@@ -195,7 +195,7 @@ Accuracy
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
-| JD Binary | shopping reviews | 2 | 360,000 | N/A |
+| JD Binary | shopping reviews | 2 | 360,000 |  |
 
 ### Metrics
 Accuracy
