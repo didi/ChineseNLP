@@ -216,9 +216,6 @@ Accuracy
 
 ## Other Resources
 
-* An userfull tookit.
-* An unpublished dataset. 
-* Possible training data. 
 * Overview paper in this area: 
     * [chinese-sentiment-analysis-review](http://sentic.net/chinese-sentiment-analysis-review.pdf)
 
