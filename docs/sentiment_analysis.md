@@ -24,6 +24,7 @@ Positive
 
 Accuracy 
   * The percentage of correctly classified samples on test set.
+  
 F1-score: 
   * Combination of precision and recall.
   * [Wiki Page](https://en.wikipedia.org/wiki/F1_score)
