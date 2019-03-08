@@ -4,43 +4,108 @@
 
 ## Background
 
-* Explain the task in general sense.  Example uses.
-* Overview of progress, history (not specific to Chinese).
-* Overview of Chinese progress
+Task X is the task that ... 
 
 ## Example
 
-input/output.
+Input:
 
-## Test Set
+```
+This is input
+```
 
-* For each standard test set.
+Output:
+
+```
+This is output
+```
+
+## Standard Metrics
+
+
+---
+
+## Test Set 1
+
+* Shared Task 2050
   * Link to paper that introduced it.
   * Data table (dev/test, sizes, genre, provenance)
-  * Location of test data / availability / license.
-  * Multiple versions/updates?
-  * OK to use latest test set in series (eg, latest Sighan on word segmentation)
+  
+  | | size | genre | license |
+  | --- | --- | --- | --- |
+  | Data Small| 400 | News | MIT |
+  | Data Large| 400,000 | News | MIT |
+  
+  
+  
+### Metrics
 
-## Metrics
+Precision, Recall, F1 
+  * Description.
+  * Link to paper that introduced it.
+  * Link to metric implementation (if exists)
 
-* Description.
-* Link to paper that introduced it.
-* Link to metric implementation (if exists)
+### Results
 
-## Baselines and state-of-art results.
+| System | Data Small F1 | Data Large F1 | code |
+| --- | --- | --- | --- |
+| Wang et al. (2050)| 0.8 | 0.4 | github |
+| Hu et al. (2049) | 0.7 | 0.4 | github |
+ 
+### Resources
 
-* Table of results (metric results, parameters, notes/asterisks).
-* Link to SOA paper, one-sentence description, code/github (official, 3rd party, etc)
-* Minimum: Best result to date + “nice” baseline(s)
-  * Should have majority baseline (most likely class in train or dev)
-    * explanation (e.g., always say “negative sentiment”)
-* If there is a shared task, link to it.
-* Commercial baseline eg cloud service -- or “none exists”
-* Internally, Oracle result on same test set -- or “none exists”
+  | | size | genre | license |
+  | --- | --- | --- | --- |
+  | Wiki | 400M  | News | MIT |
+  | Baike | 234M | News | MIT |
 
-## Resources
+---
 
-* Training data sets table (sizes, genre, provenance).
-* Might be growing over time.
-* Might include lots of other things.
+## Test Set 2
+
+* Shared Task 2051
+  * Link to paper that introduced it.
+  * Data table (dev/test, sizes, genre, provenance)
+  
+  | | size | genre | license |
+  | --- | --- | --- | --- |
+  | Data Small| 400 | News | MIT |
+  | Data Large| 400,000 | News | MIT |
+  
+  
+  
+### Metrics
+
+Precision, Recall, F1 
+  * Description.
+  * Link to paper that introduced it.
+  * Link to metric implementation (if exists)
+
+### Results
+
+| System | Data Small F1 | Data Large F1 | code |
+| --- | --- | --- | --- |
+| Zhang et al. (2051)| 0.8 | 0.4 | github |
+| Zhao et al. (2050) | 0.7 | 0.4 | gitlab |
+ 
+### Resources
+
+  | | size | genre | license |
+  | --- | --- | --- | --- |
+  | Weibo | 400M  | News | MIT |
+  | Twitter | 234M | News | MIT |
+
+---
+
+## Other Resources
+
+* An userfull tookit.
+* An unpublished dataset. 
+* Possible training data. 
+
+---
+
+**Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
+
+[Return to Home](../index.md)
 
