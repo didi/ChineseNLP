@@ -8,6 +8,8 @@
 
 [Entity Linking](docs/entity_linking.md)
 
+[Sentiment Analysis](docs/sentiment_analysis.md)
+
 ## Contribute
 
 Want to contribute? Please follow the [instructions](contribute.md)
