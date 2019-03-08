@@ -157,7 +157,7 @@ Accuracy
 
 
 ### Resources
-| **Source** | **Genre** | **# Classes** | **Size**** (sentences) **|** Size****(words)** |
+| **Source** | **Genre** | **# Classes** | **Size****(sentences)**|**Size****(words)** |
 | --- | --- | --- | --- | --- |
 | Dianping | restaurant reviews | 2 | 2,000,000 |   |
 
@@ -183,7 +183,7 @@ Accuracy
 
 
 ### Resources
-| **Source** | **Genre** | **# Classes** | **Size**** (sentences) **|** Size****(words)** |
+| **Source** | **Genre** | **# Classes** | **Size****(sentences)**|**Size****(words)** |
 | --- | --- | --- | --- | --- |
 | JD full | shopping reviews | 5 | 3,000,000 |   |
 
@@ -206,7 +206,7 @@ Accuracy
 |   |   |
 
 ### Resources
-| **Source** | **Genre** | **# Classes** | **Size**** (sentences) **|** Size****(words)** |
+| **Source** | **Genre** | **# Classes** | **Size****(sentences)**|**Size****(words)** |
 | --- | --- | --- | --- | --- |
 | JD binary | shopping reviews | 2 | 4,000,000 |   |
 
