@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 title: Chinese NLP
-description: Datasets, SOTA results of every fields of Chinese NLP
+description: Shared tasks, datasets and state-of-the-art results for Chinese Natural Language Processing (NLP)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-135652957-1
