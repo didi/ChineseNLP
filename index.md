@@ -4,11 +4,22 @@
 
 ## List of Fields
 
-[Word Segmentation](docs/word_segmentation.md)
+
+[Dialogue State Management](docs/dialogue_state_management.md)
 
 [Entity Linking](docs/entity_linking.md)
 
+[Language Modeling](docs/language_modeling.md)
+
+[Machine Translation](docs/machine_translation.md)
+
+[Question Answering](docs/question_answering.md)
+
+[Relation Extraction](docs/relation_extraction.md)
+
 [Sentiment Analysis](docs/sentiment_analysis.md)
+
+[Word Segmentation](docs/word_segmentation.md)
 
 ## Contribute
 
