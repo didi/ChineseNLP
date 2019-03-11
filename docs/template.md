@@ -75,8 +75,6 @@ Shared Task 2051
 | Data Small| 400 | News | MIT |
 | Data Large| 400,000 | News | MIT |
   
-  
-  
 ### Metrics
 
 Metrics specific to this test set
@@ -91,10 +89,10 @@ Metrics specific to this test set
  
 ### Resources
 
-  | | size | genre | license |
-  | --- | --- | --- | --- |
-  | Weibo | 400M  | News | MIT |
-  | Twitter | 234M | News | MIT |
+| | size | genre | license |
+| --- | --- | --- | --- |
+| Weibo | 400M  | News | MIT |
+| Twitter | 234M | News | MIT |
 
 ---
 

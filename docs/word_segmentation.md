@@ -10,11 +10,15 @@ Chinese is written using characters (hanzi), where each character represents a s
 
 Input:
 
-> 亲 请问有什么可以帮您的吗？
+```
+亲 请问有什么可以帮您的吗？
+```
 
 Output:
 
-> ["亲", "请问", "有", "什么", "可以", "帮", "您", "的", "吗", "？"]
+```
+["亲", "请问", "有", "什么", "可以", "帮", "您", "的", "吗", "？"]
+```
 
 ## Problem History
 
@@ -38,9 +42,9 @@ Recall = 9 / 10 = 0.9
 
 F1 = 0.857
 
-## Standard test sets
+---
 
-### The Second International Chinese Word Segmentation Bakeoff in SIGHAN 2005 Workshop (Emerson, 2005)
+## The Second International Chinese Word Segmentation Bakeoff in SIGHAN 2005 Workshop (Emerson, 2005)
 
 * [Website](http://sighan.cs.uchicago.edu/bakeoff2005/), [Detailed Instruction](http://sighan.cs.uchicago.edu/bakeoff2005/data/instructions.php.html), [Overview Paper](http://aclweb.org/anthology/I05-3017)
 * Includes 4 datasets: AS, CityU in traditional Chinese, PK, MSR in simplified Chinese.
@@ -54,7 +58,27 @@ F1 = 0.857
 |Peking University|PK|CP936/Unicode|41K / 9K|
 |Microsoft Research|MSR|CP936/Unicode|107K / 13K|
 
-### Chinese Penn Treebank
+### Results
+
+|  Model | AS | CITYU | MSR | PKU |
+| --- | --- | --- | --- | --- |
+|  [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 95.7 | 96.9 | 97.5 | 96.3 |
+|  [Zhou et al. (2017)](https://www.aclweb.org/anthology/D17-1079) |  |  | 97.8 | 96 |
+|  [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.2 | 97.2 | 97.4 | 96.1 |
+|  [Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) |  |  |  | 96.3 |
+
+### Resources
+
+|  Train set | Training Size(Words) |
+| --- | ----: |
+|  AS | 5.45M |
+|  CityU | 1.46M |
+|  MSR | 2.37M |
+|  PKU | 1.1M |
+
+---
+
+## Chinese Penn Treebank
 
 * [Website](https://verbs.colorado.edu/chinese/ctb.html)
 * Includes 2 datasets:
@@ -67,7 +91,26 @@ F1 = 0.857
 |CTB6|81,578|
 |CTB7|81,578|
 
-### Chinese Universal Treebank (UD)
+### Results
+
+|  Model | CTB6 | CBT7 |
+| --- | --- | --- |
+| [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 96.2 |  |
+| [Zhou et al. (2017)](https://www.aclweb.org/anthology/D17-1079) | 96.2 |  |
+| [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.7 | 96.6 |
+| [Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) | 96.6 |  |
+
+
+### Resources
+
+|  Train set | Training Size(Words) |
+| --- | ----: |
+|  CTB6 | 641,368 |
+|  CTB7 | 950,138 |
+
+---
+
+## Chinese Universal Treebank (UD)
 
 * [Website](https://universaldependencies.org/), [Github](https://github.com/UniversalDependencies/UD_Chinese-GSD)
 
@@ -75,30 +118,51 @@ F1 = 0.857
 | ---: | ---: |
 |UD|12,012|
 
-## Baselines and state-of-art results
+### Results
 
-Systems
+|  Model | UD |
+| --- | --- | 
+| [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.9 |
 
-|  Model | description | paper | code |
-| --- | --- | --- | --- |
-|  Ma et al. (2018) | Bidirectional LSTM + Pre-trained Embedding + Dropout + Hyperparameter tuning | [EMNLP 2018](http://aclweb.org/anthology/D18-1529) |  |
+### Resources
 
-Performance
-
-|  Model | AS | CITYU | CTB6 | CBT7 | MSR | PKU | UD |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-|  Ma et al. (2018) | 96.2 | 97.2 | 96.7 | 96.6 | 97.4 | 96.1 | 96.9 |
-
-## Resources
-
-There are several datasets in this area. Many of them are free for download except CTB7 ($300)
-
-|  Train set | Training Size(Tokens) |
+|  Train set | Training Size(Words) |
 | --- | ----: |
-|  AS | 5.45M |
-|  CityU | 1.46M |
-|  MSR | 2.37M |
-|  CTB6 | 641,368 |
-|  CTB7 | 950,138 |
-|  PKU | 1.1M |
 |  UD | 98,608 |
+
+---
+
+## NLPCC2016 WordSeg Weibo
+
+* [Github](https://github.com/FudanNLP/NLPCC-WordSeg-Weibo)
+* [Paper describe the dataset](https://link.springer.com/chapter/10.1007/978-3-319-50496-4_84)
+
+|   | # Sentences | # Words | # Characters |
+| --- | --- | --- | --- |
+| Weibo | 8,592 | - | 315,857 |
+
+### Results
+
+|  Model | Weibo |
+| --- | --- | 
+| [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 95.5 | 
+| [Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) | 96.0 |  
+
+### Resources
+
+|   | # Sentences | # Words | # Characters |
+| --- | --- | --- | --- |
+|  Train | 20,135 | 421,166 | 688,734 |
+|  Dev | 2,052 | 43,697 | 73,244 |
+
+---
+
+## Other Resources
+
+* [Chinese Word Segmentation: Another Decade Review (2007-2017)](https://arxiv.org/pdf/1901.06079.pdf)
+
+---
+
+**Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
+
+[Return to Home](../index.md)
