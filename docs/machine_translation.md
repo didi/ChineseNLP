@@ -63,7 +63,7 @@ Chinese to English (WMT17)
 |  System | Direct Assessment (Ave z) | Bleu |
 | --- | --- | --- |
 |  [[Wang et al 17]](http://www.statmt.org/wmt17/pdf/WMT42.pdf) | 0.209 |  |
-|  [[Sennrich et al 17]](http://www.aclweb.org/anthology/W17-4739) | 0.209 | 25.7 |
+|  [[Sennrich et al 17]](http://www.aclweb.org/anthology/W17-4739) | 0.208 | 25.7 |
 |  [[Tan et al 17]](http://www.statmt.org/wmt17/pdf/WMT40.pdf) | 0.184 | 26 |
 
 English to Chinese (WMT17)
