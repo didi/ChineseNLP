@@ -31,11 +31,13 @@ Named Entity Workshop (NEWS) is a long-running transliteration evaluation campai
 ### Results
 
 English-Chinese
+
 |   | ACC | F-score | MRR | MAP |
 | --- | --- | --- | --- | --- |
 |  EDI (University of Edinburgh) | 0.304 | 0.6791 | 0.4364 | 0.304 |
 
 Chinese-English
+
 |   | ACC | F-score | MRR | MAP |
 | --- | --- | --- | --- | --- |
 |  UALB (University of Alberta) | 0.3 | 0.8 | 0.374 | 0.3 |
