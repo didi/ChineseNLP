@@ -100,6 +100,7 @@ Accuracy
 F1-score
 
 ### Results
+
 |   | F1 | Accuracy |
 | --- | --- | --- |
 | fastText | 0.9218 | 0.9218 |
@@ -126,6 +127,7 @@ Accuracy
 F1-score
 
 ### Results
+
 |   | F1 | Accuracy |
 | --- | --- | --- |
 | fastText | 0.9261 | 0.9261 |
@@ -159,6 +161,7 @@ Accuracy
 
 
 ### Resources
+
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
 | Dianping | restaurant reviews | 2 | 2,000,000 |   |
@@ -185,6 +188,7 @@ Accuracy
 
 
 ### Resources
+
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
 | JD Full | shopping reviews | 5 | 3,000,000 |   |
@@ -208,6 +212,7 @@ Accuracy
 | ... |   |   |
 
 ### Resources
+
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
 | JD Binary | shopping reviews | 2 | 4,000,000 |   |
