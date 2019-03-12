@@ -28,7 +28,7 @@
 
 [Spell Correction](docs/spell_correction.md)
 
-[Text Summarization](docs/text_summarisation.md)
+[Text Summarization](docs/text_summarization.md)
 
 [Topic Classification](docs/topic_classification.md)
 

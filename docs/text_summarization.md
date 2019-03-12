@@ -1,10 +1,10 @@
-# Text Summarisation
+# Text summarization
 
 ---
 
 ## Background
 
-Text summarisation is the task of taking a long text document and creating a shorter text document which is a fluent and accurate summary of the longer text document.
+Text summarization is the task of taking a long text document and creating a shorter text document which is a fluent and accurate summary of the longer text document.
 
 ## Example
 
@@ -61,7 +61,7 @@ Implementations
 
 ## Other Resources
 
-* [List of Chinese text summarisation papers](https://github.com/mathsyouth/awesome-text-summarization#chinese-text-summarization) 
+* [List of Chinese text summarization papers](https://github.com/mathsyouth/awesome-text-summarization#chinese-text-summarization) 
 * Recent work [Abstractive Text Summarization by Incorporating Reader Comments](https://arxiv.org/pdf/1812.05407.pdf) (AAAI 2019), does not use the LCSTS dataset but their own version of SinaWeibo dataset  
 * Recent work [Autoencoder as Assistant Supervisor: Improving Text Representation for Chinese Social Media Text Summarization](https://arxiv.org/pdf/1805.04869v1.pdf) (ACL 2018), code available at [https://github.com/lancopku/superAE](https://github.com/lancopku/superAE) 
 * Toolkit for abstractive summarization: [https://github.com/lancopku/LancoSum](https://github.com/lancopku/LancoSum) 
