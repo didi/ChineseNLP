@@ -106,9 +106,9 @@ F1-score
 
 |   | F1 | Accuracy |
 | --- | --- | --- |
-| fastText | 0.9218 | 0.9218 |
-| MCCNN | 0.9208 | 0.9208 |
-
+| fastText *| 0.9218 | 0.9218 |
+| [MCCNN](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648) | 0.9208 | 0.9208 |
+*Accuracy result is cited from [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648).
 
 ### Resources
 
@@ -236,5 +236,4 @@ F1-score
 Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)
 
 [Return to Home](../index.md)
-
 
