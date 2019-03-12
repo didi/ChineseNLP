@@ -6,8 +6,17 @@ Co-reference identifies pieces of text and links them with other pieces of text 
 
 ## Example input/output
 
-Input: 我的姐姐给我她的狗。很喜欢。
-Output:  [我]0的[姐姐]1给[我]0[她]1的[狗]2。[]0很喜欢[]2。
+Input:
+```
+我的姐姐给我她的狗。很喜欢.
+```
+
+Output: 
+
+```
+[我]0的[姐姐]1给[我]0[她]1的[狗]2。[]0很喜欢[]2.
+
+```
 
 ## Standard Metrics.
 Average of F1-scores returned by these three precision/recall metrics:
