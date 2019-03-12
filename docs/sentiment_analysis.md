@@ -108,6 +108,7 @@ F1-score
 | --- | --- | --- |
 | fastText *| 0.9218 | 0.9218 |
 | [MCCNN](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648) | 0.9208 | 0.9208 |
+
 *Accuracy result is cited from [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648).
 
 ### Resources
