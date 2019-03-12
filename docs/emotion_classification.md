@@ -41,8 +41,8 @@ Angry
 
 |  System | F1 |
 | --- | --- |
-|  [Chen et al 2018] | 62.4 |
-|  [Cheng et al 2017] | 58.2 |
+|  [[Chen et al 2018]](http://aclweb.org/anthology/D18-1066) | 62.4 |
+|  [[Cheng et al 2017]](https://dl.acm.org/citation.cfm?id=3132684) | 58.2 |
 
 
 

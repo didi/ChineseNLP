@@ -4,11 +4,11 @@
 
 ## List of Fields
 
-[Co-reference_Resolution](docs/co-reference_resolution.md)
+[Co-reference Resolution](docs/co-reference_resolution.md)
 
 [Dialogue State Management](docs/dialogue_state_management.md)
 
-[Emotion_Classification](docs/emotion_classification.md)
+[Emotion Classification](docs/emotion_classification.md)
 
 [Entity Linking](docs/entity_linking.md)
 

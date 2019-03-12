@@ -35,9 +35,7 @@ F1-score
 
 ## SemEval-2016 Task 5
 
--   SemEval-2016 Task 5: contains 2 test sets with over reviews 5000 reviews in total from digital camera and mobile phone area.
-
-    - [Link](http://alt.qcri.org/semeval2016/task5/index.php?id=data-and-tools#)
+[SemEval-2016 Task 5](http://alt.qcri.org/semeval2016/task5/index.php?id=data-and-tools#) contains 2 test sets with over reviews 5000 reviews in total from digital camera and mobile phone area.
 
 
 | Source | Genre | # Classes | Size(sentences) |Size(words) |
@@ -66,8 +64,7 @@ F1-score
 
 ## NLP&CC 2012
 
--   NLP&CC 2012 Test: Chinese Weibo sentiment analysis evaluation data.
-    - [Link](http://tcci.ccf.org.cn/conference/2012/pages/page04_eva.html)
+[NLP&CC 2012 Test](http://tcci.ccf.org.cn/conference/2012/pages/page04_eva.html): Chinese Weibo sentiment analysis evaluation data.
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
@@ -81,8 +78,8 @@ F1-score
 
 |   | F1 | Accuracy |
 | --- | --- | --- |
-| [Chen, et al 2018](https://ieeexplore.ieee.org/abstract/document/8386495)| |88.35%|
-| [Wang, et al 2013](https://link.springer.com/chapter/10.1007/978-1-4614-6880-6_31) | 63.60% | 74.00% |
+| [Chen, et al 2018](https://ieeexplore.ieee.org/abstract/document/8386495)|-- |88.35|
+| [Wang, et al 2013](https://link.springer.com/chapter/10.1007/978-1-4614-6880-6_31) | 63.60 | 74.00 |
 
 ### Resources
 
@@ -91,8 +88,10 @@ F1-score
 | NLP&CC 2012 Train | Weibo reviews(Chinese) | 2 | 1765 | ~116k |
 
 ---
+
 ## ChnSentiCorp
--   ChnSentiCorp: It contains 1021 documents in three domains: education, movie and house. Meanwhile, Hotel review dataset which contains 5000 positive and 5000 negative short texts.
+
+ChnSentiCorp: It contains 1021 documents in three domains: education, movie and house. Meanwhile, Hotel review dataset which contains 5000 positive and 5000 negative short texts.
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
@@ -119,7 +118,8 @@ F1-score
 ---
 
 ## IT168TEST
--   IT168TEST: A product review dataset presented by Zagibalov and Carroll in [30]. This dataset contains over 20000 reviews, in which 78% were manually labeled as positive and 22% labeled as negative.
+
+IT168TEST: A product review dataset presented by Zagibalov and Carroll in [30]. This dataset contains over 20000 reviews, in which 78% were manually labeled as positive and 22% labeled as negative.
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |   
@@ -140,13 +140,11 @@ F1-score
 
 ### Resources
 
-
-
-
 ---
+
 ## Dianping
--   Dianping: Chinese restaurant reviews were evenly split as follows: 4 and 5 star reviews were assigned to the positive class while 1-3 star reviews were in the negative class.
-  -   [Link](https://github.com/zhangxiangxiao/glyph)
+
+[Dianping](https://github.com/zhangxiangxiao/glyph): Chinese restaurant reviews were evenly split as follows: 4 and 5 star reviews were assigned to the positive class while 1-3 star reviews were in the negative class.
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |   
@@ -159,8 +157,8 @@ F1-score
 
 |   | Accuracy |
 | --- | --- |
-| [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 77.8% |
-|  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 77.7% |
+| [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 77.8 |
+|  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 77.7 |
 
 
 
@@ -173,8 +171,7 @@ F1-score
 
 ---
 ## JD Full
--   JD Full: Chinese shopping reviews were evenly split for predicting full five stars.
-  -   [Link](https://github.com/zhangxiangxiao/glyph)
+[JD Full](https://github.com/zhangxiangxiao/glyph): Chinese shopping reviews were evenly split for predicting full five stars.
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
@@ -187,8 +184,8 @@ F1-score
 
 |   | Accuracy |
 | --- | --- |
-| [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 54.1% |
-|  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 52.0% |
+| [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 54.1 |
+|  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 52.0 |
 
 
 
@@ -213,8 +210,8 @@ F1-score
 
 |   | Accuracy |
 | --- | --- |
-| [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 92.2% |
-|  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 91.3% |
+| [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 92.2 |
+|  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 91.3 |
 
 
 ### Resources

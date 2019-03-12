@@ -154,14 +154,14 @@ Chinese to English (tst2015)
 
 |  System | Bleu | NIST | TER |
 | --- | --- | --- | --- |
-|  MITLL-AFRL | 16.86 | 5.2565 | 67.31 |
+| [MITLL-AFRL](https://www.ll.mit.edu/sites/default/files/publication/doc/2018-05/2015_Kazi_iwslt15.pdf) | 16.86 | 5.2565 | 67.31 |
 
 English to Chinese (tst2015)
 
 |  System | Bleu | NIST | TER |
 | --- | --- | --- | --- |
-|  Univ. Edinburgh | 25.39 | 6.3985 | 60.83 |
-|  MITLL-AFRL | 24.31 | 6.4136 | 59 |
+| [Univ. Edinburgh](http://homepages.inf.ed.ac.uk/abmayne/publications/huck2015iwslt.pdf) | 25.39 | 6.3985 | 60.83 |
+| [MITLL-AFRL](https://www.ll.mit.edu/sites/default/files/publication/doc/2018-05/2015_Kazi_iwslt15.pdf) | 24.31 | 6.4136 | 59.00 |
 
 ### Resources
 
@@ -188,7 +188,7 @@ Chinese to English
 
 |  System | Bleu |
 | --- | --- |
-|  Kevin Duh, 6-layer transformer (Sockeye) | 16.63 |
+|  [Kevin Duh, 6-layer transformer (Sockeye)](http://cs.jhu.edu/~kevinduh/a/multitarget-tedtalks/) | 16.63 |
 
 English to Chinese
 
