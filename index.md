@@ -12,6 +12,8 @@
 
 [Entity Linking](docs/entity_linking.md)
 
+[Entity Tagging](docs/entity_tagging.md)
+
 [Language Modeling](docs/language_modeling.md)
 
 [Machine Translation](docs/machine_translation.md)
@@ -24,9 +26,15 @@
 
 [Simplified/traditional Conversion](docs/simplified_traditional_Chinese_conversion.md)
 
-[Topic_Classification](docs/topic_classification.md)
+[Spell Correction](docs/spell_correction.md)
+
+[Text Summarization](docs/text_summarisation.md)
+
+[Topic Classification](docs/topic_classification.md)
 
 [Transliteration](docs/transliteration.md)
+
+[Word Embedding](docs/word_embedding.md)
 
 [Word Segmentation](docs/word_segmentation.md)
 
