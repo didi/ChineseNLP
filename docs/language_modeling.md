@@ -22,7 +22,7 @@ Output:
 
 ## Standard metric:
 
-* [Perplexity](https://asa.scitation.org/doi/10.1121/1.2016299) (ppl) measures how well the LM performs on previously-unseen text S.  If an LM assigns probability P(S) to S of length N, the perplexity is 2^{-(1/N) log2 P(S)}.  Length may be measured in characters or words.  
+* Perplexity (ppl) measures how well the LM performs on previously-unseen text S.  If an LM assigns probability P(S) to S of length N, the perplexity is 2^{-(1/N) log2 P(S)}.  Length may be measured in characters or words.  
   * Language models typically assign probability incrementally, in which case perplexity sums up log probabilities of individual tokens given their left contexts: 2^{-(1/N) sum_i log2 P(S_i)}
 * An related metric is bits-per-character (bpc).  If perplexity is measured on a character basis, then ppl = 2^bpc.
 * Performance in English language modeling is tracked in places such as [here](https://paperswithcode.com/task/language-modeling).  Standard datasets come with a shared specification for:

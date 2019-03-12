@@ -3,7 +3,7 @@
 
 ## Background
 
-In task-oriented dialogue system, dialogue state management (DM) takes user intent as input, interacts with knowledge base, and predict the next system actions. The user intent is analysed by Natural Language Understanding component (NLU),  which is sometimes combined with DM as a single component to conduct end-to-end training. The next system actions usually consist two type of actions: Dialogue act type and Slot-value pairs. Given the next system actions, Natural Language Generation component (NLG) will generate a response to the user.
+In task-oriented dialogue systems, a dialogue state management (DM) system takes a user intent as input, interacts with a knowledge base, and predicts the next system actions. The user intent is analysed by a Natural Language Understanding component (NLU),  which is sometimes combined with DM as a single component for end-to-end training. The next system actions usually consist two type of actions: Dialogue act type and Slot-value pairs. Given the next system actions, a Natural Language Generation component (NLG) will generate a response to the user.
 
 ## Examples
 
@@ -31,14 +31,14 @@ The output is generated before system's turn.
 ## Standard Metrics
 
 Classification Accuracy: 
-Sentence level.
-Session level, A session is correct only if all the sentences in the session are predicted correctly.
+* Sentence level.
+* Session level. A session is correct only if all the sentences in the session are predicted correctly.
 
 ---
 
 ## Alibaba Dialogue Management Dataset
 * Not public
-* It consists of real conversations from the flight-booking domain, in which the system is supposed to acquire departure city, arrive city and departure date information from the user to book a flight ticket.
+* It consists of real conversations from the flight-booking domain, in which the system is supposed to acquire departure city, arrival city, and departure date information from the user to book a flight ticket.
 * 5 dialogue act types and 3 slot types
 
 
@@ -89,8 +89,8 @@ The numbers in parenthesis are session level accuracy.
 
 ## Dialog State Tracking Challenge 5 (DSTC5)
 
-The main task aims at tracking the dialog state defined as a frame structure filled with slot-value pairs representing the subject of each sub-dialog in human-human dialogs. 
-* [Challenge describing paper](http://workshop.colips.org/dstc5/papers/0000511.pdf)
+This task aims at tracking the dialog state defined as a frame structure filled with slot-value pairs representing the subject of each sub-dialog in human-human dialogs. 
+* [Challenge paper](http://workshop.colips.org/dstc5/papers/0000511.pdf)
 * The dialogue is divided into sub-dialogues, and the frame structure is annotated at sub-dialogue level.
 * This is a cross-language task, where the training set is in English, whereas dev and test set are in Chinese. 
 

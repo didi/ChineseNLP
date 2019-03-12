@@ -55,7 +55,7 @@ Accuracy
 | --- | --- | --- | --- |
 | [SenHint](http://www.wowbigdata.com.cn/main/paper/www2018wang.pdf) | Phone test |   | 0.7958 |
 | [SenHint](http://www.wowbigdata.com.cn/main/paper/www2018wang.pdf) | Camera test |   | 0.8711 |
-|   |   |   |   |
+
  
 ### Resources
 
@@ -230,7 +230,5 @@ Accuracy
 Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)
 
 [Return to Home](../index.md)
-
-
 
 
