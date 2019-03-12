@@ -33,7 +33,7 @@ F1-score
 
 ---
 
-## Standard Test Set 1
+## SemEval-2016 Task 5
 
 -   SemEval-2016 Task 5: contains 2 test sets with over reviews 5000 reviews in total from digital camera and mobile phone area.
 
@@ -46,15 +46,13 @@ F1-score
 | SemEval 2016 Task 5 – PHNS Test | Mobile Phone reviews (Chinese) | 3 | 3191 | ~34k |
 
 ### Metrics
-
-Accuracy
+- Accuracy
 
 ### Results
 
-|   |   | F1 | Accuracy |
-| --- | --- | --- | --- |
-| [SenHint](http://www.wowbigdata.com.cn/main/paper/www2018wang.pdf) | Phone test |   | 0.7958 |
-| [SenHint](http://www.wowbigdata.com.cn/main/paper/www2018wang.pdf) | Camera test |   | 0.8711 |
+|   | Accuracy(PHNS Test) | Accuracy(CAM Test) |
+| --- | --- | --- |
+|  [SenHint](http://www.wowbigdata.com.cn/main/paper/www2018wang.pdf) | 0.7958 | 0.8711 |
 
  
 ### Resources
@@ -66,29 +64,33 @@ Accuracy
 
 ---
 
-## Standard Test Set 2
+## NLP&CC 2012
 
--   CCF-2012 Test: Chinese Weibo sentiment analysis evaluation data.
+-   NLP&CC 2012 Test: Chinese Weibo sentiment analysis evaluation data.
+    - [Link](http://tcci.ccf.org.cn/conference/2012/pages/page04_eva.html)
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
-| CCF-2012 Test | Weibo reviews(Chinese) | 2 | 442 | ~32k |
+| NLP&CC 2012 Test | Weibo reviews(Chinese) | 2 | 442 | ~32k |
 
 ### Metrics
-
-Accuracy
+- F1-score
+- Accuracy
 
 ### Results
-Unknown
+|   | F1 | Accuracy |
+| --- | --- | --- |
+| [Chen, et al 2018](https://ieeexplore.ieee.org/abstract/document/8386495)| |88.35%|
+| [Wang, et al 2013](https://link.springer.com/chapter/10.1007/978-1-4614-6880-6_31) | 63.60% | 74.00% |
 
 ### Resources
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
-| CCF-2012 Train | Weibo reviews(Chinese) | 2 | 1765 | ~116k |
+| NLP&CC 2012 Train | Weibo reviews(Chinese) | 2 | 1765 | ~116k |
 
 ---
-## Standard Test Set 3
+## ChnSentiCorp
 -   ChnSentiCorp: It contains 1021 documents in three domains: education, movie and house. Meanwhile, Hotel review dataset which contains 5000 positive and 5000 negative short texts.
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
@@ -96,8 +98,8 @@ Unknown
 | ChnSentiCorp Test | Hotel reviews(Chinese) | 2 | 1999 | ~725k |
 
 ### Metrics
-Accuracy
-F1-score
+- Accuracy
+- F1-score
 
 ### Results
 
@@ -115,7 +117,7 @@ F1-score
 
 ---
 
-## Standard Test Set 4
+## IT168TEST
 -   IT168TEST: A product review dataset presented by Zagibalov and Carroll in [30]. This dataset contains over 20000 reviews, in which 78% were manually labeled as positive and 22% labeled as negative.
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
@@ -123,8 +125,8 @@ F1-score
 | IT168Test | Product review | 2 | 29531 |  |
 
 ### Metrics
-Accuracy
-F1-score
+- Accuracy
+- F1-score
 
 ### Results
 
@@ -141,7 +143,7 @@ F1-score
 
 
 ---
-## Standard Test Set 5
+## Dianping
 -   Dianping: Chinese restaurant reviews were evenly split as follows: 4 and 5 star reviews were assigned to the positive class while 1-3 star reviews were in the negative class.
   -   [Link](https://github.com/zhangxiangxiao/glyph)
 
@@ -150,13 +152,14 @@ F1-score
 | Dianping | restaurant reviews | 2 | 500,000 |  |
 
 ### Metrics
-Accuracy
+- Accuracy
 
 ### Results
 
 |   | Accuracy |
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 77.8% |
+|  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 77.7% |
 
 
 
@@ -168,7 +171,7 @@ Accuracy
 
 
 ---
-## Standard Test Set 6
+## JD Full
 -   JD Full: Chinese shopping reviews were evenly split for predicting full five stars.
   -   [Link](https://github.com/zhangxiangxiao/glyph)
 
@@ -177,13 +180,14 @@ Accuracy
 | JD Full | shopping reviews | 5 | 250,000 |  |
 
 ### Metrics
-Accuracy
+- Accuracy
 
 ### Results
 
 |   | Accuracy |
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 54.1% |
+|  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 52.0% |
 
 
 
@@ -194,7 +198,7 @@ Accuracy
 | JD Full | shopping reviews | 5 | 3,000,000 |   |
 
 ---
-## Standard Test Set 7
+## JD Binary
 -   JD Binary: Chinese shopping reviews are evenly split into positive (4-and-5 star reviews)and negative (1-and-2 star reviews) sentiments, ignoring 3-star reviews.
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
@@ -202,13 +206,14 @@ Accuracy
 | JD Binary | shopping reviews | 2 | 360,000 |  |
 
 ### Metrics
-Accuracy
+- Accuracy
 
 ### Results
 
 |   | Accuracy |
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 92.2% |
+|  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 91.3% |
 
 
 ### Resources
