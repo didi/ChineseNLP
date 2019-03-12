@@ -30,7 +30,7 @@
 
 [Text Summarization](docs/text_summarisation.md)
 
-[Topic_Classification](docs/topic_classification.md)
+[Topic Classification](docs/topic_classification.md)
 
 [Transliteration](docs/transliteration.md)
 
