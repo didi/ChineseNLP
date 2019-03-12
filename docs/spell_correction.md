@@ -32,12 +32,12 @@ The criteria for judging spelling correction systems are determined at two level
 ## SIGHAN Bake-off: Chinese Spelling Check Task
 
 * Versions: SIGHAN datasets have 3 versions ([2015](http://anthology.aclweb.org/W/W15/W15-3106.pdf), [2014](http://anthology.aclweb.org/W/W14/W14-6820.pdf), [2013](http://anthology.aclweb.org/W/W13/W13-4406.pdf))
-* Shared task overview paper: http://anthology.aclweb.org/W/W15/W15-3106.pdf 
-* Licence: http://nlp.ee.ncu.edu.tw/resource/csc_download.html (academic use only)
+* Shared task overview paper: [Tseng et. al. (2015)](http://anthology.aclweb.org/W/W15/W15-3106.pdf) 
+* Licence: [http://nlp.ee.ncu.edu.tw/resource/csc_download.html](http://nlp.ee.ncu.edu.tw/resource/csc_download.html) (academic use only)
   
 | test set | # sentence pairs | # characters | # spelling errors (chars) | character set | genre |
 | --- | --- | --- | --- | --- | --- |
-| SIGHAN 2015 ([Tseng+'15](http://aclweb.org/anthology/W15-3106))| 1,100 | 33,711 | 715 | traditional | second-language learning | 
+| SIGHAN 2015 ([Tseng et. al. 2015](http://aclweb.org/anthology/W15-3106))| 1,100 | 33,711 | 715 | traditional | second-language learning | 
 
   
   
@@ -52,13 +52,13 @@ The criteria for judging spelling correction systems are determined at two level
 
 | System | False Positive Rate | Detection Accuracy | Detection Precision | Detection Recall| Detection F1| Correction Accuracy | Correction Precision | Correction Recall | Correction F1| 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
-| CAS ([Zhang+'15](http://aclweb.org/anthology/W15-3107))| 0.11 | 0.68 | 0.80 | 0.49 | 0.61 | 0.68| 0.80 | 0.47 | 0.59 |
+| CAS ([Zhang et. al. 2015](http://aclweb.org/anthology/W15-3107))| 0.11 | 0.68 | 0.80 | 0.49 | 0.61 | 0.68| 0.80 | 0.47 | 0.59 |
  
 ### Resources
 
   | Source | # sentence pairs | # chars | # spelling errors | character set | genre |
   | --- | --- | --- | --- | --- | --- |
-  | SIGHAN 2015 Training data ([Teseng+'15](http://aclweb.org/anthology/W15-3106)) | 2,334  | 146,076 | 2,594 | traditional | second-language learning|
+  | SIGHAN 2015 Training data ([Tseng et. al. 2015](http://aclweb.org/anthology/W15-3106)) | 2,334  | 146,076 | 2,594 | traditional | second-language learning|
 
 ---
 

@@ -31,8 +31,8 @@ F-score for selecting correct piece of text (“mention”) and assigning the co
 ## TAC-KBP / EDL Track (2015-2017)
 
 The NIST TAC Knowledge Base Population (KBP) Entity Discovery and Linking (EDL) track includes Chinese entity tagging for 5 types: person (PER), geo-political entity (GPE), location (LOC), organization (ORG) and facility (FAC).
-* Shared task sites: http://nlp.cs.rpi.edu/kbp/2017 (likewise for 2015 and 2016)
-* Shared task writeups: http://nlp.cs.rpi.edu/paper/kbp2017.pdf (likewise for 2015 and 2016)
+* Shared task sites: [http://nlp.cs.rpi.edu/kbp/2017](http://nlp.cs.rpi.edu/kbp/2017) (likewise for 2015 and 2016)
+* Shared task writeups: [http://nlp.cs.rpi.edu/paper/kbp2017.pdf](http://nlp.cs.rpi.edu/paper/kbp2017.pdf) (likewise for 2015 and 2016)
 * Note that KBP-EDL 2018 includes thousands of entity types, from the YAGO ontology, but test data is provided only in English.
 
 Data for this evaluation is available from the Linguistic Data Consortium (LDC).
@@ -50,7 +50,7 @@ Data for this evaluation is available from the Linguistic Data Consortium (LDC).
 NERC F-score
 * Requires identifying both text-span and type of entity mention
 * 2016 and 2017 tasks includes both name and nominal mentions
-* Scoring code: http://nlp.cs.rpi.edu/kbp/2017/scoring.html (likewise for 2015 ad 2016)
+* Scoring code: [http://nlp.cs.rpi.edu/kbp/2017/scoring.html](http://nlp.cs.rpi.edu/kbp/2017/scoring.html) (likewise for 2015 ad 2016)
 
 
 ### Results
@@ -61,7 +61,7 @@ NERC F-score
  
 ### Resources
 
-Ontonotes 5.0 (https://catalog.ldc.upenn.edu/LDC2013T19) from the Linguistic Data Consortium includes Chinese entity tagging.
+Ontonotes 5.0 ([https://catalog.ldc.upenn.edu/LDC2013T19](https://catalog.ldc.upenn.edu/LDC2013T19)) from the Linguistic Data Consortium includes Chinese entity tagging.
 * 698 articles Xinhua (1994-1998)
 * 55 articles Information Services Department of HKSAR (1997)
 * 132 articles Sinorama magazine, Taiwan (1996-1998 & 2000-2001)
@@ -74,9 +74,9 @@ Ontonotes 5.0 (https://catalog.ldc.upenn.edu/LDC2013T19) from the Linguistic Dat
 ACE 2005 evaluates on seven entity types: Facility (FAC), Geopolitical Entity (GPE), Location (LOC), Organization (ORG), Person (PER), Vehicle (VEH), and Weapon (WEA).
 
 Data for this evaluation was prepared by the Linguistic Data Consortium (LDC).
-* https://catalog.ldc.upenn.edu/LDC2006T06
+* [https://catalog.ldc.upenn.edu/LDC2006T06](https://catalog.ldc.upenn.edu/LDC2006T06)
 
-A standard train/dev/test split does not seem to be available.  Authors frequently split randomly 8:1:1 (http://www.aclweb.org/anthology/N18-1131).
+A standard train/dev/test split does not seem to be available.  Authors frequently split randomly 8:1:1 ([Ju et. al. 2018](http://www.aclweb.org/anthology/N18-1131)).
 
   
 | Train + test set| Size (characters) | Genre |
@@ -88,7 +88,7 @@ A standard train/dev/test split does not seem to be available.  Authors frequent
 
 | System | F-score |
 | --- | --- |
-| http://www.aclweb.org/anthology/N18-1131 | 72.25 | 
+| [Ju et. al. (2018)](http://www.aclweb.org/anthology/N18-1131) | 72.25 | 
 
 
 ---
@@ -100,8 +100,8 @@ A standard train/dev/test split does not seem to be available.  Authors frequent
 
 | System | F-score |
 | --- | --- | 
-| [Meng et al 2019](https://arxiv.org/abs/1901.10125) | 74.81 | 
-| [Zhang & Yang 2018](http://aclweb.org/anthology/P18-1144) | 73.88 |
+| [Meng et. al. (2019)](https://arxiv.org/abs/1901.10125) | 74.81 | 
+| [Zhang & Yang (2018)](http://aclweb.org/anthology/P18-1144) | 73.88 |
 
 ---
 
@@ -110,7 +110,7 @@ A standard train/dev/test split does not seem to be available.  Authors frequent
 This bakeoff evaluates entity taggers on three types of entities: Person (PER), Location (LOC), and Organization (ORG).
 
 Paper summarizing the bakeoff:
-* http://acl-arc.comp.nus.edu.sg/archives/acl-arc-090501d4/data/pdf/anthology-PDF/W/W06/W06-0115.pdf 
+* [Levow (2006)](http://acl-arc.comp.nus.edu.sg/archives/acl-arc-090501d4/data/pdf/anthology-PDF/W/W06/W06-0115.pdf) 
   
 | Test set | Size (words) | Genre | 
 | --- | --- | --- |
@@ -120,8 +120,8 @@ Paper summarizing the bakeoff:
 
 | System | F-score |
 | --- | --- | 
-| [Meng et al 2019](https://arxiv.org/abs/1901.10125) | 93.89 | 
-| [Zhang & Yang 2018](http://aclweb.org/anthology/P18-1144) | 93.18 |
+| [Meng et. al. (2019)](https://arxiv.org/abs/1901.10125) | 93.89 | 
+| [Zhang & Yang (2018)](http://aclweb.org/anthology/P18-1144) | 93.18 |
  
 ### Resources 
 
@@ -137,7 +137,7 @@ The “closed” task restricts participants to use only the following training 
 ## Weibo NER
 
 This social media entity tagging task includes GPE, ORG, LOC, and PER.  It was introduced by
-* https://aclweb.org/anthology/D15-1064
+* [Peng & Dredze (2015)](https://aclweb.org/anthology/D15-1064)
 
 Using the test split by http://www.aclweb.org/anthology/E17-2113:
   
@@ -150,7 +150,7 @@ Using the test split by http://www.aclweb.org/anthology/E17-2113:
 
 | System | F-score (name mentions) | F-score (nominal mentions) |
 | --- | --- | --- |
-| [Peng & Dredze,2015](https://www.cs.jhu.edu/~npeng/papers/golden_horse_supplement.pdf) | 55.28 | 62.97 |
+| [Peng & Dredze (2015)](https://www.cs.jhu.edu/~npeng/papers/golden_horse_supplement.pdf) | 55.28 | 62.97 |
  
 ### Resources
 
@@ -167,7 +167,7 @@ Also included are 112M unlabeled text Weibo messages.
 ## Other Resources
 
 This paper presents an NER-annotated corpus in the genres of social media, human-computer interaction, and e-commerce:
-* http://aclweb.org/anthology/L18-1706 
+* [Lu et. al. (2018)](http://aclweb.org/anthology/L18-1706) 
 
 
 ---
