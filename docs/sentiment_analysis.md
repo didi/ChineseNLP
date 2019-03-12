@@ -105,7 +105,7 @@ F1-score
 | --- | --- | --- |
 | fastText | 0.9218 | 0.9218 |
 | MCCNN | 0.9208 | 0.9208 |
-| ... |   |   |
+
 
 ### Resources
 
@@ -133,7 +133,7 @@ F1-score
 | fastText | 0.9261 | 0.9261 |
 | [MCCNN](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648) | 0.9302 | 0.9304 |
 | [Zhang, P., &amp; He, Z. (2013)](https://journals.sagepub.com/doi/10.1177/0165551513480330) | 0.9402 | 0.9500 |
-| ... |   |   |
+
 
 ### Resources
 
@@ -157,7 +157,7 @@ Accuracy
 |   | Accuracy |
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 77.8% |
-| ... |   |   |
+
 
 
 ### Resources
@@ -184,7 +184,7 @@ Accuracy
 |   | Accuracy |
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 54.1% |
-| ... |   |   |
+
 
 
 ### Resources
@@ -209,7 +209,7 @@ Accuracy
 |   | Accuracy |
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 92.2% |
-| ... |   |   |
+
 
 ### Resources
 
