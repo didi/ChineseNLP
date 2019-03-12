@@ -53,7 +53,7 @@ Accuracy
 
 |   | Accuracy(PHNS Test) | Accuracy(CAM Test) |
 | --- | --- | --- |
-|  SenHint | 0.7958 | 0.8711 |
+|  [SenHint](http://www.wowbigdata.com.cn/main/paper/www2018wang.pdf) | 0.7958 | 0.8711 |
 
  
 ### Resources
@@ -68,10 +68,11 @@ Accuracy
 ## NLP&CC 2012
 
 -   NLP&CC 2012 Test: Chinese Weibo sentiment analysis evaluation data.
+    - [Link](http://tcci.ccf.org.cn/conference/2012/pages/page04_eva.html)
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
-| CCF-2012 Test | Weibo reviews(Chinese) | 2 | 442 | ~32k |
+| NLP&CC 2012 Test | Weibo reviews(Chinese) | 2 | 442 | ~32k |
 
 ### Metrics
 - F1-score
@@ -86,7 +87,7 @@ Accuracy
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
-| CCF-2012 Train | Weibo reviews(Chinese) | 2 | 1765 | ~116k |
+| NLP&CC 2012 Train | Weibo reviews(Chinese) | 2 | 1765 | ~116k |
 
 ---
 ## ChnSentiCorp
