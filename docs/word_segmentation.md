@@ -1,4 +1,4 @@
-# Word Segmentation
+# Chinese Word Segmentation
 
 ---
 

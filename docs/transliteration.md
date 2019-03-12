@@ -24,7 +24,7 @@ John Woods
 - MAP measures precision in the n-best candidates for i-th source name, for which reference transliterations are available.
 For more information about the above metrics, please refer this paper.
 
-## Standard Test Set
+---
 
 ### NEWS 2018 Dataset_03
 Named Entity Workshop (NEWS) is a long-running transliteration evaluation campaign.  Chinese/English is one of the most popular NEWS language pairs.  For NEWS 2018:

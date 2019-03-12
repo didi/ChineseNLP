@@ -1,4 +1,4 @@
-# Entity Tagging
+# Chinese Entity Tagging
 
 ---
 
@@ -17,7 +17,7 @@ Input:
 Output:
 
 ```
- [美国]GPE国防部长[马蒂斯]PER说，与[首尔]GPE举行的名为“秃鹫”的军事演习每年春天在[韩国]GPE进行，但[2019年]TMP将“缩小规模”。
+[美国]GPE国防部长[马蒂斯]PER说，与[首尔]GPE举行的名为“秃鹫”的军事演习每年春天在[韩国]GPE进行，但[2019年]TMP将“缩小规模”。
 ```
 
 ## Standard Metrics
@@ -90,18 +90,6 @@ A standard train/dev/test split does not seem to be available.  Authors frequent
 | --- | --- |
 | [Ju et. al. (2018)](http://www.aclweb.org/anthology/N18-1131) | 72.25 | 
 
-
----
-
-## Ontonotes
-
-
-### Results
-
-| System | F-score |
-| --- | --- | 
-| [Meng et. al. (2019)](https://arxiv.org/abs/1901.10125) | 74.81 | 
-| [Zhang & Yang (2018)](http://aclweb.org/anthology/P18-1144) | 73.88 |
 
 ---
 

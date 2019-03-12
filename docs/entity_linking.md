@@ -1,4 +1,4 @@
-# Entity Linking
+# Chinese Entity Linking
 
 ---
 
