@@ -1,4 +1,4 @@
-# Text summarization
+# Chinese Text Summarization
 
 ---
 

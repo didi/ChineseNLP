@@ -1,4 +1,4 @@
-# Entity Tagging
+# Chinese Entity Tagging
 
 ---
 

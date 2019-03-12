@@ -1,4 +1,4 @@
-# Machine Translation
+# Chinese Machine Translation
 ---
 
 ## Background

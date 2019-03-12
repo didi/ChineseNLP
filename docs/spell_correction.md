@@ -1,4 +1,4 @@
-# Spell Correction
+# Chinese Spell Correction
 
 ---
 
