@@ -80,6 +80,7 @@ F1-score
 ### Results
 |   | F1 | Accuracy |
 | --- | --- | --- |
+|[Chen, et al 2018](https://ieeexplore.ieee.org/abstract/document/8386495)| |86.80%|
 |  [Wang, et al 2013](https://link.springer.com/chapter/10.1007/978-1-4614-6880-6_31) | 63.60% | 74.00% |
 
 ### Resources
