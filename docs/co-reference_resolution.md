@@ -10,7 +10,7 @@ Input: 我的姐姐给我她的狗。很喜欢。
 Output:  [我]0的[姐姐]1给[我]0[她]1的[狗]2。[]0很喜欢[]2。
 
 ## Standard Metrics.
-- Average of F1-scores returned by these three precision/recall metrics:
+Average of F1-scores returned by these three precision/recall metrics:
 - MUC.  
 - B-cubed.  
 - Entity-based CEAF.  
@@ -32,6 +32,7 @@ Data for this evaluation is part of Ontonotes, distributed by the Linguistic Dat
 ### Metrics
 
 Average F1 of MUC, B-cubed, and CEAF
+
 Scoring code: https://github.com/conll/reference-coreference-scorers 
 
 ### Results
