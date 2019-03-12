@@ -6,7 +6,8 @@ Text classification assigns tags or categories to text according to its topical 
 
 ## Example input/output
 
-Input: [国足]有信心了 中国国奥队取得热身赛三连胜
+Input: [[国足]]有信心了 中国国奥队取得热身赛三连胜
+
 Output: Sports
 
 ## Standard Metrics
