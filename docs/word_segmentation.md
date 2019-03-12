@@ -4,7 +4,7 @@
 
 ## Overview
 
-Chinese is written using characters (hanzi), where each character represents a syllable. There are no spaces between words, unlike English. There are 25-50k characters, but less than 3500 are normally encountered. Words can be composed of multiple characters, so the reader needs to determine where one word ends and the next begins in order to understand the sentence. Deciding where the word boundaries are in a text (and optionally inserting a space or some other separator) is called tokenization, or **Word Segmentation**. 
+Chinese is written using characters (hanzi), where each character represents a syllable. A word is usually taken to consist of one or more character tokens.  There are no spaces between words. Less than 3500 distinct characters are normally encountered. Word segmentation (or tokenization) is the process of dividing up  a sequence of characters into a sequence of words.
 
 ## Example
 
@@ -17,16 +17,8 @@ Input:
 Output:
 
 ```
-["亲", "请问", "有", "什么", "可以", "帮", "您", "的", "吗", "？"]
+亲 请问 有 什么 可以 帮 您 的 吗 ？]
 ```
-
-## Problem History
-
-Word segmentation to separate complete words is primarily a task designed for Chinese and Japanese, as those are the largest languages that do not use whitespace. There is other work on word segmentation for morphologically richer languages such as Arabic, where the goal is to split complete words into morphemic units. Similarly, there is ‘compound splitting’ for German, separating compound nouns into more-frequently-seen components  and reduce the number of distinct word types. Word segmentation for Vietnamese is different in that all the syllables are separated by whitespace, and the challenge is to identify which syllables should be combined into a single token.
-
-## Progress on Chinese
-
-It’s been a character-level sequence labelling task since the 1990’s. Human annotators agreement seems pretty low: 70%  [Sproat et al, 1996].
 
 ## Metrics
 
