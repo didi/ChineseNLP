@@ -58,7 +58,7 @@ Note that the Conference on Machine Translation (WMT19) is announced [here](http
 
 ### Results
 
-Chinese to English (WMT17)
+Chinese - English (WMT17)
 
 |  System | Direct Assessment (Ave z) | Bleu |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ Chinese to English (WMT17)
 |  [[Sennrich et al 17]](http://www.aclweb.org/anthology/W17-4739) | 0.208 | 25.7 |
 |  [[Tan et al 17]](http://www.statmt.org/wmt17/pdf/WMT40.pdf) | 0.184 | 26 |
 
-English to Chinese (WMT17)
+English - Chinese (WMT17)
 
 |  System | Direct Assessment (Ave z) | Bleu |
 | --- | --- | --- |
