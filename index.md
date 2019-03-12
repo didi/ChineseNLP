@@ -4,10 +4,15 @@
 
 ## List of Fields
 
+[Co-reference_Resolution](docs/co-reference_resolution.md)
 
 [Dialogue State Management](docs/dialogue_state_management.md)
 
+[Emotion_Classification](docs/emotion_classification.md)
+
 [Entity Linking](docs/entity_linking.md)
+
+[Entity Tagging](docs/entity_tagging.md)
 
 [Language Modeling](docs/language_modeling.md)
 
@@ -18,6 +23,18 @@
 [Relation Extraction](docs/relation_extraction.md)
 
 [Sentiment Analysis](docs/sentiment_analysis.md)
+
+[Simplified/traditional Conversion](docs/simplified_traditional_Chinese_conversion.md)
+
+[Spell Correction](docs/spell_correction.md)
+
+[Text Summarization](docs/text_summarization.md)
+
+[Topic Classification](docs/topic_classification.md)
+
+[Transliteration](docs/transliteration.md)
+
+[Word Embedding](docs/word_embedding.md)
 
 [Word Segmentation](docs/word_segmentation.md)
 

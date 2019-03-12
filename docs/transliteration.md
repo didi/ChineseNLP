@@ -6,8 +6,16 @@ Transliteration translates proper names and technical terms across languages tha
 
 ## Example input/output
 
-Input: 约翰伍兹 (yue han wu zi)
-Output: John Woods
+Input:
+
+```
+约翰伍兹 (yue han wu zi)
+```
+Output:
+
+```
+John Woods
+```
 
 ## Standard Metrics
 - Word Accuracy in Top-1 (ACC)  measures correctness of the first transliteration candidate in a candidate list produced by a transliteration system.

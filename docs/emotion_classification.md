@@ -6,8 +6,16 @@ Emotion classification identifies the emotional state of a writer or speaker.  T
 
 ## Example input/output
 
-Input: 讨厌！你骗我！
-Output: Angry
+Input:
+
+```
+讨厌！你骗我！
+```
+Output:
+
+```
+Angry
+```
 
 ## Standard metrics
 
