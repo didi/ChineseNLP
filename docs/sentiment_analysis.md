@@ -46,8 +46,7 @@ F1-score
 | SemEval 2016 Task 5 – PHNS Test | Mobile Phone reviews (Chinese) | 3 | 3191 | ~34k |
 
 ### Metrics
-
-Accuracy
+- Accuracy
 
 ### Results
 
@@ -98,8 +97,8 @@ Accuracy
 | ChnSentiCorp Test | Hotel reviews(Chinese) | 2 | 1999 | ~725k |
 
 ### Metrics
-Accuracy
-F1-score
+- Accuracy
+- F1-score
 
 ### Results
 
@@ -125,8 +124,8 @@ F1-score
 | IT168Test | Product review | 2 | 29531 |  |
 
 ### Metrics
-Accuracy
-F1-score
+- Accuracy
+- F1-score
 
 ### Results
 
@@ -152,7 +151,7 @@ F1-score
 | Dianping | restaurant reviews | 2 | 500,000 |  |
 
 ### Metrics
-Accuracy
+- Accuracy
 
 ### Results
 
@@ -180,7 +179,7 @@ Accuracy
 | JD Full | shopping reviews | 5 | 250,000 |  |
 
 ### Metrics
-Accuracy
+- Accuracy
 
 ### Results
 
@@ -206,7 +205,7 @@ Accuracy
 | JD Binary | shopping reviews | 2 | 360,000 |  |
 
 ### Metrics
-Accuracy
+- Accuracy
 
 ### Results
 
