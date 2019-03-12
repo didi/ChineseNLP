@@ -4,7 +4,7 @@
 
 ## Background
 
-Text summarization is the task of taking a long text document and creating a shorter text document which is a fluent and accurate summary of the longer text document.
+Text summarization takes a long text document and creating a shorter text document that is a fluent and accurate summary of the longer text document.
 
 ## Example
 

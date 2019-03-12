@@ -1,8 +1,8 @@
-# Chinese Simplified/traditional Conversion
+# Chinese Simplified/Traditional Conversion
 
 ## Background
 
-Chinese Simplified/traditional conversion is the task that converts simplified Chinese characters into traditional Chinese characters and vice versa.
+Chinese Simplified/Traditional conversion converts simplified Chinese characters into traditional Chinese characters, and vice versa.
 
 
 ## Example
@@ -17,7 +17,6 @@ Output:
 
 ```
 苟利國家生死以,豈因禍福避趨之.
-
 ```
 
 ---
@@ -26,13 +25,11 @@ Output:
 
 Accuracy 
 
-
-
 ---
 
 ## Standard Test Set 
 
-The standard test set in this area still needs further research.
+None, to our knowledge.
 
 ---
 

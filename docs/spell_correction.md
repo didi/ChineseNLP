@@ -19,12 +19,13 @@ Output:
 
 ```
 1986年毕业于国防科技大学计算机应用专业，获学士学位。
+(时 -> 士)
 ```
 
 ## Standard Metrics
-The criteria for judging spelling correction systems are determined at two levels: 
-* Detection level: all locations of incorrect characters in a given passage should be completely identical with the gold standard.  
-* Correction level: all locations and corresponding corrections of incorrect characters should be completely identical with the gold standard
+
+* Detection: all locations of incorrect characters in a given passage should be completely identical with the gold standard.  
+* Correction: all locations and corresponding corrections of incorrect characters should be completely identical with the gold standard.
 
 
 ---
