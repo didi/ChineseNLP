@@ -58,7 +58,7 @@ Note that the Conference on Machine Translation (WMT19) is announced [here](http
 
 ### Results
 
-Chinese - English (WMT17)
+Chinese to English (WMT17)
 
 |  System | Direct Assessment (Ave z) | Bleu |
 | --- | --- | --- |
