@@ -73,8 +73,8 @@ The test set was formed by human annotators who were given documents.  For each 
 
 |  Test set | Size (document/sentence pairs) | Genre |
 | --- | --- | --- |
-|  NLPCC-ICCPOL KBQA 2016 | 5779 | Open domain |
-|  NLPCC KBQA 2017 | 2500 | Open domain |
+|  NLPCC-ICCPOL DBQA 2016 | 5779 | Open domain |
+|  NLPCC DBQA 2017 | 2500 | Open domain |
 
 
 ### Metrics
@@ -95,7 +95,7 @@ Accuracy @ N.
 
 |  Train set | Size (document/sentence pairs) | Genre |
 | --- | --- | --- |
-|  NLPCC KBQA 2016/2017 | 8772 | Open domain |
+|  NLPCC DBQA 2016/2017 | 8772 | Open domain |
 
 ---
 
