@@ -1,5 +1,7 @@
 # Chinese Co-reference Resolution
 
+---
+
 ## Background
 
 Co-reference identifies pieces of text and links them with other pieces of text that refer to the same thing.  Sometimes pieces of text have zero-length, where an overt pronoun or noun is omitted.

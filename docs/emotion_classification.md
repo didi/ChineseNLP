@@ -1,5 +1,7 @@
 # Chinese Emotion Classification
 
+---
+
 ## Background
 
 Emotion classification identifies the emotional state of a writer or speaker.  This is distinct from sentiment classification, which describes the viewpoint of writers toward their subjects.
