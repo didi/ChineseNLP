@@ -1,5 +1,7 @@
 # Chinese Transliteration
 
+---
+
 ## Background
 
 Transliteration translates proper names and technical terms across languages that use different alphabets and sound systems.
