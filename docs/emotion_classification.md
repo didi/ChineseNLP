@@ -47,5 +47,9 @@ Angry
 |  [[Cheng et al 2017]](https://dl.acm.org/citation.cfm?id=3132684) | 58.2 |
 
 
+---
 
+**Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
+
+[Return to Home](../index.md)
 
