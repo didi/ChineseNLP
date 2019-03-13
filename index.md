@@ -18,6 +18,8 @@
 
 [Machine Translation](docs/machine_translation.md)
 
+[POS Tagging](pos_tagging.md)
+
 [Question Answering](docs/question_answering.md)
 
 [Relation Extraction](docs/relation_extraction.md)
