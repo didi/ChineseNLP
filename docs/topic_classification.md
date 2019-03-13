@@ -24,10 +24,6 @@ Sports
 - Accuracy: the percentage of correctly classified samples.
 
 
-
-
-## Standard test sets
-
 ### THUCNews
 ---
 Sina News RSS subscription channel data from 2005 to 2011, which contains 74 million news documents (2.19 GB), 14 topics, all in UTF-8 plain text format.
