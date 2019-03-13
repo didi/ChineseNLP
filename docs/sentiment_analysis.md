@@ -202,7 +202,7 @@ F1-score
 
 ---
 ## JD Binary
--   JD Binary: Chinese shopping reviews are evenly split into positive (4-and-5 star reviews)and negative (1-and-2 star reviews) sentiments, ignoring 3-star reviews.
+-   [JD Binary](https://github.com/zhangxiangxiao/glyph): Chinese shopping reviews are evenly split into positive (4-and-5 star reviews)and negative (1-and-2 star reviews) sentiments, ignoring 3-star reviews.
 
 | Source | Genre | # Classes | Size(sentences)|
 | --- | --- | --- | --- |
