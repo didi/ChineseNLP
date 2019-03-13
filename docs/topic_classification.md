@@ -25,7 +25,14 @@ Sports
 
 ### THUCNews
 
-[Sina News](http://thuctc.thunlp.org/#%E4%B8%AD%E6%96%87%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E6%95%B0%E6%8D%AE%E9%9B%86THUCNews) RSS subscription channel data from 2005 to 2011, which contains 74 million news documents (2.19 GB), 14 topics, all in UTF-8 plain text format.
+
+| Source  | # Classes | Size(sentences)|
+| --- |  --- | --- |
+| THUCNews |  14 | 740,000 |
+
+#### Metrics
+- Accuracy
+
 
 #### Results
 
@@ -38,13 +45,19 @@ Sports
 
 ### SogouCS 
 
-[Sohu News](http://www.sogou.com/labs/resource/cs.php) from June to July 2012 in 18 channels.
+| Source  | # Classes | Size(sentences)|
+| --- |  --- | --- |
+| [Sougou news dataset](https://www.sciencedirect.com/science/article/abs/pii/S0952197619300090) |  5 | 86,597 |
+
+#### Metrics
+- Accuracy
+
 
 #### Results
 
 |   | Error rate |
 | --- | --- |
-| [Chung, Tonglee, et al](https://www.sciencedirect.com/science/article/pii/S0952197619300090) | 3.37% |
+| [Chung, Tonglee, et al](https://www.sciencedirect.com/science/article/abs/pii/S0952197619300090) | 3.37% |
 
 #### Resources
 
@@ -56,8 +69,14 @@ Sports
 
 ### Fudan corpus
 
-Fudan corpus contains 9804 documents of long sentences and paragraphs in 20 categories.
-  - Download link: Unknown
+
+contains 9804 documents of long sentences and paragraphs in 20 categories.
+
+
+| Source  | # Classes | Size(sentences)|
+| --- |  --- | --- |
+| [Fudan corpus](https://www.semanticscholar.org/paper/cw2vec%3A-Learning-Chinese-Word-Embeddings-with-Cao-Lu/57b57e88edcc9a20c78388e847b42e088b451c55) |  5 | 1836 |
+
 
 #### Results
 
@@ -66,9 +85,22 @@ Fudan corpus contains 9804 documents of long sentences and paragraphs in 20 cate
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 97.8% |
 | [[Meng et al, 2019]](https://arxiv.org/pdf/1901.10125.pdf) | 96.3% |
 
----
+
+#### Resources
+
+| Source  | # Classes | Size(sentences)|
+| --- |  --- | --- |
+| [Fudan corpus](https://www.semanticscholar.org/paper/cw2vec%3A-Learning-Chinese-Word-Embeddings-with-Cao-Lu/57b57e88edcc9a20c78388e847b42e088b451c55) |  5 | 4284 |
 
 ### Ifeng 
+---
+First paragraphs of Chinese news articles from 2006-2016 were evenly split into 5 news channels.
+  - [Github link](https://github.com/zhangxiangxiao/glyph)
+
+| Source  | # Classes | Size(sentences)|
+| --- |  --- | --- |
+| [Ifeng](https://github.com/zhangxiangxiao/glyph) |  5 | 50,000 |
+
 
 First paragraphs of [Chinese news articles](https://github.com/zhangxiangxiao/glyph) from 2006-2016 were evenly split into 5 news channels.
 
@@ -88,6 +120,14 @@ First paragraphs of [Chinese news articles](https://github.com/zhangxiangxiao/gl
 
 ---
 
+Chinese news articles from 2008- 2016 were evenly split into 7 news channels, removing duplicates.
+- [Github link](https://github.com/zhangxiangxiao/glyph)
+
+| Source  | # Classes | Size(sentences)|
+| --- |  --- | --- |
+| [Chinanews](https://github.com/zhangxiangxiao/glyph) |  7 | 112,000 |
+
+
 ### Chinanews
 
 [Chinese news articles](https://github.com/zhangxiangxiao/glyph) from 2008- 2016 were evenly split into 7 news channels, removing duplicates.
@@ -105,3 +145,11 @@ First paragraphs of [Chinese news articles](https://github.com/zhangxiangxiao/gl
 | Dataset | Classes | Train(samples size) |
 | --- | --- | --- |
 | China news | 7 | 1,400,000 |
+
+
+
+
+
+
+
+
