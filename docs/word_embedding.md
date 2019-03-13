@@ -1,4 +1,4 @@
-# Word Embeddings
+# Chinese Word Embeddings
 
 ---
 

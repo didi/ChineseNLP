@@ -1,5 +1,7 @@
-# Relation Extraction
+# Chinese Relation Extraction
+
 ---
+
 ## Background
 
 Given two entity mentions, identify relations and classify them into predefined types.

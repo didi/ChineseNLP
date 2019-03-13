@@ -48,7 +48,7 @@ Scoring code: https://github.com/conll/reference-coreference-scorers
 
 |  System | Average F1 of MUC, B-cubed, CEAF |
 | --- | --- |
-|  [Clark & Manning, 2016] | 63.66 |
+|  [[Clark & Manning, 2016](http://alt.qcri.org/semeval2016/task5/index.php?id=data-and-tools#)] | 63.66 |
 
 ### Resources
 
