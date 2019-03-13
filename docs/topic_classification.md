@@ -1,5 +1,7 @@
 # Chinese Topic Classification
 
+---
+
 ## Background
 
 Text classification assigns tags or categories to text according to its topical content, typically training on labeled documents. Topics are sometimes broad and akin to genre (news, sports, arts) but sometimes as fine-grained as hashtags.
