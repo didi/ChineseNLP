@@ -147,7 +147,11 @@ Chinese news articles from 2008- 2016 were evenly split into 7 news channels, re
 | China news | 7 | 1,400,000 |
 
 
+---
 
+**Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
+
+[Return to Home](../index.md)
 
 
 
