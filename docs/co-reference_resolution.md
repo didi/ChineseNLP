@@ -57,3 +57,8 @@ Scoring code: https://github.com/conll/reference-coreference-scorers
 Data for this evaluation is part of Ontonotes, distributed by the Linguistic Data Consortium (LDC).
 - https://catalog.ldc.upenn.edu/LDC2013T19 
 
+---
+
+**Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
+
+[Return to Home](../index.md)

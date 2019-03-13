@@ -60,3 +60,9 @@ NEWS 2018 also releases training and development data for English-Chinese and Ch
 | --- | --- | --- | --- |
 |  NEWS 2018 Dataset_03<br/>T-EnCh | English | Chinese | 41318 |
 |  NEWS 2018 Dataset_03<br/>B-ChEn | Chinese | English | 32002 |
+
+---
+
+**Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
+
+[Return to Home](../index.md)

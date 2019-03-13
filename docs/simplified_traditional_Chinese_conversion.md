@@ -46,3 +46,8 @@ Public toolkits:
 Related paper in this area:
 - [Key Problems in Conversion from Simplified to Traditional Chinese Characters](http://www.mt-archive.info/10/MTS-2013-Shi.pdf)
 
+---
+
+**Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
+
+[Return to Home](../index.md)
