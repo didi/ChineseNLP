@@ -1,5 +1,7 @@
 # Chinese Simplified/Traditional Conversion
 
+---
+
 ## Background
 
 Chinese Simplified/Traditional conversion converts simplified Chinese characters into traditional Chinese characters, and vice versa.
