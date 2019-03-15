@@ -30,7 +30,7 @@ Precision, Recall, F1
 
 ---
 
-## Test Set 1
+## Shared Task 2050
 
 Shared Task 2050
 * Link to paper that introduced it.
@@ -64,7 +64,7 @@ Metrics specific to this test set
 
 ---
 
-## Test Set 2
+## Shared Task 2051
 
 Shared Task 2051
 * Link to paper that introduced it.
