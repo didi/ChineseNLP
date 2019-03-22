@@ -42,7 +42,7 @@
 
 ## Contribute
 
-Want to contribute? Please follow the [instructions](contribute.md)
+Want to contribute? Please follow the [Instructions](contribute.md)
 
 ## Contact
 
