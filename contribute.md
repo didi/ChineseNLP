@@ -1,6 +1,5 @@
 # How to contribute
 
----
 
 There are two ways to contribute:
 * **Edit in Github inplace**. It's suitable for small changes on exsiting markdown files.
@@ -33,32 +32,26 @@ Suppose you want to add a new page as `docs/new_task.md`
   git clone https://github.com/YOUR_GITHUB_NAME/ChineseNLP.git	
   ```
 
-* Build and serve this website
-  * Make sure Ruby >= 2.1.0
+* Serve this website
   ```
-  $ ruby --version
-  > ruby 2.X.X	
+  cd ChineseNLP
+  python3 -m http.server
   ```
-  * Install Bunder
+  if you are using python 2
   ```
-  $ gem install bundler
+  cd ChineseNLP
+  python -m SimpleHTTPServer
   ```
-  * Install Jekyll
-  ```
-  $ bundle install
-  ```
-  * Serve locally
-  ```
-  $ bundle exec jekyll serve
-  ```
-  * View the website at [http://localhost:4000](http://localhost:4000)
+  
+  * View the website at [http://localhost:8000](http://localhost:8000)
 
 * Adding a new file `docs/new_task.md`.
   * The new file should follow [docs/template.md](docs/template.md)
-  * Add a link under section `List of Fields` in `index.md`. 
+  * Add a link in section `sidebar` in `index.html`. 
 * Commit and push to your forked repo.
 * Create a pull request to `chinesenlpxyz/ChineseNLP:master`.
 
 ## Useful Tools
+* [Docute](https://docute.org/)
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Google Sheet Table to Markdown Converter](https://chrome.google.com/webstore/detail/markdowntablemaker/cofkbgfmijanlcdooemafafokhhaeold?hl=en)

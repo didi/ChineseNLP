@@ -1,0 +1,229 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Chinese NLP</title>
+    <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
+    <script src="https://unpkg.com/docute-google-analytics@1/dist/index.min.js"></script>
+  </head>
+  <body>
+    <div id="docute"></div>
+    <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+    <script>
+      new Docute({
+          title: '中文自然语言处理 Chinese NLP',
+	  plugins: [
+	      docuteGoogleAnalytics('UA-135652957-1')
+	  ],
+	  nav: [
+	      {
+		  title: '主页 Home',
+		  link: '/'
+	      },
+	      {
+		  title: 'GitHub',
+		  link: 'https://github.com/chinesenlpxyz/ChineseNLP'
+	      }
+	  ],
+	  sidebar: [
+	      {
+		  title: 'Fields',
+		  links: [
+		      {
+			  title: "Co-reference Resolution",
+			  link: "/docs/co-reference_resolution"
+		      },
+		      {
+			  title: "Dialogue State Management",
+			  link: "/docs/dialogue_state_management"
+		      },
+		      {
+			  title: "Emotion Classification",
+			  link: "/docs/emotion_classification"
+		      },
+		      {
+			  title: "Entity Linking",
+			  link: "/docs/entity_linking"
+		      },
+		      {
+			  title: "Entity Tagging",
+			  link: "/docs/entity_tagging"
+		      },
+		      {
+			  title: "Language Modeling",
+			  link: "/docs/language_modeling"
+		      },
+		      {
+			  title: "Machine Translation",
+			  link: "/docs/machine_translation"
+		      },
+		      {
+			  title: "POS Tagging",
+			  link: "/docs/pos_tagging"
+		      },
+		      {
+			  title: "Question Answering",
+			  link: "/docs/question_answering"
+		      },
+		      {
+			  title: "Relation Extraction",
+			  link: "/docs/relation_extraction"
+		      },
+		      {
+			  title: "Sentiment Analysis",
+			  link: "/docs/sentiment_analysis"
+		      },
+		      {
+			  title: "Simplified/traditional Conversion",
+			  link: "/docs/simplified_traditional_Chinese_conversion"
+		      },
+		      {
+			  title: "Spell Correction",
+			  link: "/docs/spell_correction"
+		      },
+		      {
+			  title: "Text Summarization",
+			  link: "/docs/text_summarization"
+		      },
+		      {
+			  title: "Topic Classification",
+			  link: "/docs/topic_classification"
+		      },
+		      {
+			  title: "Transliteration",
+			  link: "/docs/transliteration"
+		      },
+		      {
+			  title: "Word Embedding",
+			  link: "/docs/word_embedding"
+		      },
+		      {
+			  title: "Word Segmentation",
+			  link: "/docs/word_segmentation"
+		      }
+		  ]
+	      },
+	      {
+		  title: "Misc",
+		  links: [
+		      {
+			  title: "Contribute",
+			  link: "/contribute"
+		      },
+		      {
+			  title: "Template",
+			  link: "/docs/template"
+		      }
+		      
+		  ]
+	      }
+	  ],
+	  overrides: {
+	      '/': {
+		  language: 'English'
+	      },
+	      '/zh/': {
+		  language: '中文',
+		  sidebar: [
+		      {
+			  title: '任务',
+			  links: [
+			      {
+				  title: "指代消歧 (Co-reference Resolution)",
+				  link: "/zh/docs/co-reference_resolution"
+			      },
+			      {
+				  title: "对话状态管理 (Dialogue State Management)",
+				  link: "/zh/docs/dialogue_state_management"
+			      },
+			      {
+				  title: "情绪分类 (Emotion Classification)",
+				  link: "/zh/docs/emotion_classification"
+			      },
+			      {
+				  title: "实体链接 (Entity Linking)",
+				  link: "/zh/docs/entity_linking"
+			      },
+			      {
+				  title: "实体标注 (Entity Tagging)",
+				  link: "/zh/docs/entity_tagging"
+			      },
+			      {
+				  title: "语言模型 (Language Modeling)",
+				  link: "/zh/docs/language_modeling"
+			      },
+			      {
+				  title: "机器翻译 (Machine Translation)",
+				  link: "/zh/docs/machine_translation"
+			      },
+			      {
+				  title: "词性标注 (POS Tagging)",
+				  link: "/zh/docs/pos_tagging"
+			      },
+			      {
+				  title: "问答 (Question Answering)",
+				  link: "/zh/docs/question_answering"
+			      },
+			      {
+				  title: "关系抽取 (Relation Extraction)",
+				  link: "/zh/docs/relation_extraction"
+			      },
+			      {
+				  title: "情感分析 (Sentiment Analysis)",
+				  link: "/zh/docs/sentiment_analysis"
+			      },
+			      {
+				  title: "繁简转化 (Simplified/traditional Conversion)",
+				  link: "/zh/docs/simplified_traditional_Chinese_conversion"
+			      },
+			      {
+				  title: "拼写纠正 (Spell Correction)",
+				  link: "/zh/docs/spell_correction"
+			      },
+			      {
+				  title: "文本概括 (Text Summarization)",
+				  link: "/zh/docs/text_summarization"
+			      },
+			      {
+				  title: "话题分类 (Topic Classification)",
+				  link: "/zh/docs/topic_classification"
+			      },
+			      {
+				  title: "音译 (Transliteration)",
+				  link: "/zh/docs/transliteration"
+			      },
+			      {
+				  title: "词向量 (Word Embedding)",
+				  link: "/zh/docs/word_embedding"
+			      },
+			      {
+				  title: "中文分词 (Word Segmentation)",
+				  link: "/zh/docs/word_segmentation"
+			      }
+			  ]
+		      },
+		      {
+			  title: "其他",
+			  links: [
+			      {
+				  title: "贡献",
+				  link: "/zh/contribute"
+			      },
+			      {
+				  title: "模板",
+				  link: "/zh/docs/template"
+			      }
+			      
+			  ]
+		      }
+		      
+		  ]
+	      }
+	     
+	  }
+
+      })
+    </script>
+  </body>
+</html>

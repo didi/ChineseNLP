@@ -1,7 +1,5 @@
 # Chinese NLP Task Template
 
----
-
 ## Background
 
 Task X is the task that ... 
@@ -27,8 +25,6 @@ Precision, Recall, F1
   * Link to paper that introduced it.
   * Link to metric implementation (if exists)
 
-
----
 
 ## Shared Task 2050
 
@@ -62,7 +58,6 @@ Metrics specific to this test set
   | Wiki | 400M  | News | MIT |
   | Baike | 234M | News | MIT |
 
----
 
 ## Shared Task 2051
 
@@ -94,7 +89,6 @@ Metrics specific to this test set
 | Weibo | 400M  | News | MIT |
 | Twitter | 234M | News | MIT |
 
----
 
 ## Other Resources
 
@@ -105,6 +99,4 @@ Metrics specific to this test set
 ---
 
 **Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
-
-[Return to Home](../index.md)
 
