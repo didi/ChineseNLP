@@ -255,7 +255,9 @@ Participants must get data from [here](http://lotus.kuee.kyoto-u.ac.jp/WAT/paten
 
 ## CWMT
 
-CWMT 2017 (China Workshop on Machine Translation) features six tasks:
+[CWMT 2017](http://ee.dlut.edu.cn/CWMT2017/index_en.html)
+and [2018](http://www.cipsc.org.cn/cwmt/2018/english/)
+(China Workshop on Machine Translation) features six tasks:
 
 |  Test set | Size (sentences) | Genre |
 | --- | ----: | ----: |
@@ -265,6 +267,10 @@ CWMT 2017 (China Workshop on Machine Translation) features six tasks:
 |  Tibetan-Chinese | 729 | Government documents |
 |  Uyghur-Chinese | 1000 | News |
 |  Japanese-Chinese | 1000 | Patents |
+
+In 2019, CWMT became [CCMT](http://www.cipsc.org.cn/chcontent.php?&xuhao=2019031803)
+(China Conference on Machine Translation).
+
 
 
 ### Metrics
