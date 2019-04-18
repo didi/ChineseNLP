@@ -34,7 +34,7 @@ Recall = 9 / 10 = 0.9
 F1 = 0.857
 
 
-## The Second International Chinese Word Segmentation Bakeoff in SIGHAN 2005 Workshop (Emerson, 2005)
+## <span class="t">The Second International Chinese Word Segmentation Bakeoff in SIGHAN 2005 Workshop (Emerson, 2005)</span>.
 
 * [Website](http://sighan.cs.uchicago.edu/bakeoff2005/), [Detailed Instruction](http://sighan.cs.uchicago.edu/bakeoff2005/data/instructions.php.html), [Overview Paper](http://aclweb.org/anthology/I05-3017)
 * Includes 4 datasets: AS, CityU in traditional Chinese, PK, MSR in simplified Chinese.
@@ -67,7 +67,7 @@ F1 = 0.857
 |  PKU | 1.1M |
 
 
-## Chinese Penn Treebank
+## <span class="t">Chinese Penn Treebank</span>.
 
 * [Website](https://verbs.colorado.edu/chinese/ctb.html)
 * Includes 2 datasets:
@@ -98,7 +98,7 @@ F1 = 0.857
 |  CTB7 | 950,138 |
 
 
-## Chinese Universal Treebank (UD)
+## <span class="t">Chinese Universal Treebank (UD)</span>.
 
 * [Website](https://universaldependencies.org/), [Github](https://github.com/UniversalDependencies/UD_Chinese-GSD)
 
@@ -119,7 +119,7 @@ F1 = 0.857
 |  UD | 98,608 |
 
 
-## NLPCC2016 WordSeg Weibo
+## <span class="t">NLPCC2016 WordSeg Weibo</span>.
 
 * [Github](https://github.com/FudanNLP/NLPCC-WordSeg-Weibo)
 * [Paper describe the dataset](https://link.springer.com/chapter/10.1007/978-3-319-50496-4_84)

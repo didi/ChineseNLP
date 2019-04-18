@@ -25,7 +25,7 @@ F1 score calculated from word-level precision and word-level recall computed fro
 
 
 
-## Chinese Tree Bank Datasets 
+## <span class="t">Chinese Tree Bank Datasets</span>.
 
 * Task originally defined in [Ng and Low (2004)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.477.8384&rep=rep1&type=pdf)
 * Released by LDC. Requires LDC licence to acquire the datasets
@@ -55,7 +55,7 @@ F1 score calculated from word-level precision and word-level recall computed fro
   | CTB5 | 493,935  | News |
  
 
-## Universal Dependencies Datasets 
+## <span class="t">Universal Dependencies Datasets</span>.
 
 * Available freely (GPL or equivalent licence)
 * [https://universaldependencies.org/](https://universaldependencies.org/) 

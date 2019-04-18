@@ -59,7 +59,7 @@ Precision = 2 / 3 = 0.66
 Recall = 2 / 2 = 1.0
 ```
 
-## ACE 2005 Relation Extraction
+## <span class="t">ACE 2005 Relation Extraction</span>.
 
 * [Data link](https://catalog.ldc.upenn.edu/LDC2006T06)
 * [Description paper](https://pdfs.semanticscholar.org/3a9b/136ca1ab91592df36f148ef16095f74d009e.pdf)

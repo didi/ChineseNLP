@@ -34,7 +34,7 @@ Classification Accuracy:
 * Session level. A session is correct only if all the sentences in the session are predicted correctly.
 
 
-## Alibaba Dialogue Management Dataset
+## <span class="t">Alibaba Dialogue Management Dataset</span>.
 * Not public
 * It consists of real conversations from the flight-booking domain, in which the system is supposed to acquire departure city, arrival city, and departure date information from the user to book a flight ticket.
 * 5 dialogue act types and 3 slot types
@@ -84,7 +84,7 @@ The numbers in parenthesis are session level accuracy.
 |  Dev | 7,665 sessions |
 
 
-## Dialog State Tracking Challenge 5 (DSTC5)
+## <span class="t">Dialog State Tracking Challenge 5 (DSTC5)</span>.
 
 This task aims at tracking the dialog state defined as a frame structure filled with slot-value pairs representing the subject of each sub-dialog in human-human dialogs. 
 * [Challenge paper](http://workshop.colips.org/dstc5/papers/0000511.pdf)

@@ -26,7 +26,7 @@ Precision, Recall, F1
   * Link to metric implementation (if exists)
 
 
-## Shared Task 2050
+## <span class="t">Shared Task 2050</span>.
 
 Shared Task 2050
 * Link to paper that introduced it.
@@ -59,7 +59,7 @@ Metrics specific to this test set
   | Baike | 234M | News | MIT |
 
 
-## Shared Task 2051
+## <span class="t">Shared Task 2051</span>.
 
 Shared Task 2051
 * Link to paper that introduced it.

@@ -36,7 +36,7 @@ The United States and China may soon reach a trade agreement.
 * HTER.  Returns the number of edits performed by a human posteditor to get an automatic translation into good shape.
 
 
-## WMT
+## <span class="t">WMT</span>.
 
 The Second Conference on Machine Translation (WMT17) has a Chinese/English MT component, done in cooperation with CWMT 2017.
 * [Website](http://www.statmt.org/wmt17)
@@ -89,7 +89,7 @@ The Linguistic Data Consortium has additional resources, such as FBIS and NIST t
 
 
 
-## NIST
+## <span class="t">NIST</span>.
 
 NIST has a long history of supporting Chinese-English translation by creating annual test sets and running annual NIST OpenMT evaluations during the 2000s.  Many sites have reported results on NIST test sets.  
 
@@ -130,7 +130,7 @@ The Linguistic Data Consortium provides training materials typically used for NI
 
 
 
-## IWSLT 2015
+## <span class="t">IWSLT 2015</span>.
 
 * Translation of TED talks
 * Chinese-to-English track
@@ -169,7 +169,7 @@ English to Chinese (tst2015)
 
 
 
-## TED corpus
+## <span class="t">TED corpus</span>.
 
 This [site](http://cs.jhu.edu/~kevinduh/a/multitarget-tedtalks/) contains an up-to-date multi-way corpus of TED talks using for machine translation research. It also contains a leaderboard maintained by Kevin Duh.
 
@@ -200,7 +200,7 @@ English to Chinese
 
 
 
-## Workshop on Asian Translation
+## <span class="t">Workshop on Asian Translation</span>.
 
 [The Workshop on Asian Translation](http://lotus.kuee.kyoto-u.ac.jp/WAT/) has run since 2014.  Here, we include the 2018 Chinese/Japanese evaluations.
 
@@ -251,7 +251,7 @@ Participants must get data from [here](http://lotus.kuee.kyoto-u.ac.jp/WAT/paten
 
 
 
-## CWMT
+## <span class="t">CWMT</span>.
 
 [CWMT 2017](http://ee.dlut.edu.cn/CWMT2017/index_en.html)
 and [2018](http://www.cipsc.org.cn/cwmt/2018/english/)

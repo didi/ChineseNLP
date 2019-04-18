@@ -41,7 +41,7 @@ Common English datasets include:
 
 Generally speaking, Chinese LM datasets do not yet have this level of shared specification.
 
-## Chinese Treebank
+## <span class="t">Chinese Treebank</span>.
 
 The Chinese Treebank is available from the Linguistic Data Consortium.  It does not come with a standard train/dev/test split for language modeling.
 
@@ -59,7 +59,7 @@ These numbers are not comparable, given different training conditions!
 |  RNNG [Dyer et al, 2016](https://arxiv.org/abs/1602.07776) | -- | 171.9 | V5.1. 31k vocab. Maybe singletons → UNK? Test is just 348 lines, so standard split. Claim train is 50k (LDC says 19k). |
 |  Segmental NLMs [Kawakami et al, 2016](https://arxiv.org/pdf/1811.09353.pdf) | 4.8 bits per character (not ppl) | -- | V5.1 manual segmentation. Score as bits per character (bpc). Data [here](https://s3.eu-west-2.amazonaws.com/k-kawakami/seg.zip). |
 
-## Chinese Gigaword
+## <span class="t">Chinese Gigaword</span>.
 
 Chinese Gigaword is also available from the Linguistic Data Consortium.
 

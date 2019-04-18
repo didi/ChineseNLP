@@ -25,7 +25,7 @@ Average of F1-scores returned by these three precision/recall metrics:
 - Entity-based CEAF.  
 
 
-## CoNLL 2012 Co-reference task
+## <span class="t">CoNLL 2012 Co-reference task</span>.
 
 CoNLL 2012 introduced a co-reference task in Chinese.
 - http://conll.cemantix.org/2012/introduction.html 

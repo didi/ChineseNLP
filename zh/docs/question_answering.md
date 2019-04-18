@@ -26,7 +26,7 @@ Output:
 * Some tests include questions for which no answer exists in the provided database or text collection, in which case systems must return “no answer exists” to get credit.
 
 
-## NLPCC KBQA shared task
+## <span class="t">NLPCC KBQA shared task</span>.
 
 The KBQA shared task at NLPCC 2017 asks systems to retrieve answers from a provided knowledge base (KB) of factual triples.  The knowledge base consists of 8.7m entities and 47.9m triples.
 * [Shared task guideline](http://tcci.ccf.org.cn/conference/2017/dldoc/taskgline05.pdf)
@@ -59,7 +59,7 @@ Averaged F1.
 |  NLPCC KBQA 2016/2017 | 14,609 | Open domain |
 
 
-## NLPCC DBQA shared task
+## <span class="t">NLPCC DBQA shared task</span>.
 
 The DBQA shared task at NLPCC 2017 asks systems to 
 

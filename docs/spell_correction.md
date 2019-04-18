@@ -27,7 +27,7 @@ Output:
 
 
 
-## SIGHAN Bake-off: Chinese Spelling Check Task
+## <span class="t">SIGHAN Bake-off: Chinese Spelling Check Task</span>.
 
 * Versions: SIGHAN datasets have 3 versions ([2015](http://anthology.aclweb.org/W/W15/W15-3106.pdf), [2014](http://anthology.aclweb.org/W/W14/W14-6820.pdf), [2013](http://anthology.aclweb.org/W/W13/W13-4406.pdf))
 * Shared task overview paper: [Tseng et. al. (2015)](http://anthology.aclweb.org/W/W15/W15-3106.pdf) 

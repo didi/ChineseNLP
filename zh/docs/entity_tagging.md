@@ -64,7 +64,7 @@ Ontonotes 5.0 ([https://catalog.ldc.upenn.edu/LDC2013T19](https://catalog.ldc.up
 
 
 
-## ACE 2005
+## <span class="t">ACE 2005</span>.
 
 ACE 2005 evaluates on seven entity types: Facility (FAC), Geopolitical Entity (GPE), Location (LOC), Organization (ORG), Person (PER), Vehicle (VEH), and Weapon (WEA).
 
@@ -87,7 +87,7 @@ A standard train/dev/test split does not seem to be available.  Authors frequent
 
 
 
-## SIGHAN bakeoff 2006 NER MSRA
+## <span class="t">SIGHAN bakeoff 2006 NER MSRA</span>.
 
 This bakeoff evaluates entity taggers on three types of entities: Person (PER), Location (LOC), and Organization (ORG).
 
@@ -115,7 +115,7 @@ The “closed” task restricts participants to use only the following training 
 
 
 
-## Weibo NER
+## <span class="t">Weibo NER</span>.
 
 This social media entity tagging task includes GPE, ORG, LOC, and PER.  It was introduced by
 * [Peng & Dredze (2015)](https://aclweb.org/anthology/D15-1064)

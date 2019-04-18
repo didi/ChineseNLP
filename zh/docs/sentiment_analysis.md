@@ -31,7 +31,7 @@ F1-score
 
 
 
-## SemEval-2016 Task 5
+## <span class="t">SemEval-2016 Task 5</span>.
 
 [SemEval-2016 Task 5](http://alt.qcri.org/semeval2016/task5/index.php?id=data-and-tools#) contains 2 test sets with over reviews 5000 reviews in total from digital camera and mobile phone area.
 
@@ -59,7 +59,7 @@ F1-score
 | SemEval 2016 Task 5 – PHNS Train | Mobile Phone reviews (Chinese) | 3 | 6330 | ~62k |
 
 
-## NLP&CC 2012
+## <span class="t">NLP&CC 2012</span>.
 
 [NLP&CC 2012 Test](http://tcci.ccf.org.cn/conference/2012/pages/page04_eva.html): Chinese Weibo sentiment analysis evaluation data.
 
@@ -85,7 +85,7 @@ F1-score
 | NLP&CC 2012 Train | Weibo reviews(Chinese) | 2 | 1765 | ~116k |
 
 
-## ChnSentiCorp
+## <span class="t">ChnSentiCorp</span>.
 
 
 [ChnSentiCorp](https://www.sciencedirect.com/science/article/pii/S0957417407001534): It contains 1021 documents in three domains: education, movie and house. Meanwhile, Hotel review dataset which contains 5000 positive and 5000 negative short texts.
@@ -115,7 +115,7 @@ F1-score
 | ChnSentiCorp Train | Hotel reviews(Chinese)|2|8000|~2.9M|
 
 
-## IT168TEST
+## <span class="t">IT168TEST</span>.
 
 [IT168TEST](http://www.aclweb.org/anthology/I08-1040): A product review dataset presented by Zagibalov and Carroll. This dataset contains over 20000 reviews, in which 78% were manually labeled as positive and 22% labeled as negative.
 
@@ -140,7 +140,7 @@ F1-score
 
 
 
-## Dianping
+## <span class="t">Dianping</span>.
 
 [Dianping](https://github.com/zhangxiangxiao/glyph): Chinese restaurant reviews were evenly split as follows: 4 and 5 star reviews were assigned to the positive class while 1-3 star reviews were in the negative class.
 
@@ -168,7 +168,7 @@ F1-score
 
 
 
-## JD Full
+## <span class="t">JD Full</span>.
 [JD Full](https://github.com/zhangxiangxiao/glyph): Chinese shopping reviews were evenly split for predicting full five stars.
 
 | Source | Genre | # Classes | Size(sentences)|
@@ -194,7 +194,7 @@ F1-score
 | JD Full | shopping reviews | 5 | 3,000,000 |
 
 ---
-## JD Binary
+## <span class="t">JD Binary</span>.
 -   [JD Binary](https://github.com/zhangxiangxiao/glyph): Chinese shopping reviews are evenly split into positive (4-and-5 star reviews)and negative (1-and-2 star reviews) sentiments, ignoring 3-star reviews.
 
 | Source | Genre | # Classes | Size(sentences)|

@@ -24,7 +24,7 @@ Output:
 
 Accuracy 
 
-## Standard Test Set 
+## <span class="t">Standard Test Set</span>.
 
 None, to our knowledge.
 

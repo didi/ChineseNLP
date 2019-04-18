@@ -25,7 +25,7 @@ John Woods
 For more information about the above metrics, please refer this paper.
 
 
-## NEWS 2018 Dataset_03
+## <span class="t">NEWS 2018 Dataset_03</span>.
 Named Entity Workshop (NEWS) is a long-running transliteration evaluation campaign.  Chinese/English is one of the most popular NEWS language pairs.  For NEWS 2018:
 - The shared-task report is in http://aclweb.org/anthology/W18-2409.
 - The data is described http://workshop.colips.org/news2018/dataset.html.

@@ -28,7 +28,7 @@ Implementations
 
 
 
-## LCSTS: A Large Scale Chinese Short Text Summarization Dataset
+## <span class="t">LCSTS: A Large Scale Chinese Short Text Summarization Dataset</span>.
 
 * [Hu et. al. (2015)](https://arxiv.org/pdf/1506.05865.pdf) created a dataset of Weibo summaries posted by media organizations.  Short texts are about 100 characters, summaries are about 20 characters.
 * Download instruction: “If you want to acquire the corpus. Please fill the application form and send to [Qingcai Chen](qingcai.chen@hit.edu.cn) or [Baotian Hu](baotianchina@gmail.com) [application form, Mainland China](http://pan.baidu.com/s/1eQCUL1K)   [application form, Other]((https://www.dropbox.com/s/g9623j3hsx3yjij/Application%20form.pdf?dl=0))” ([http://icrc.hitsz.edu.cn/Article/show/139.html](http://icrc.hitsz.edu.cn/Article/show/139.html))

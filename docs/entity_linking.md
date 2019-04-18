@@ -23,7 +23,7 @@ Output:
 * Entity mentions that have no corresponding KB element (NIL mentions) must be clustered, with clusters evaluated by CEAF (successor to B-cubed).
 
 
-## TAC-KBP / EDL 2017 Track
+## <span class="t">TAC-KBP / EDL 2017 Track</span>.
 
 The NIST TAC Knowledge Base Population (KBP) Entity Discovery and Linking (EDL) track includes Chinese entity tagging for 5 types: person (PER), geo-political entity (GPE), location (LOC), organization (ORG) and facility (FAC).  
 

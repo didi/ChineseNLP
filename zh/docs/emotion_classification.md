@@ -23,7 +23,7 @@ Angry
 - F1 score.
 
 
-## Cheng emotion corpus
+## <span class="t">Cheng emotion corpus</span>.
 
 [Cheng et al 2017](https://dl.acm.org/citation.cfm?id=3132684) introduce an emotion corpus for Chinese Microblogs.  It consists of short posts marked with the following distribution of emotion tags:  Joy (11.3%), Angry (3.5%), Sad (2.6%), Fearful (0.6%), Positive (8.2%), Neutral (4.4%), Negative (9.9%), Non-emotion (59.5%).  Furthermore, the corpus identifies the sub-span of the post that is the cause of the emotion.
 

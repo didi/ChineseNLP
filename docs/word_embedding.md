@@ -38,7 +38,7 @@ Extrinsic evaluation:
 
 
 
-## Chinese word similarity lists
+## <span class="t">Chinese word similarity lists</span>.
 
 * wordsim-240 and wordsim-296 list pairs of Chinese words with human similarity judgments proposed by [Chen et. al. (2015)](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2015_character.pdf) and [SemEval Task 4: Evaluating Chinese Word Similarity](http://ixa2.si.ehu.es/starsem/proc/pdf/STARSEM-SEMEVAL049.pdf).
 * These are Chinese translations of the English lists prepared in 2002.
@@ -68,7 +68,7 @@ Extrinsic evaluation:
  
 
 
-## Chinese word analogy lists
+## <span class="t">Chinese word analogy lists</span>.
 
 Given “France : Paris :: China : ?”, a system should come up with the answer “Beijing”.
 * Chen et. al. (2015) manually constructed 1,225 analogies in 3 domains 
@@ -97,7 +97,7 @@ Given “France : Paris :: China : ?”, a system should come up with the answer
  
 
 
-## Chinese sentiment analysis
+## <span class="t">Chinese sentiment analysis</span>.
 
 * This test measures how much the sentiment analysis task benefits from different word vectors.
 * There is no agreed-upon baseline (e.g., sentiment classifier code), so it is difficult to compare across papers.
@@ -116,14 +116,14 @@ Given “France : Paris :: China : ?”, a system should come up with the answer
 ### Results
 
 | System | Accuracy (notebook) | Accuracy (car) | Accuracy (camera) | Accuracy (phone) | Accuracy (overall) | 
-| --- | --- | --- | --- | ---|
+| --- | --- | --- | --- | ---| ---|
 | [Sun et. al. (2019)](https://arxiv.org/pdf/1902.08795.pdf) (VCWE) | 80.95 | 85.59 | 83.93 | 84.38 | 88.92 |
 | [Yu et. al. (2017)](https://www.aclweb.org/anthology/D17-1027) (JWE) | 77.78 | 78.81 | 81.70 | 81.64 | 85.13 | 
 | Baseline (skip-gram) | 69.84 | 77.12 | 80.80 | 81.25 | 86.65 |
 
 
 
-## Chinese name tagging
+## <span class="t">Chinese name tagging</span>.
 
 * This test measures how much the name tagging task benefits from different word vectors.
 * There is no agreed-upon baseline (e.g., name tagging code), so it is difficult to compare across papers.
