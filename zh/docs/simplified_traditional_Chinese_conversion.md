@@ -1,47 +1,45 @@
-# Chinese Simplified/Traditional Conversion
+# 中文繁简转化  (Simplified/Traditional Conversion)
 
-## Background
+## 背景
 
-Chinese Simplified/Traditional conversion converts simplified Chinese characters into traditional Chinese characters, and vice versa.
+简体中文/繁体中文转换将简体中文字符转换为繁体中文字符，或反之。
 
+## 示例
 
-## Example
-
-Input:
-
+输入:
 ```
 苟利国家生死以,岂因祸福避趋之.
 ```
 
-Output: 
+输出: 
 
 ```
 苟利國家生死以,豈因禍福避趨之.
 ```
 
 
-## Standard Metrics
+## 标准评价指标
 
-Accuracy 
+准确率(Accuracy) 
 
-## <span class="t">Standard Test Set</span>.
+## <span class="t">标准测试集</span>.
 
-None, to our knowledge.
+暂未找到。
 
 
-## Other Resources
+## 其他资源
 
-Public toolkits:
+公开免费工具:
 - [Simplified-Traditional Chinese Characters Conversion](https://www.lexilogos.com/keyboard/chinese_conversion.htm)
 - [Online Simplified Chinese / Traditional Chinese Converter](https://www.purpleculture.net/traditional-simplified-converter/)
 - [Hanzi Converter](https://github.com/berniey/hanziconv)
 - [開放中文轉換](https://github.com/yichen0831/opencc-python)
 
-Related paper in this area:
+该领域相关论文:
 - [Key Problems in Conversion from Simplified to Traditional Chinese Characters](http://www.mt-archive.info/10/MTS-2013-Shi.pdf)
 
 ---
 
-**Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
+**建议? 修改? 请发邮件到 [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
 

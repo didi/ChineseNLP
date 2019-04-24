@@ -22,7 +22,7 @@ John Woods
 - Fuzziness in Top-1 (Mean F-score).
 - Mean Reciprocal Rank (MRR).
 - MAP measures precision in the n-best candidates for i-th source name, for which reference transliterations are available.
-For more information about the above metrics, please refer this paper.
+
 
 
 ## <span class="t">NEWS 2018 Dataset_03</span>.

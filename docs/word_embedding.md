@@ -11,15 +11,13 @@ Word embedding ingests a large corpus of text and outputs, for each word type, a
 Input:
 
 ```
-Large corpus of text
+Word embedding
 ```
 
 Output:
-
 ```
-...
-“查询”, vec(W) = [-0.059569, 0.126913, 0.273161, 0.225467, -0.185914, 0.018743, -0.18434, 0.083859, -0.115781, -0.216993, 0.063437, -0.005511, 0.276968,…, 0.254486]
-...
+vec(W) = [-0.059569, 0.126913, 0.273161, 0.225467, -0.185914, 0.018743, -0.18434, 0.083859, -0.115781, -0.216993, 0.063437, -0.005511, 0.276968,…, 0.254486]
+
 ```
 
 ## Standard Metrics
@@ -104,7 +102,7 @@ Given “France : Paris :: China : ?”, a system should come up with the answer
 * Sentiment dataset available at [http://sentic.net/chinese-review-datasets.zip](http://sentic.net/chinese-review-datasets.zip) ([Peng et. al. (2018)](https://www.sciencedirect.com/science/article/abs/pii/S0950705118300972)) 
    * Consists of Chinese reviews in 4 domains: notebook, car, camera and phone
    * Binary classification task: reviews are either positive or negative
-   * Does not have train/dev/test split. Papers report 5-fold cross-validation results
+   * Does not have train/dev/test split. 
   
 | Test set | # positive reviews | # negative reviews |
 | --- | --- | --- |

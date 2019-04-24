@@ -1,31 +1,31 @@
-# Chinese Sentiment Analysis
+# 中文情感分析 (Sentiment Analysis)
 
 
-## Background
+## 背景
 
-Sentiment Analysis detects identifies and extracts subjective information from text.
+情感分析 (Sentiment Analysis) 从文本中识别提取文本的主观态度信息。
 
-## Example
+## 示例
 
-Input:
+输入:
 
 ```
 总的感觉这台机器还不错，实用的有：阴阳历显示，时间与日期快速转换, 记事本等。
 ```
 
-Output:
+输出:
 
 ```
-Positive
+正向 (Positive)
 ```
 
-## Standard Metrics
+## 标准评价指标
 
-Accuracy 
-  * The percentage of correctly classified samples on test set.
+准确度 (Accuracy) 
+  * 在测试集上正确分类的样本的百分比。
 
 F1-score
-  * Combination of precision and recall.
+  * 准确率和召回率的一种加权平均指标。
   * [Wiki Page](https://en.wikipedia.org/wiki/F1_score)
 
 
@@ -33,7 +33,7 @@ F1-score
 
 ## <span class="t">SemEval-2016 Task 5</span>.
 
-[SemEval-2016 Task 5](http://alt.qcri.org/semeval2016/task5/index.php?id=data-and-tools#) contains 2 test sets with over reviews 5000 reviews in total from digital camera and mobile phone area.
+[SemEval-2016 Task 5](http://alt.qcri.org/semeval2016/task5/index.php?id=data-and-tools#) 包含2个测试集，超过5000条数码相机和手机领域的评论。
 
 
 | Source | Genre | # Classes | Size(sentences) |Size(words) |
@@ -41,17 +41,17 @@ F1-score
 | SemEval 2016 Task 5 – CAM Test | Digital Camera reviews (Chinese) | 3 | 2256 | ~25k |
 | SemEval 2016 Task 5 – PHNS Test | Mobile Phone reviews (Chinese) | 3 | 3191 | ~34k |
 
-### Metrics
+### 评价指标
 - Accuracy
 
-### Results
+### 结果
 
 |   | Accuracy(PHNS Test) | Accuracy(CAM Test) |
 | --- | --- | --- |
 |  [SenHint](http://www.wowbigdata.com.cn/main/paper/www2018wang.pdf) | 0.7958 | 0.8711 |
 
  
-### Resources
+### 相关资源
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
@@ -61,24 +61,24 @@ F1-score
 
 ## <span class="t">NLP&CC 2012</span>.
 
-[NLP&CC 2012 Test](http://tcci.ccf.org.cn/conference/2012/pages/page04_eva.html): Chinese Weibo sentiment analysis evaluation data.
+[NLP&CC 2012 Test](http://tcci.ccf.org.cn/conference/2012/pages/page04_eva.html): 中文微博情感分析评测数据。
 
 | Source | Genre | # Classes | Size(sentences)|Topics |
 | --- | --- | --- | --- | --- |
 | [NLP&CC 2012 Test](https://link.springer.com/chapter/10.1007/978-1-4614-6880-6_29) | Weibo reviews | 2 | 1908 | 10 |
 
-### Metrics
+### 评价指标
 - F1-score
 - Accuracy
 
-### Results
+### 结果
 
 |   | F1 | Accuracy |
 | --- | --- | --- |
 | [Chen, et al 2018](https://ieeexplore.ieee.org/abstract/document/8386495)|-- |88.35|
 | [Wang, et al 2013](https://link.springer.com/chapter/10.1007/978-1-4614-6880-6_31) | 63.60 | 74.00 |
 
-### Resources
+### 相关资源
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
@@ -88,27 +88,27 @@ F1-score
 ## <span class="t">ChnSentiCorp</span>.
 
 
-[ChnSentiCorp](https://www.sciencedirect.com/science/article/pii/S0957417407001534): It contains 1021 documents in three domains: education, movie and house. Meanwhile, Hotel review dataset which contains 5000 positive and 5000 negative short texts.
+[ChnSentiCorp](https://www.sciencedirect.com/science/article/pii/S0957417407001534) 包含教育，电影和住房三个领域共计1021个文档。
 
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
 | ChnSentiCorp Test | Hotel reviews(Chinese) | 2 | 1999 | ~725k |
 
-### Metrics
+### 评价指标
 - Accuracy
 - F1-score
 
-### Results
+### 结果
 
 |   | F1 | Accuracy |
 | --- | --- | --- |
 | fastText *| 0.9218 | 0.9218 |
 | [MCCNN](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648) | 0.9208 | 0.9208 |
 
-*Accuracy result is cited from [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648).
+*准确度 (Accuracy) 结果引用自 [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648).
 
-### Resources
+### 相关资源
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
 | --- | --- | --- | --- | --- |
@@ -117,17 +117,17 @@ F1-score
 
 ## <span class="t">IT168TEST</span>.
 
-[IT168TEST](http://www.aclweb.org/anthology/I08-1040): A product review dataset presented by Zagibalov and Carroll. This dataset contains over 20000 reviews, in which 78% were manually labeled as positive and 22% labeled as negative.
+[IT168TEST](http://www.aclweb.org/anthology/I08-1040): 一个由Zagibalov和Carroll提供的产品评论领域的数据集。 该数据集包含超过20000条评论，其中78％评论被人工标记为正向 (positive), 22％被标记为负向(negative).
 
 | Source | Genre | # Classes | Size(sentences)|
 | --- | --- | --- | --- |
 | IT168Test | Product review | 2 | 29531 |
 
-### Metrics
+### 评价指标
 - Accuracy
 - F1-score
 
-### Results
+### 结果
 
 |   | F1 | Accuracy |
 | --- | --- | --- |
@@ -136,22 +136,22 @@ F1-score
 | [Zhang, P., &amp; He, Z. (2013)](https://journals.sagepub.com/doi/10.1177/0165551513480330) | 0.9402 | 0.9500 |
 
 
-*Accuracy result is cited from [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648).
+*准确度 (Accuracy) 结果引用自 [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648).
 
 
 
 ## <span class="t">Dianping</span>.
 
-[Dianping](https://github.com/zhangxiangxiao/glyph): Chinese restaurant reviews were evenly split as follows: 4 and 5 star reviews were assigned to the positive class while 1-3 star reviews were in the negative class.
+[Dianping](https://github.com/zhangxiangxiao/glyph): 一个二分类的餐厅点评数据集，4星和5星评价被归为正向评价类，1-3星的评价被归为负向评价类。
 
 | Source | Genre | # Classes | Size(sentences)|
 | --- | --- | --- | --- |
 | Dianping | restaurant reviews | 2 | 500,000 |
 
-### Metrics
+### 评价指标
 - Accuracy
 
-### Results
+### 结果
 
 |   | Accuracy |
 | --- | --- |
@@ -160,7 +160,7 @@ F1-score
 
 
 
-### Resources
+### 相关资源
 
 | Source | Genre | # Classes | Size(sentences)|
 | --- | --- | --- | --- |
@@ -169,16 +169,16 @@ F1-score
 
 
 ## <span class="t">JD Full</span>.
-[JD Full](https://github.com/zhangxiangxiao/glyph): Chinese shopping reviews were evenly split for predicting full five stars.
+[JD Full](https://github.com/zhangxiangxiao/glyph): 京东购物评分数据集，评价范围1-5星，每个类别样本数量相同。
 
 | Source | Genre | # Classes | Size(sentences)|
 | --- | --- | --- | --- |
 | JD Full | shopping reviews | 5 | 250,000 |
 
-### Metrics
+### 评价指标
 - Accuracy
 
-### Results
+### 结果
 
 |   | Accuracy |
 | --- | --- |
@@ -187,7 +187,7 @@ F1-score
 
 
 
-### Resources
+### 相关资源
 
 | Source | Genre | # Classes | Size(sentences)|
 | --- | --- | --- | --- |
@@ -195,16 +195,16 @@ F1-score
 
 ---
 ## <span class="t">JD Binary</span>.
--   [JD Binary](https://github.com/zhangxiangxiao/glyph): Chinese shopping reviews are evenly split into positive (4-and-5 star reviews)and negative (1-and-2 star reviews) sentiments, ignoring 3-star reviews.
+-   [JD Binary](https://github.com/zhangxiangxiao/glyph): 二分类的京东购物评论数据集，去掉评分为3星的评价，将4-5星的评论归为正向评价，1-2星的评价被归为负向评价。 
 
 | Source | Genre | # Classes | Size(sentences)|
 | --- | --- | --- | --- |
 | JD Binary | shopping reviews | 2 | 360,000 |
 
-### Metrics
+### 评价指标
 - Accuracy
 
-### Results
+### 结果
 
 |   | Accuracy |
 | --- | --- |
@@ -212,7 +212,7 @@ F1-score
 |  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 91.3 |
 
 
-### Resources
+### 相关资源
 
 | Source | Genre | # Classes | Size(sentences)|
 | --- | --- | --- | --- |
@@ -220,13 +220,13 @@ F1-score
 
 
 
-## Other Resources
+## 其他资源
 
-* Overview paper in this area: 
+* 中文情感分析综述论文: 
     * [chinese-sentiment-analysis-review](http://sentic.net/chinese-sentiment-analysis-review.pdf)
 
 ---
 
-Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)
+**建议? 修改? 请发邮件到 [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
 

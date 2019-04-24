@@ -88,7 +88,7 @@ F1-score
 ## <span class="t">ChnSentiCorp</span>.
 
 
-[ChnSentiCorp](https://www.sciencedirect.com/science/article/pii/S0957417407001534): It contains 1021 documents in three domains: education, movie and house. Meanwhile, Hotel review dataset which contains 5000 positive and 5000 negative short texts.
+[ChnSentiCorp](https://www.sciencedirect.com/science/article/pii/S0957417407001534): It contains 1021 documents in three domains: education, movie and house. 
 
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |

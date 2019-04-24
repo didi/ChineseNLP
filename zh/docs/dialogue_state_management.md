@@ -1,14 +1,14 @@
-# Chinese Dialogue State Management
+# 中文对话状态管理 (Dialogue State Management)
 
-## Background
+## 背景
 
-In task-oriented dialogue systems, a dialogue state management (DM) system takes a user intent as input, interacts with a knowledge base, and predicts the next system actions. The user intent is analysed by a Natural Language Understanding component (NLU),  which is sometimes combined with DM as a single component for end-to-end training. The next system actions usually consist two type of actions: Dialogue act type and Slot-value pairs. Given the next system actions, a Natural Language Generation component (NLG) will generate a response to the user.
+在面向任务的对话系统中，对话状态管理（DM）系统将用户意图 (intent) 作为输入，与知识库交互，并预测系统的下一个动作 (action)。 自然语言理解组件（NLU）负责分析用户意图，该组件有时与对话状态管理（DM）系统结合成为端到端学习中的一个单一组件。 系统的下一个操作通常包括两种类型：对话动作类型 (Dialogue act type) 和插槽值对 (Slot-value pairs)。 给定下一个系统动作，自然语言生成组件（NLG）将生成对用户的响应。
 
-## Examples
+## 示例
 
-An example taken from [Zhang et al. (2018)](https://arxiv.org/pdf/1805.00150.pdf) and translated into Chinese:
+示例来自[Zhang et al. (2018)](https://arxiv.org/pdf/1805.00150.pdf)论文中所举例子的中文翻译。
 
-|   | Input | Output |  |  |  |  |
+|   | 输入 | 输出 |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
 |   |  | Slot-value pairs |  |  |  |  |
 |   | 语句 | 美食类别 | 价格 | 人数 | 地点 | Dialogue Act Type |
@@ -25,24 +25,24 @@ An example taken from [Zhang et al. (2018)](https://arxiv.org/pdf/1805.00150.pdf
 |  用户 | <沉默> | 法式 | 便宜 | 4 | 伦敦 | 查询 |
 |  系统 | API(法式，便宜，4，伦敦) | - | - | - | - | - |
 
-The output is generated before system's turn.
+以上每一轮输出是在系统下一轮回复之前生成的。
 
-## Standard Metrics
+## 标准评价指标
 
-Classification Accuracy: 
-* Sentence level.
-* Session level. A session is correct only if all the sentences in the session are predicted correctly.
-
-
-## <span class="t">Alibaba Dialogue Management Dataset</span>.
-* Not public
-* It consists of real conversations from the flight-booking domain, in which the system is supposed to acquire departure city, arrival city, and departure date information from the user to book a flight ticket.
-* 5 dialogue act types and 3 slot types
+分类准确率 (Accuracy): 
+* 句子级别.
+* 对话级别。 一个对话是正确的当且仅当该对话中的所有句子都被准确的预测了。
 
 
-Dialogue act types:
+## <span class="t">阿里巴巴对话管理数据集</span>.
+* 非公开
+* 数据来自航班预订领域的真实对话，其中系统应该从用户获得出发城市，到达城市和出发日期的信息来完成预订机票的任务。 
+* 其中包含5种对话动作类型 (Dialogue act type) 和3种插槽类型 (Slot type)。
 
-|  Dialogue act type |
+
+对话动作类型 (Dialogue act type):
+
+|  对话动作类型 |
 | --- |
 |  ask_dep_loc |
 |  ask_arr_loc |
@@ -50,67 +50,67 @@ Dialogue act types:
 |  offer |
 |  end |
 
-Slot types:
+插槽类型 (Slot type):
 
-|  Slot names | # Values |
+|  插槽类型 | 数量 |
 | --- | --- |
 |  Dep_city | 174 |
 |  Arr_city | 174 |
 |  Date | 100 |
 
-Dataset stats:
+数据集统计:
 
-|  Test | 3,832 sessions |
+|  测试集 (Test) | 3,832 会话(session) |
 | --- | --- |
-|  Average turns per session | 5 |
-|  Average sentence length | 4 |
+|  每个会话(session)的平均轮数 | 5 |
+|  每个句子的平均长度 | 4 |
 
-### Metrics
+### 评价指标
 
-Accuracy
+准确率 (Accuracy)
 
-### Results
+### 结果
 
-|   | Dialogue Act Type | Slot-Value | Mask | All |
+|   | 对话动作类型 | 插槽值 | Mask | All |
 | --- | --- | --- | --- | --- |
 |  [Zhang et al. (2018)](https://arxiv.org/pdf/1805.00150.pdf) | 76.7 (16.3) | 100.0 (100.0) | 100.0 (100.0) | 76.7 (16.3) |
 
-The numbers in parenthesis are session level accuracy.
+括号中的数字表示会话级的准确率。
 
-### Resources
+### 相关资源
 
-|  Train | 15,330 sessions |
+|  训练集 (Train) | 15,330 会话(session) |
 | --- | --- |
-|  Dev | 7,665 sessions |
+|  开发集 (dev) | 7,665个 会话(session) |
 
 
 ## <span class="t">Dialog State Tracking Challenge 5 (DSTC5)</span>.
 
-This task aims at tracking the dialog state defined as a frame structure filled with slot-value pairs representing the subject of each sub-dialog in human-human dialogs. 
-* [Challenge paper](http://workshop.colips.org/dstc5/papers/0000511.pdf)
-* The dialogue is divided into sub-dialogues, and the frame structure is annotated at sub-dialogue level.
-* This is a cross-language task, where the training set is in English, whereas dev and test set are in Chinese. 
+DSTC5任务旨在跟踪对话状态。
+* [任务介绍论文](http://workshop.colips.org/dstc5/papers/0000511.pdf)
+* 每个对话被分成若干个子对话 (sub-dialogues), 并且在子对话层面上标注了frame structure。
+* DSTC5是一个跨语种的任务，训练集是英文，而开发集 (dev) 和测试集 (Test) 是中文的。
 
-|   | Language | # dialogs | # utterances |
+|   | 语言 | 对话(dialogs)数量 | 语句(utterances)数量 |
 | --- | --- | --- | --- |
-|  Test | Chinese | 10 | 14,878 |
+|  测试集 (Test) | 中文 | 10 | 14,878 |
 
-### Results
+### 结果
 
-|   | Accuracy | Precision | Recall | F1 |
+|   | 准确率 (Accuracy) | 精确率 (Precision) | 召回率 (Recall) | F1 |
 | --- | --- | --- | --- | --- |
 |  [Shi et al. (2017)](https://arxiv.org/pdf/1701.06247.pdf) | 0.0956 | 0.5643 | 0.3769 | 0.4519 |
 
-### Resources
+### 相关资源
 
 
-|   | Language | # dialogs | # utterances |
+|   | 语言 | 对话(dialogs)数量 | 语句(utterances)数量 |
 | --- | --- | --- | --- |
-|  Train | English | 35 | 31,304 |
-|  Dev | Chinese | 2 | 3,130 |
+|  训练集 (Train) | 英语 | 35 | 31,304 |
+|  开发集 (dev) | 中文 | 2 | 3,130 |
 
 ---
 
-**Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
+**建议? 修改? 请发邮件到[chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
 

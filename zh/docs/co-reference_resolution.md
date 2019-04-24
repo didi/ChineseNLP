@@ -1,61 +1,62 @@
-# Chinese Co-reference Resolution
+# 中文指代消歧(Co-reference Resolution)
 
-## Background
+## 背景
 
-Co-reference identifies pieces of text and links them with other pieces of text that refer to the same thing.  Sometimes pieces of text have zero-length, where an overt pronoun or noun is omitted.
+Co-reference (指代)是标识文本以及将这些文本与其他具有相同指代内容的文本连接起来。这些片段可以很短，甚至可以省略代词(pronouns)或是普通名词(common nouns)。
 
-## Example input/output
+## 示例
 
-Input:
+输入:
 ```
 我的姐姐给我她的狗。很喜欢.
 ```
 
-Output: 
+输出: 
 
 ```
 [我]0的[姐姐]1给[我]0[她]1的[狗]2。[]0很喜欢[]2.
 
 ```
 
-## Standard Metrics.
-Average of F1-scores returned by these three precision/recall metrics:
+## 标准评价指标
+
+由以下三个指标的精确率 (Precision), 召回率 (Recall)综合得到的平均F1值(F1-scores):
 - MUC.  
 - B-cubed.  
 - Entity-based CEAF.  
 
 
-## <span class="t">CoNLL 2012 Co-reference task</span>.
+## <span class="t">CoNLL 2012 指代消歧任务</span>.
 
-CoNLL 2012 introduced a co-reference task in Chinese.
+CoNLL 2012 引入了一个中文的指代消歧任务.
 - http://conll.cemantix.org/2012/introduction.html 
 
-Data for this evaluation is part of Ontonotes, distributed by the Linguistic Data Consortium (LDC).
+评估数据是Ontonotes项目的一部分, 由Linguistic Data Consortium (LDC)发布.
 - https://catalog.ldc.upenn.edu/LDC2013T19 
 
-|  Test set | # of co-referring mentions | Genre |
+|  Test set | 指代提及的次数 | 主题(Genre) |
 | --- | --- | --- |
-|  CoNLL 2012 co-reference | 144k (including 15k zero-length “dropped” subjects) | Newswire, broadcast news, broadcast conversation |
+|  CoNLL 2012 co-reference | 144k (包含了15k长度为零被省略的主语) | 新闻，广播 |
 
-### Metrics
+### 评价指标
 
-Average F1 of MUC, B-cubed, and CEAF
+MUC, B-cubed和CEAF的平均F1值(F1-scores)
 
-Scoring code: https://github.com/conll/reference-coreference-scorers 
+评分代码: https://github.com/conll/reference-coreference-scorers 
 
-### Results
+### 结果
 
-|  System | Average F1 of MUC, B-cubed, CEAF |
+|  System | MUC, B-cubed和CEAF的平均F1值(F1-scores) |
 | --- | --- |
 |  [[Clark & Manning, 2016](http://alt.qcri.org/semeval2016/task5/index.php?id=data-and-tools#)] | 63.66 |
 
-### Resources
+### 其他资源
 
-Data for this evaluation is part of Ontonotes, distributed by the Linguistic Data Consortium (LDC).
+评估数据是Ontonotes项目的一部分, 由Linguistic Data Consortium (LDC)发布。
 - https://catalog.ldc.upenn.edu/LDC2013T19 
 
 ---
 
-**Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
+**建议? 修改? 请发邮件到 [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
 
