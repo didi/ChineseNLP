@@ -1,25 +1,25 @@
-# Chinese Word Segmentation
+# 中文分词 (Word Segmentation)
 
 
-## Overview
+## 背景
 
-Chinese is written using characters (hanzi), where each character represents a syllable. A word is usually taken to consist of one or more character tokens.  There are no spaces between words. Less than 3500 distinct characters are normally encountered. Word segmentation (or tokenization) is the process of dividing up  a sequence of characters into a sequence of words.
+中文里每个汉字即为一个字符 (character)。 一个单词通常由一个或多个字符 (character) 组成。 单词之间没有空格。分词 (tokenization) 是将一系列字符分成一系列单词的过程。
 
-## Example
+## 示例
 
-Input:
+输入:
 
 ```
 亲 请问有什么可以帮您的吗？
 ```
 
-Output:
+输出:
 
 ```
-亲 请问 有 什么 可以 帮 您 的 吗 ？]
+亲 请问 有 什么 可以 帮 您 的 吗 ？
 ```
 
-## Metrics
+## 标准评价指标
 
 Word F1 score:
 
@@ -36,8 +36,10 @@ F1 = 0.857
 
 ## <span class="t">The Second International Chinese Word Segmentation Bakeoff in SIGHAN 2005 Workshop (Emerson, 2005)</span>.
 
-* [Website](http://sighan.cs.uchicago.edu/bakeoff2005/), [Detailed Instruction](http://sighan.cs.uchicago.edu/bakeoff2005/data/instructions.php.html), [Overview Paper](http://aclweb.org/anthology/I05-3017)
-* Includes 4 datasets: AS, CityU in traditional Chinese, PK, MSR in simplified Chinese.
+* [Website](http://sighan.cs.uchicago.edu/bakeoff2005/) 
+* [Detailed Instruction](http://sighan.cs.uchicago.edu/bakeoff2005/data/instructions.php.html)
+* [Overview Paper](http://aclweb.org/anthology/I05-3017)
+* 包含4个数据集，繁体中文数据集2个AS, CityU; 简体中文数据集2个PK, MSR.
 
 | Corpus | Abbrev. | Encoding | Test Size (Tokens/Types) |
 | ---: | ---: | ---: | ---: |
@@ -48,7 +50,7 @@ F1 = 0.857
 |Peking University|PK|CP936/Unicode|41K / 9K|
 |Microsoft Research|MSR|CP936/Unicode|107K / 13K|
 
-### Results
+### 结果
 
 |  Model | AS | CITYU | MSR | PKU |
 | --- | --- | --- | --- | --- |
@@ -57,7 +59,7 @@ F1 = 0.857
 |  [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.2 | 97.2 | 97.4 | 96.1 |
 |  [Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) |  |  |  | 96.3 |
 
-### Resources
+### 相关资源
 
 |  Train set | Training Size(Words) |
 | --- | ----: |
@@ -70,9 +72,9 @@ F1 = 0.857
 ## <span class="t">Chinese Penn Treebank</span>.
 
 * [Website](https://verbs.colorado.edu/chinese/ctb.html)
-* Includes 2 datasets:
-  * [CTB6](https://catalog.ldc.upenn.edu/LDC2007T36): consisting of 780,000 words (over 1.28 million Chinese characters)
-  * [CTB7](https://catalog.ldc.upenn.edu/LDC2010T07): consists of 2,448 text files, 51,447 sentences, 1,196,329 words and 1,931,381 hanzi (Chinese characters)
+* 包含2个数据集:
+  * [CTB6](https://catalog.ldc.upenn.edu/LDC2007T36): 包括78k词 (word), 超过1.28 million 中文字符。 
+  * [CTB7](https://catalog.ldc.upenn.edu/LDC2010T07): 包括2448个文档，51447句子，1,196,329个词 (word)以及超过1.9 million 中文字符。 
 
 
 |Data set|Test set (Tokens)|
@@ -80,7 +82,7 @@ F1 = 0.857
 |CTB6|81,578|
 |CTB7|81,578|
 
-### Results
+### 结果
 
 |  Model | CTB6 | CBT7 |
 | --- | --- | --- |
@@ -90,7 +92,7 @@ F1 = 0.857
 | [Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) | 96.6 |  |
 
 
-### Resources
+### 相关资源
 
 |  Train set | Training Size(Words) |
 | --- | ----: |
@@ -100,19 +102,20 @@ F1 = 0.857
 
 ## <span class="t">Chinese Universal Treebank (UD)</span>.
 
-* [Website](https://universaldependencies.org/), [Github](https://github.com/UniversalDependencies/UD_Chinese-GSD)
+* [Website](https://universaldependencies.org/)
+* [Github](https://github.com/UniversalDependencies/UD_Chinese-GSD)
 
 |Data set|Test set(Tokens)|
 | ---: | ---: |
 |UD|12,012|
 
-### Results
+### 结果
 
 |  Model | UD |
 | --- | --- | 
 | [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.9 |
 
-### Resources
+### 相关资源
 
 |  Train set | Training Size(Words) |
 | --- | ----: |
@@ -122,20 +125,20 @@ F1 = 0.857
 ## <span class="t">NLPCC2016 WordSeg Weibo</span>.
 
 * [Github](https://github.com/FudanNLP/NLPCC-WordSeg-Weibo)
-* [Paper describe the dataset](https://link.springer.com/chapter/10.1007/978-3-319-50496-4_84)
+* [数据集介绍论文](https://link.springer.com/chapter/10.1007/978-3-319-50496-4_84)
 
 |   | # Sentences | # Words | # Characters |
 | --- | --- | --- | --- |
 | Weibo | 8,592 | - | 315,857 |
 
-### Results
+### 结果
 
 |  Model | Weibo |
 | --- | --- | 
 | [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 95.5 | 
 | [Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) | 96.0 |  
 
-### Resources
+### 相关资源
 
 |   | # Sentences | # Words | # Characters |
 | --- | --- | --- | --- |
@@ -143,12 +146,12 @@ F1 = 0.857
 |  Dev | 2,052 | 43,697 | 73,244 |
 
 
-## Other Resources
+## 其他资源
 
 * [Chinese Word Segmentation: Another Decade Review (2007-2017)](https://arxiv.org/pdf/1901.06079.pdf)
 
 ---
 
-**Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
+**建议? 修改? 请发邮件到 [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
 

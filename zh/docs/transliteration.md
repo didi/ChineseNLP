@@ -1,57 +1,59 @@
-# Chinese Transliteration
+# 中文音译 (Transliteration)
 
-## Background
+## 背景
 
-Transliteration translates proper names and technical terms across languages that use different alphabets and sound systems.
+音译任务通常在使用不同字母和声音系统的语言之间翻译专有名称和技术术语。
 
-## Example input/output
+## 示例
 
-Input:
+输入:
 
 ```
 约翰伍兹 (yue han wu zi)
 ```
-Output:
+输出:
 
 ```
 John Woods
 ```
 
-## Standard Metrics
-- Word Accuracy in Top-1 (ACC)  measures correctness of the first transliteration candidate in a candidate list produced by a transliteration system.
-- Fuzziness in Top-1 (Mean F-score).
-- Mean Reciprocal Rank (MRR).
-- MAP measures precision in the n-best candidates for i-th source name, for which reference transliterations are available.
-For more information about the above metrics, please refer this paper.
+## 标准评价指标
+- Word Accuracy in Top-1 (ACC)
+- Fuzziness in Top-1 (Mean F-score)
+- Mean Reciprocal Rank (MRR)
+- MAP measures precision
+
 
 
 ## <span class="t">NEWS 2018 Dataset_03</span>.
-Named Entity Workshop (NEWS) is a long-running transliteration evaluation campaign.  Chinese/English is one of the most popular NEWS language pairs.  For NEWS 2018:
+
+Named Entity Workshop (NEWS)长期组织音译任务的评测，其中中文/英文是NEWS中参与度最广的子任务。NEWS 2018 相关信息:
+
 - The shared-task report is in http://aclweb.org/anthology/W18-2409.
-- The data is described http://workshop.colips.org/news2018/dataset.html.
+- 数据集相关信息 http://workshop.colips.org/news2018/dataset.html.
 
 |  Test set name | Source | Target | Test set size (phrase pairs) |
 | --- | --- | --- | --- |
 |  NEWS 2018 Dataset_03 T-EnCh | English | Chinese | 1000 |
 |  NEWS 2018 Dataset_03 B-ChEn | Chinese | English | 1000 |
 
-### Results
+### 结果
 
-English-Chinese
+英文-中文
 
 |   | ACC | F-score | MRR | MAP |
 | --- | --- | --- | --- | --- |
 |  EDI (University of Edinburgh) | 0.304 | 0.6791 | 0.4364 | 0.304 |
 
-Chinese-English
+中文-英文
 
 |   | ACC | F-score | MRR | MAP |
 | --- | --- | --- | --- | --- |
 |  UALB (University of Alberta) | 0.3 | 0.8 | 0.374 | 0.3 |
 |  EDI (University of Edinburgh) | 0.276 | 0.83 | 0.386 | 0.276 |
 
-### Resources
-NEWS 2018 also releases training and development data for English-Chinese and Chinese-English.
+### 相关资源
+NEWS 2018 提供了英文-中文音译和中文-英文音译任务的训练集和开发集。
 
 |  Train set name | Source | Target | Train set size (phrase pairs) |
 | --- | --- | --- | --- |
@@ -60,6 +62,6 @@ NEWS 2018 also releases training and development data for English-Chinese and Ch
 
 ---
 
-**Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
+**建议? 修改? 请发邮件到 [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
 

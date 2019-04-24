@@ -1,54 +1,54 @@
-# Part-of-Speech (POS) tagging
+# 中文词性标注 (Part-of-speech tagging)
 
 
-## Background
+## 背景
 
-Part-of-speech tagging is the task of assigning a part-of-speech tag (from a given tag set) to every word in a given sentence. 
+词性标注任务是将词性标签 (part-of-speech tag)从给定标签组 (tag set) 分配到给定句子中的每个单词。
 
-## Example
+## 示例
 
-Input:
+输入:
 
 ```
 快速 的 棕色 狐狸 跳过 了 懒惰 的 狗
 ```
 
-Output:
+输出:
 
 ```
 [快速] VA [的] DEC [棕色] NN [狐狸] NN [跳过] VV [了] AS [懒惰] VA [的] DEC [狗] NN
 ```
 
-## Standard Metrics
+## 标准评价指标
 
-F1 score calculated from word-level precision and word-level recall computed from the joint segmentation and tagging task. 
+从联合分割标注的任务 (the joint segmentation and tagging task) 中的基于词级别 (word-level) 的精确率 (Precision)和召回率 (Recall)计算得到F1-score.
 
 
 
 ## <span class="t">Chinese Tree Bank Datasets</span>.
 
-* Task originally defined in [Ng and Low (2004)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.477.8384&rep=rep1&type=pdf)
-* Released by LDC. Requires LDC licence to acquire the datasets
-* Link: [https://verbs.colorado.edu/chinese/ctb.html](https://verbs.colorado.edu/chinese/ctb.html) 
-* Tag set has 33 POS tags
+* 该任务最早由[Ng and Low (2004)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.477.8384&rep=rep1&type=pdf)提出。
+* 数据集由LDC发布, 需要LDC许可证 (LDC licence) 才能获取数据集。
+* 链接: [https://verbs.colorado.edu/chinese/ctb.html](https://verbs.colorado.edu/chinese/ctb.html) 
+* 标签组 (tag set)包含有33种词性标签 (POS tags).
 
   
 | Test set| # words (dev)  | # words (test) | Genre |
 | --- | --- | --- | --- |
 | CTB5| 6,821 | 8,008 | News |  
   
-### Metrics
+### 评价指标
 
-* Implementation: [https://github.com/yanshao9798/tagger/blob/master/evaluation.py](https://github.com/yanshao9798/tagger/blob/master/evaluation.py) 
+* 代码实现: [Github](https://github.com/yanshao9798/tagger/blob/master/evaluation.py) 
 
-### Results
+### 结果
 
 | System | F1 score |
 | --- | --- |
 | [Meng et. al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) (Glyce)| 95.61 |
 | [Shao et. al. 2017](http://www.aclweb.org/anthology/I17-1018) | 94.38 |
  
-### Resources
+### 相关资源
 
   | Train set| # words | Genre |
   | --- | --- | --- |
@@ -57,28 +57,28 @@ F1 score calculated from word-level precision and word-level recall computed fro
 
 ## <span class="t">Universal Dependencies Datasets</span>.
 
-* Available freely (GPL or equivalent licence)
+* 数据集可免费获取 (GPL or equivalent licence)
 * [https://universaldependencies.org/](https://universaldependencies.org/) 
-* Paper describing the dataset: [Nivre et. al. (2016)](http://www.petrovi.de/data/lrec16.pdf)
-* Tagset has 15 POS tags
+* 数据集详情: [Nivre et. al. (2016)](http://www.petrovi.de/data/lrec16.pdf)
+* 标签组 (tag set)包含有15种词性标签 (POS tags).
 
   
 | Test set| # words (dev) | # words (test) | Genre |
 | --- | --- | --- | --- |
 | UD Chinese | 12,663 | 12,012 | Learner essays, news, spoken language, Wiki |
   
-### Metrics
+### 评价指标
 
-* Implementation: [https://github.com/yanshao9798/tagger/blob/master/evaluation.py](https://github.com/yanshao9798/tagger/blob/master/evaluation.py) 
+* 代码实现: [https://github.com/yanshao9798/tagger/blob/master/evaluation.py](https://github.com/yanshao9798/tagger/blob/master/evaluation.py) 
 
-### Results
+### 结果
 
 | System | F1 score|
 | --- | --- |
 | [Meng et. al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) (Glyce)| 90.77 |
 | [Shao et. al. (2017)](http://www.aclweb.org/anthology/I17-1018) | 89.75 |
  
-### Resources
+### 相关资源
 
 |Train set | # words | Genre |
 | --- | --- | --- |
@@ -87,7 +87,7 @@ F1 score calculated from word-level precision and word-level recall computed fro
 ---
 
 
-**Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
+**建议? 修改? 请发邮件到 [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
 
 

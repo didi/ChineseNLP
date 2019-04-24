@@ -1,36 +1,36 @@
-# Chinese Relation Extraction
+# 中文关系提取 (Relation Extraction)
 
 
-## Background
+## 背景
 
-Given two entity mentions, identify relations and classify them into predefined types.
+给定两个实体 (entity)，识别它们的关系并对关系进行分类。
 
-## Example
+## 示例
 
-Input:
+输入:
 
 ```
 [李晓华]和她的丈夫[王大牛]前日一起去[英国]旅行了。
 ```
 
-Output:
+输出:
 
 ```
 (entity1: 李晓华, entity2: 王大牛, relation: 夫妻) 
 ````
 
-## Standard Metrics
+## 标准评价指标
 
-Precision, Recall and F1.
+精确率 (Precision), 召回率 (Recall), F1
 
 	   	
-Input:
+输入:
 
 ```
 [李晓华]和她的丈夫[王大牛]前日一起去[英国]旅行了。
 ```
 
-Reference:
+参考答案 (Reference):
 
 ```
 (entity1: 李晓华, entity2: 王大牛, relation: 夫妻) 
@@ -41,7 +41,7 @@ Reference:
 (entity1: 英国, entity2: 王大牛, relation: Other)
 ```
 
-System Output:
+系统输出结果:
 
 ```
 (entity1: 李晓华, entity2: 王大牛, relation: 夫妻) 
@@ -52,7 +52,7 @@ System Output:
 (entity1: 英国, entity2: 王大牛, relation: Other) 
 ```
 
-Metric:
+评价指标:
 
 ```
 Precision = 2 / 3 = 0.66
@@ -63,9 +63,9 @@ Recall = 2 / 2 = 1.0
 
 * [Data link](https://catalog.ldc.upenn.edu/LDC2006T06)
 * [Description paper](https://pdfs.semanticscholar.org/3a9b/136ca1ab91592df36f148ef16095f74d009e.pdf)
-* Different papers split the training and testing set in a different manner. 
+* 不同的论文以不同的方式分割训练集和测试集。
 
-ACE 2005 employs 6 relation types and 18 subtypes as listed below.
+ACE 2005包含6种关系类型和18种子关系类型 (subtypes), 具体类型如下所示:
 
 |  Type | Subtypes |
 | --- | --- |
@@ -77,14 +77,14 @@ ACE 2005 employs 6 relation types and 18 subtypes as listed below.
 |  * PER-SOC<br/>(person-social) | Business, Family, Lasting-Personal |
 |  * PHYS (physical) | Located, Near |
 
-### Results
+### 结果
 
 |   | F1 (6 relation types) | F1 (18 relation types) | Train/Test split |
 | --- | --- | --- | --- |
 |  [Chen et al. 2014](http://aclweb.org/anthology/P14-1054) | 90.35 | 75.44 | Unknown |
 |  [Zhang et al. (2018)](http://aclweb.org/anthology/L18-1077) | 87.87 | 83.4 | 80% / 20% |
 
-### Resources
+### 相关资源
 
 | ACE 2005 Chinese Corpus | chars | files |
 | --- | --- | --- |
@@ -95,7 +95,7 @@ ACE 2005 employs 6 relation types and 18 subtypes as listed below.
 
 ---
 
-**Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
+**建议? 修改? 请发邮件到 [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
 
 
