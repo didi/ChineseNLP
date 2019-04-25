@@ -2,11 +2,11 @@
 
 ## 背景
 
-在面向任务的对话系统中，对话状态管理（DM）系统将用户意图 (intent) 作为输入，与知识库交互，并预测系统的下一个动作 (action)。 自然语言理解组件（NLU）负责分析用户意图，该组件有时与对话状态管理（DM）系统结合成为端到端学习中的一个单一组件。 系统的下一个操作通常包括两种类型：对话动作类型 (Dialogue act type) 和插槽值对 (Slot-value pairs)。 给定下一个系统动作，自然语言生成组件（NLG）将生成对用户的响应。
+在面向任务的对话系统中，对话状态管理（dialogue state management）系统将用户意图 (user intent) 作为输入，与知识库交互，并预测系统的下一个动作 (action)。 自然语言理解组件（NLU）负责分析用户意图，该组件有时与对话状态管理（DM）系统结合成为一个单一的端到端学习组件。 系统的下一个动作 (action) 通常包括两种类型：对话动作类型 (dialogue act type) 和插槽值对 (slot-value pairs)。 给定下一个系统动作，自然语言生成组件（NLG）将生成对用户的回复。
 
 ## 示例
 
-示例来自[Zhang et al. (2018)](https://arxiv.org/pdf/1805.00150.pdf)论文中所举例子的中文翻译。
+示例为[Zhang et al. (2018)](https://arxiv.org/pdf/1805.00150.pdf)中所举例子的中文翻译。
 
 |   | 输入 | 输出 |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -25,7 +25,7 @@
 |  用户 | <沉默> | 法式 | 便宜 | 4 | 伦敦 | 查询 |
 |  系统 | API(法式，便宜，4，伦敦) | - | - | - | - | - |
 
-以上每一轮输出是在系统下一轮回复之前生成的。
+以上每一轮输出是在生成系统下一轮回复之前生成的。
 
 ## 标准评价指标
 
@@ -71,7 +71,7 @@
 
 ### 结果
 
-|   | 对话动作类型 | 插槽值 | Mask | All |
+|   | Dialogue Act Type | Slot-Value | Mask | All |
 | --- | --- | --- | --- | --- |
 |  [Zhang et al. (2018)](https://arxiv.org/pdf/1805.00150.pdf) | 76.7 (16.3) | 100.0 (100.0) | 100.0 (100.0) | 76.7 (16.3) |
 
@@ -79,16 +79,16 @@
 
 ### 相关资源
 
-|  训练集 (Train) | 15,330 会话(session) |
+|  训练集 (Train) | 15,330 会话 (session) |
 | --- | --- |
-|  开发集 (dev) | 7,665个 会话(session) |
+|  开发集 (dev) | 7,665个 会话 (session) |
 
 
 ## <span class="t">Dialog State Tracking Challenge 5 (DSTC5)</span>.
 
 DSTC5任务旨在跟踪对话状态。
 * [任务介绍论文](http://workshop.colips.org/dstc5/papers/0000511.pdf)
-* 每个对话被分成若干个子对话 (sub-dialogues), 并且在子对话层面上标注了frame structure。
+* 每个对话被分成若干个子对话 (sub-dialogues), 并且在子对话层面上标注了frame structure。
 * DSTC5是一个跨语种的任务，训练集是英文，而开发集 (dev) 和测试集 (Test) 是中文的。
 
 |   | 语言 | 对话(dialogs)数量 | 语句(utterances)数量 |

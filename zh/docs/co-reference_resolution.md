@@ -1,8 +1,8 @@
-# 中文指代消歧(Co-reference Resolution)
+# 中文指代消歧 (Co-reference Resolution)
 
 ## 背景
 
-Co-reference (指代)是标识文本以及将这些文本与其他具有相同指代内容的文本连接起来。这些片段可以很短，甚至可以省略代词(pronouns)或是普通名词(common nouns)。
+指代消歧 (co-reference resolution) 是指标识一段文本以及将这些文本与其他具有相同指代内容的文本连接起来。有时这些文本片段的长度为0，表示省略了的代词 (pronouns) 或是名词 (nouns)。
 
 ## 示例
 
@@ -20,7 +20,7 @@ Co-reference (指代)是标识文本以及将这些文本与其他具有相同�
 
 ## 标准评价指标
 
-由以下三个指标的精确率 (Precision), 召回率 (Recall)综合得到的平均F1值(F1-scores):
+以下三种精确率 (Precision) /召回率 (Recall) 得到的F1值 (F1-scores) 的平均值:
 - MUC.  
 - B-cubed.  
 - Entity-based CEAF.  
@@ -28,7 +28,7 @@ Co-reference (指代)是标识文本以及将这些文本与其他具有相同�
 
 ## <span class="t">CoNLL 2012 指代消歧任务</span>.
 
-CoNLL 2012 引入了一个中文的指代消歧任务.
+CoNLL 2012 引入了一个中文的指代消歧任务.
 - http://conll.cemantix.org/2012/introduction.html 
 
 评估数据是Ontonotes项目的一部分, 由Linguistic Data Consortium (LDC)发布.
@@ -36,17 +36,18 @@ CoNLL 2012 引入了一个中文的指代消歧任务.
 
 |  Test set | 指代提及的次数 | 主题(Genre) |
 | --- | --- | --- |
-|  CoNLL 2012 co-reference | 144k (包含了15k长度为零被省略的主语) | 新闻，广播 |
+| CoNLL 2012 co-reference | 144k (包含了15k个长度为零的被省略的主语) | 新闻，广播新闻，广播对话 |
+
 
 ### 评价指标
 
-MUC, B-cubed和CEAF的平均F1值(F1-scores)
+MUC, B-cubed和CEAF三个指标各自的F1值 (F1-scores) 的平均值
 
 评分代码: https://github.com/conll/reference-coreference-scorers 
 
 ### 结果
 
-|  System | MUC, B-cubed和CEAF的平均F1值(F1-scores) |
+|  System | MUC, B-cubed和CEAF三个指标各自的F1值 (F1-scores) 的平均值 |
 | --- | --- |
 |  [[Clark & Manning, 2016](http://alt.qcri.org/semeval2016/task5/index.php?id=data-and-tools#)] | 63.66 |
 

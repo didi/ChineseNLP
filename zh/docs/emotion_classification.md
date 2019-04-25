@@ -25,9 +25,9 @@
 
 ## <span class="t">Cheng emotion corpus</span>.
 
-[Cheng et al 2017](https://dl.acm.org/citation.cfm?id=3132684) 引入了一个基于微博的情绪语料库。它由标有以下情感标签分布的短帖组成：喜悦（11.3％），生气（3.5％），伤心（2.6％），恐惧（0.6％），积极（8.2％），中性（4.4％）， 消极（9.9％），非情绪（59.5％）。而且，该数据集还提供了造成每个样本对应情绪的原因。
+[Cheng et al 2017](https://dl.acm.org/citation.cfm?id=3132684) 引入了一个基于微博的情绪语料库。它由标有情感标签的短帖组成，其中各个情感标签的分布为：喜悦（11.3％），生气（3.5％），伤心（2.6％），恐惧（0.6％），积极（8.2％），中性（4.4％）， 消极（9.9％），非情绪（59.5％）。而且，该数据集标记了引发特定情绪的相关文本的范围 (sub-span)。
 
-[Chen et al 2018](http://aclweb.org/anthology/D18-1066) 显示这个语料库共包括 ~3,000个 subtweets, ~11,000个 instances for EClass, 以及 ~13,000个 instances for ECause.
+[Chen et al 2018](http://aclweb.org/anthology/D18-1066) 显示这个语料库共包括 ~3,000条微博, ~11,000个情绪分类 (emotion classification) 标注, 以及 ~13,000个情绪追因 (emotion cause detection) 标注。
 
 |  测定集(Test set) | 流派 (Genre) |
 | --- | --- |
