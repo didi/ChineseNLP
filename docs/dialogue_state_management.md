@@ -79,9 +79,10 @@ The numbers in parenthesis are session level accuracy.
 
 ### Resources
 
-|  Train | 15,330 sessions |
+| | # sessions |
 | --- | --- |
-|  Dev | 7,665 sessions |
+|  Train | 15,330  |
+|  Dev | 7,665 |
 
 
 ## <span class="t">Dialog State Tracking Challenge 5 (DSTC5)</span>.
