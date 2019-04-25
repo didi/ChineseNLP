@@ -3,7 +3,7 @@
 
 ## 背景
 
-话题分类 (Topic Classification) 根据其主题内容为文本分配标签或类别。主题 (topic) 有时广泛，类似于流派（新闻，体育，艺术），但有时也会像标签 (hashtag) 一样细粒度。
+话题分类 (Topic Classification) 根据文本主题内容为文本赋予标签或类别。主题 (topic) 有时广泛，类似于流派（新闻，体育，艺术），但有时也会有像标签 (hashtag) 一样的细粒度。
 
 ## 示例
 
@@ -28,7 +28,7 @@
 
 新浪新闻RSS订阅频道数据，数据时间范围从2005年到2011年，其中包含7400万条新闻文件（2.19 GB），14个主题，全部采用UTF-8纯文本格式。
 
-  - [Website](http://thuctc.thunlp.org/#%E4%B8%AD%E6%96%87%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E6%95%B0%E6%8D%AE%E9%9B%86THUCNews)
+  - [数据链接](http://thuctc.thunlp.org/#%E4%B8%AD%E6%96%87%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E6%95%B0%E6%8D%AE%E9%9B%86THUCNews)
 
 | Source  | # Classes | Size(sentences)|
 | --- |  --- | --- |
@@ -73,7 +73,7 @@
 
 ## <span class="t">Fudan corpus</span>.
 
-包括20个类别的一共9804个文档。
+包括20个类别的一共9804个文档。
 
 
 | Source  | # Classes | Size(sentences)|
@@ -98,7 +98,7 @@
 
 ## <span class="t">Ifeng</span>.
 
-2006-2016年间凤凰网上的新闻文章，每篇选取前几个段落，数据集有5个新闻频道 (channel),每个频道(channel) 包含的文章数相等。
+2006-2016年间凤凰网上的新闻文章，每篇选取前几个段落，数据集有5个新闻频道 (channel),每个频道(channel)包含的文章数相等。
 
   - [Github link](https://github.com/zhangxiangxiao/glyph)
 
@@ -125,7 +125,7 @@
 
 ## <span class="t">Chinanews</span>.
 
-数据来自2008年至2016年的中文新闻文章(已去重)，文章属于7个新闻频道(channel)，每个频道(channel) 包含的文章数相等。
+数据来自2008年至2016年的中文新闻文章(已去重)，文章属于7个新闻频道(channel)，每个频道(channel)包含的文章数相等。
 
 - [Github link](https://github.com/zhangxiangxiao/glyph)
 

@@ -2,7 +2,7 @@
 
 ## 背景
 
-音译任务通常在使用不同字母和声音系统的语言之间翻译专有名称和技术术语。
+音译任务通常在使用不同字母和声音系统的语言之间翻译专有名词和技术术语。
 
 ## 示例
 
@@ -27,10 +27,10 @@ John Woods
 
 ## <span class="t">NEWS 2018 Dataset_03</span>.
 
-Named Entity Workshop (NEWS)长期组织音译任务的评测，其中中文/英文是NEWS中参与度最广的子任务。NEWS 2018 相关信息:
+Named Entity Workshop (NEWS)长期组织音译任务的评测，其中中文/英文是NEWS中参与度最广的子任务之一。NEWS 2018 相关信息:
 
-- The shared-task report is in http://aclweb.org/anthology/W18-2409.
-- 数据集相关信息 http://workshop.colips.org/news2018/dataset.html.
+- [开放任务信息](http://aclweb.org/anthology/W18-2409)
+- [数据集相关信息](http://workshop.colips.org/news2018/dataset.html)
 
 |  Test set name | Source | Target | Test set size (phrase pairs) |
 | --- | --- | --- | --- |

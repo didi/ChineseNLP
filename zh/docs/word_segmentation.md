@@ -3,7 +3,7 @@
 
 ## 背景
 
-中文里每个汉字即为一个字符 (character)。 一个单词通常由一个或多个字符 (character) 组成。 单词之间没有空格。分词 (tokenization) 是将一系列字符分成一系列单词的过程。
+中文里每个汉字即为一个字符 (character)。 一个单词通常由一个或多个字符 (character) 组成。 单词之间没有空格。分词 (segmentation) 是将一系列无空格间隔字符串分割成一系列单词的过程。
 
 ## 示例
 
@@ -21,7 +21,7 @@
 
 ## 标准评价指标
 
-Word F1 score:
+单词级别的 F1-score:
 
 > Gold: 共同  创造  美好  的  新  世纪  ——  二○○一年  新年  贺词
 
@@ -36,10 +36,10 @@ F1 = 0.857
 
 ## <span class="t">The Second International Chinese Word Segmentation Bakeoff in SIGHAN 2005 Workshop (Emerson, 2005)</span>.
 
-* [Website](http://sighan.cs.uchicago.edu/bakeoff2005/) 
-* [Detailed Instruction](http://sighan.cs.uchicago.edu/bakeoff2005/data/instructions.php.html)
-* [Overview Paper](http://aclweb.org/anthology/I05-3017)
-* 包含4个数据集，繁体中文数据集2个AS, CityU; 简体中文数据集2个PK, MSR.
+* [网站](http://sighan.cs.uchicago.edu/bakeoff2005/) 
+* [详细介绍](http://sighan.cs.uchicago.edu/bakeoff2005/data/instructions.php.html)
+* [综述文章](http://aclweb.org/anthology/I05-3017)
+* 包含4个数据集，繁体中文数据集2个：AS, CityU; 简体中文数据集2个：PK, MSR.
 
 | Corpus | Abbrev. | Encoding | Test Size (Tokens/Types) |
 | ---: | ---: | ---: | ---: |
@@ -71,10 +71,10 @@ F1 = 0.857
 
 ## <span class="t">Chinese Penn Treebank</span>.
 
-* [Website](https://verbs.colorado.edu/chinese/ctb.html)
+* [网站](https://verbs.colorado.edu/chinese/ctb.html)
 * 包含2个数据集:
-  * [CTB6](https://catalog.ldc.upenn.edu/LDC2007T36): 包括78k词 (word), 超过1.28 million 中文字符。 
-  * [CTB7](https://catalog.ldc.upenn.edu/LDC2010T07): 包括2448个文档，51447句子，1,196,329个词 (word)以及超过1.9 million 中文字符。 
+  * [CTB6](https://catalog.ldc.upenn.edu/LDC2007T36): 包括78,000个词 (word), 超过128万个中文字符。 
+  * [CTB7](https://catalog.ldc.upenn.edu/LDC2010T07): 包括2448个文档，51447句子，1,196,329个词 (word)以及超过190万个中文字符。 
 
 
 |Data set|Test set (Tokens)|
@@ -102,7 +102,7 @@ F1 = 0.857
 
 ## <span class="t">Chinese Universal Treebank (UD)</span>.
 
-* [Website](https://universaldependencies.org/)
+* [网站](https://universaldependencies.org/)
 * [Github](https://github.com/UniversalDependencies/UD_Chinese-GSD)
 
 |Data set|Test set(Tokens)|

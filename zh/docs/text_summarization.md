@@ -2,7 +2,7 @@
 
 ## 背景
 
-文本摘要任务的输入是长的文本文档，任务的目标是将较长的文本转换成简短，流畅而准确的文本摘要。
+文本摘要任务的输入是长的文本文档，任务的目标是将较长的文本转换成简短，流畅而准确的文本摘要。
 
 ## 示例
 
@@ -20,7 +20,7 @@
 
 ## 标准评价指标
 
-ROUGE将自动生成的摘要与参考摘要进行比较, 其中ROUGE-1衡量unigram匹配情况，ROUGE-2衡量bigram匹配，ROUGE-L记录最长的公共子序列。ROUGE指标的计算可以以字符 (character) 为单位也能以字 (word) 为单位。
+ROUGE将自动生成的摘要与参考摘要进行比较, 其中ROUGE-1衡量unigram匹配情况，ROUGE-2衡量bigram匹配，ROUGE-L记录最长的公共子序列。ROUGE指标的计算可以以字符 (character) 为单位也能以字 (word) 为单位。
 
 具体实现:
 * [http://www.berouge.com/Pages/default.aspx](http://www.berouge.com/Pages/default.aspx) 
@@ -31,12 +31,12 @@ ROUGE将自动生成的摘要与参考摘要进行比较, 其中ROUGE-1衡量uni
 ## <span class="t">LCSTS: A Large Scale Chinese Short Text Summarization Dataset</span>.
 * [Hu et. al. (2015)](https://arxiv.org/pdf/1506.05865.pdf) 基于新闻媒体在微博上发布的新闻摘要创建了该数据集，每篇短文约100个字符，每篇摘要约20个字符。 
 
-* 数据集下载说明: “如果想获取该数据集。 请填写申请表[application form, Mainland China](http://pan.baidu.com/s/1eQCUL1K)  / [application form, Other](https://www.dropbox.com/s/g9623j3hsx3yjij/Application%20form.pdf?dl=0)并发送至 [Qingcai Chen](qingcai.chen@hit.edu.cn) 或 [Baotian Hu](baotianchina@gmail.com)” ([Introduction](http://icrc.hitsz.edu.cn/Article/show/139.html))
+* 数据集下载说明: “如果想获取该数据集。 请填写申请表[申请表，中国大陆](http://pan.baidu.com/s/1eQCUL1K)  / [申请表，其他](https://www.dropbox.com/s/g9623j3hsx3yjij/Application%20form.pdf?dl=0)并发送至 [Qingcai Chen](qingcai.chen@hit.edu.cn) 或 [Baotian Hu](baotianchina@gmail.com)” ([数据简介](http://icrc.hitsz.edu.cn/Article/show/139.html))
   
-| Test set  | # (text, summary) pairs | # (text, summary) pairs >= 3 score | Genre |
+| Test set  | # (text, summary) pairs | # (text, summary) pairs >= 3 score | 主题 (Genre) |
 | --- | --- | --- | --- |
-| Part II (validation) | 10,666 | 8,685 | News, politics, economic, military, movies, games, etc. |
-| Part III (test) | 1,106 | 725 | News, politics, economic, military, movies, games, etc. |
+| Part II (validation) | 10,666 | 8,685 | 新闻，政治，经济，军事，电影，游戏等等 |
+| Part III (test) | 1,106 | 725 | 新闻，政治，经济，军事，电影，游戏等等 |
   
 ### 结果
 
@@ -50,9 +50,9 @@ ROUGE将自动生成的摘要与参考摘要进行比较, 其中ROUGE-1衡量uni
  
 ### 相关资源
 
-  | Train set | # (text, summary) pairs  | Genre |
+  | Train set | # (text, summary) pairs  | 主题 (Genre) |
   | --- | --- | --- |
-  | Part I | 2,400,591  | News |
+  | Part I | 2,400,591  | 新闻 |
 
 
 ## 其他资源
