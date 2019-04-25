@@ -33,7 +33,7 @@ F1-score
 
 ## <span class="t">SemEval-2016 Task 5</span>.
 
-[SemEval-2016 Task 5](http://alt.qcri.org/semeval2016/task5/index.php?id=data-and-tools#) contains 2 test sets with over reviews 5000 reviews in total from digital camera and mobile phone area.
+[SemEval-2016 Task 5](http://alt.qcri.org/semeval2016/task5/index.php?id=data-and-tools#) contains 2 test sets with over 5000 reviews in total from digital camera and mobile phone area.
 
 
 | Source | Genre | # Classes | Size(sentences) |Size(words) |

@@ -4,7 +4,7 @@
 
 ## 背景
 
-词向量 (Word Embeddings)基于大量的文本语料训练，对每一个词 (word type) 返回一个n维的实数向量。向量表征了每个词的单词的语法和语义信息，这些信息可用于解决各种NLP任务。在中文任务中，词向量的单位除了词 (word) 以外也可以是字 (character) 或者 sub-character.
+词向量 (Word Embeddings)通过对大量的文本语料进行训练，对每一个词 (word type) 返回一个n维的实数向量。向量表征了每个词的单词的句法和语义信息，这些信息可用于解决各种NLP任务。在中文任务中，词向量的单位除了词 (word) 以外也可以是字 (character) 或者 sub-character.
 ## 示例
 
 输入:
@@ -15,19 +15,19 @@
 输出:
 
 ```
-“查询”, vec(W) = [-0.059569, 0.126913, 0.273161, 0.225467, -0.185914, 0.018743, -0.18434, 0.083859, -0.115781, -0.216993, 0.063437, -0.005511, 0.276968,…, 0.254486]
+vec(“查询”) = [-0.059569, 0.126913, 0.273161, 0.225467, -0.185914, 0.018743, -0.18434, 0.083859, -0.115781, -0.216993, 0.063437, -0.005511, 0.276968,…, 0.254486]
 ```
 
 ## 标准评价指标
 
-词向量的表现既可以直接评估(比如观察相似的单词是否具有接近的词向量);也可以通过间接的方式评估，通过使用新的词向量能为下游NLP任务(例如情感分析)结果产生多少提升。
+词向量的表现既可以进行内部任务 (intrinsically) 评估(比如观察相似的单词是否具有相近的词向量)，也可以通过外部任务 (extrinsically) 的方式评估，既通过使用新的词向量能为下游NLP任务(例如情感分析)的结果带来多少提升。
 
-直接评估(Intrinsic evaluation)主要关注:
-* 词语相关性 (Word relatedness)：人类标记分数与嵌入在中文词汇相似性数据集wordsim-240和wordsim-296（英语相关资源的翻译）上生成的分数之间的Spearman correlation (⍴)。
+内部任务评估(intrinsic evaluation)主要关注:
+* 词语相关性 (word relatedness)：在中文词汇相似性数据集wordsim-240和wordsim-296（英语相关资源的翻译）上，人类标记分数与词向量的內积之间的Spearman correlation (⍴)。
 
-* 单词类比 (Word Analogy)：评估单词类比任务的准确率（例如：“男人：女人::父亲：X”，其中X由余弦相似性选择）单词类比任务通常包括以下类型的词（1）国家首都（2）省份（3）家庭关系 (family relationships)
+* 单词类比 (word analogy)：评估单词类比任务的准确率（例如：“男人：女人::父亲：X”，其中X由余弦相似性 (cosine distance) 选择）单词类比任务通常包括以下类型的词（1）国家首都（2）省份（3）家庭关系 (family relationships)
 
-外部间接评估(Extrinsic evaluation):  
+外部任务评估(extrinsic evaluation):  
 * 在中文情感分析 (sentiment analysis) 任务上的准确率 (Accuracy)
 * 在中文命名实体识别 (named entity recognition) 任务上的F1 score
 * 在中文词性标注 (part-of-speech tagging) 任务上的准确率 (Accuracy)
@@ -37,11 +37,11 @@
 
 ## <span class="t">Chinese word similarity lists</span>.
 
-* 采用的评测文件是wordsim-240和wordsim-296, 具体细节见论文 [Chen et. al. (2015)](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2015_character.pdf), [SemEval Task 4: Evaluating Chinese Word Similarity](http://ixa2.si.ehu.es/starsem/proc/pdf/STARSEM-SEMEVAL049.pdf).
-* 该数据集是由英文翻译至中文。
+* 采用的评测文件是wordsim-240和wordsim-296, 提供了中文词汇对以及人工标注的相似性分数。具体细节见论文[Chen et. al. (2015)](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2015_character.pdf), [SemEval Task 4: Evaluating Chinese Word Similarity](http://ixa2.si.ehu.es/starsem/proc/pdf/STARSEM-SEMEVAL049.pdf).
+* 该数据集是由对应的英文数据集翻译至中文。
 * 数据集获取链接: [https://github.com/Leonard-Xu/CWE/tree/master/data](https://github.com/Leonard-Xu/CWE/tree/master/data) 
   
-| Test set | # word pairs with human similarity judgments |
+| Test set | # 带有人工标注的相似性分数的词汇对 |
 | --- | --- |
 | [wordsim-240](https://github.com/Leonard-Xu/CWE/blob/master/data/240.txt) | 240 |
 | [wordsim-296](https://github.com/Leonard-Xu/CWE/blob/master/data/297.txt) | 297 |
@@ -50,13 +50,13 @@
   
 ### 评价指标
 
-* human-labeled score和词向量得到的score之间的Spearman correlation (⍴). 
+* 人工标注的相似性分数和词向量得到的相似性分数之间的Spearman correlation (⍴). 
 * 具体实现: [https://github.com/HKUST-KnowComp/JWE/blob/master/src/word_sim.py](https://github.com/HKUST-KnowComp/JWE/blob/master/src/word_sim.py) 
 
 
 ### 结果
 
-* 发表于NAACL 2019的SOTA方法VCWE通过结合字符内 (intra-character) 组合性（通过卷积神经网络计算）和字符间组合性（通过具有自注意力 (self-attention) 的递归神经网络 (recurrent neural network) 计算）计算得到词向量。
+* 当前最佳的系统 VCWE 发表于NAACL 2019。 VCWE通过结合字符内 (intra-character) 组合性（通过卷积神经网络计算）和字符间组合性（通过具有自注意力 (self-attention) 的递归神经网络 (recurrent neural network) 计算）计算得到词向量。
 
 | System | wordsim-240 (⍴) | wordsim-296 (⍴) |
 | --- | --- | --- |
@@ -68,15 +68,15 @@
 ## <span class="t">Chinese word analogy lists</span>.
 
 例如当给出 “法国 : 巴黎 :: 中国 : ?”这样的例子时, 系统应该返回正确答案"北京".
-* Chen et. al. (2015) 收集了属于3个domain的1225个单词类比(analogies)的样本。
-   * 3个domain 分别是 (1）国家首都（2）省份（3）家庭关系 ( family relationships).
+* Chen et. al. (2015) 收集了3个领域的1225个单词类比(analogies)。
+   * 3个领域分别是 (1）国家首都（2）城市省份（3）家庭关系 (family relationships).
 * 数据集下载链接: [https://github.com/Leonard-Xu/CWE/blob/master/data/analogy.txt](https://github.com/Leonard-Xu/CWE/blob/master/data/analogy.txt) 
   
-| Test set | # analogies |
+| Test set | 类比数量 |
 | --- | --- |
-| Capitals of countries | 687 |
-| States/provinces of cities | 175 |
-| Family relationships | 240 |
+| 国家首都 | 687 |
+| 城市省份 | 175 |
+| 家庭关系 | 240 |
   
 ### 评价指标
 
@@ -86,7 +86,7 @@
 
 ### 结果
 
-| System | Accuracy (capital) | Accuracy (state) | Accuracy (family) | Accuracy (total) | 
+| System | Accuracy (国家首都) | Accuracy (城市省份) | Accuracy (家庭关系) | Accuracy (总体) | 
 | --- | --- | --- | --- | ---|
 | [Yu et. al. (2017)](https://www.aclweb.org/anthology/D17-1027) (JWE)| 0.91 | 0.93 | 0.62 | 0.85 |
 | [Yin et. al. (2016)](https://www.aclweb.org/anthology/D16-1100) (MGE) | 0.89 | 0.88 | 0.39 | 0.76 |
@@ -99,21 +99,21 @@
 * 通过评估词向量对情感分析 (sentiment analysis) 任务的提升来间接评测词向量。
 * 目前并没有统一的baseline方法及代码实现，因此很难比较各论文的结果。
 * 数据集链接 [http://sentic.net/chinese-review-datasets.zip](http://sentic.net/chinese-review-datasets.zip) ([Peng et. al. (2018)](https://www.sciencedirect.com/science/article/abs/pii/S0950705118300972)) 
-   * 包括了属于4个domain的中文评论：笔记本电脑，汽车，相机和手机。
+   * 包括了属于4个领域的中文评论：笔记本电脑，汽车，相机和手机。
    * 二分类任务：评论属于正向的/负向的。
    * 缺乏标准的train/dev/test数据集划分规范.
 
 
-| Test set | # positive reviews | # negative reviews |
+| Test set | # 正向评论 | # 负向评论 |
 | --- | --- | --- |
-| Notebook | 417 | 206 |
-| Car | 886 | 286 |
-| Camera | 1,558 | 673 |
-| Phone | 1,713 | 843 |
+| 笔记本电脑 | 417 | 206 |
+| 汽车 | 886 | 286 |
+| 相机 | 1,558 | 673 |
+| 手机 | 1,713 | 843 |
 
 ### 结果
 
-| System | Accuracy (notebook) | Accuracy (car) | Accuracy (camera) | Accuracy (phone) | Accuracy (overall) | 
+| System | Accuracy (笔记本电脑) | Accuracy (汽车) | Accuracy (相机) | Accuracy (手机) | Accuracy (总体) | 
 | --- | --- | --- | --- | ---| ---|
 | [Sun et. al. (2019)](https://arxiv.org/pdf/1902.08795.pdf) (VCWE) | 80.95 | 85.59 | 83.93 | 84.38 | 88.92 |
 | [Yu et. al. (2017)](https://www.aclweb.org/anthology/D17-1027) (JWE) | 77.78 | 78.81 | 81.70 | 81.64 | 85.13 | 
@@ -127,9 +127,9 @@
 * 目前并没有统一的baseline方法及代码实现，因此很难比较各论文的结果。
 * 评估三种类型的实体标记：人（PER），位置（LOC）和组织（ORG）: [Levow (2006)](http://acl-arc.comp.nus.edu.sg/archives/acl-arc-090501d4/data/pdf/anthology-PDF/W/W06/W06-0115.pdf)
    
-| Test set | Size (words) | Genre |
+| Test set | Size (words) | 主题 (Genre) |
 | --- | --- | --- |
-| SIGHAN 2006 NER MSRA | 100,000 | Newswire, Broadcast News, Weblog |
+| SIGHAN 2006 NER MSRA | 100,000 | 新闻，广播新闻，博客 |
   
 ### 结果
 
@@ -140,18 +140,18 @@
  
 ### 相关资源
 
-| Train set | Size (words) | Genre |
+| Train set | Size (words) | 主题 (Genre) |
 | --- | --- | --- |
-| SIGHAN 2006 NER MSRA | 1.3M  | Newswire, Broadcast News, Weblog |
+| SIGHAN 2006 NER MSRA | 1.3M  | 新闻，广播新闻，博客 |
 
 
 
 ## 其他资源
 
-| Corpus | Size (words) | Size (vocabulary) | Genre |
+| Corpus | Size (words) | Size (vocabulary) | 主题 (Genre) |
 | --- | --- | --- | --- |
-| Wikipedia dump | 153,278,000 | 66,856 | General |
-| People’s Daily| 31,000,000 | 105,000 | News |
+| Wikipedia dump | 153,278,000 | 66,856 | 开放主题 |
+| People’s Daily| 31,000,000 | 105,000 | 新闻 |
 
 ---
 

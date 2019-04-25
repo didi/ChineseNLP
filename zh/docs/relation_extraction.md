@@ -61,8 +61,8 @@ Recall = 2 / 2 = 1.0
 
 ## <span class="t">ACE 2005 Relation Extraction</span>.
 
-* [Data link](https://catalog.ldc.upenn.edu/LDC2006T06)
-* [Description paper](https://pdfs.semanticscholar.org/3a9b/136ca1ab91592df36f148ef16095f74d009e.pdf)
+* [数据链接](https://catalog.ldc.upenn.edu/LDC2006T06)
+* [综述论文](https://pdfs.semanticscholar.org/3a9b/136ca1ab91592df36f148ef16095f74d009e.pdf)
 * 不同的论文以不同的方式分割训练集和测试集。
 
 ACE 2005包含6种关系类型和18种子关系类型 (subtypes), 具体类型如下所示:
@@ -81,12 +81,12 @@ ACE 2005包含6种关系类型和18种子关系类型 (subtypes), 具体类型�
 
 |   | F1 (6 relation types) | F1 (18 relation types) | Train/Test split |
 | --- | --- | --- | --- |
-|  [Chen et al. 2014](http://aclweb.org/anthology/P14-1054) | 90.35 | 75.44 | Unknown |
+|  [Chen et al. 2014](http://aclweb.org/anthology/P14-1054) | 90.35 | 75.44 | 未知 |
 |  [Zhang et al. (2018)](http://aclweb.org/anthology/L18-1077) | 87.87 | 83.4 | 80% / 20% |
 
 ### 相关资源
 
-| ACE 2005 Chinese Corpus | chars | files |
+| ACE 2005 Chinese Corpus | 字符数量 | 文件数量 |
 | --- | --- | --- |
 |  Newswire | 121797 | 238 |
 |  Broadcast news | 120513 | 298 |

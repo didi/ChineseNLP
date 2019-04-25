@@ -3,7 +3,7 @@
 
 ## 背景
 
-词性标注任务是将词性标签 (part-of-speech tag)从给定标签组 (tag set) 分配到给定句子中的每个单词。
+词性标注任务是将给定句子中的每个单词从给定标签组 (tag set)中赋予一个词性标签 (part-of-speech tag)。
 
 ## 示例
 
@@ -21,7 +21,7 @@
 
 ## 标准评价指标
 
-从联合分割标注的任务 (the joint segmentation and tagging task) 中的基于词级别 (word-level) 的精确率 (Precision)和召回率 (Recall)计算得到F1-score.
+在联合分割标注的任务 (the joint segmentation and tagging task) 中， 计算基于词级别 (word-level) 的精确率 (Precision)和召回率 (Recall)，以及F1-score.
 
 
 
@@ -30,12 +30,12 @@
 * 该任务最早由[Ng and Low (2004)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.477.8384&rep=rep1&type=pdf)提出。
 * 数据集由LDC发布, 需要LDC许可证 (LDC licence) 才能获取数据集。
 * 链接: [https://verbs.colorado.edu/chinese/ctb.html](https://verbs.colorado.edu/chinese/ctb.html) 
-* 标签组 (tag set)包含有33种词性标签 (POS tags).
+* 标签组 (tag set) 包含有33种词性标签 (POS tags).
 
   
-| Test set| # words (dev)  | # words (test) | Genre |
+| Test set| # words (dev)  | # words (test) | 主题 (Genre) |
 | --- | --- | --- | --- |
-| CTB5| 6,821 | 8,008 | News |  
+| CTB5| 6,821 | 8,008 | 新闻 |  
   
 ### 评价指标
 
@@ -50,9 +50,9 @@
  
 ### 相关资源
 
-  | Train set| # words | Genre |
+  | Train set| # words | 主题 (Genre)  |
   | --- | --- | --- |
-  | CTB5 | 493,935  | News |
+  | CTB5 | 493,935  | 新闻 |
  
 
 ## <span class="t">Universal Dependencies Datasets</span>.
@@ -60,12 +60,12 @@
 * 数据集可免费获取 (GPL or equivalent licence)
 * [https://universaldependencies.org/](https://universaldependencies.org/) 
 * 数据集详情: [Nivre et. al. (2016)](http://www.petrovi.de/data/lrec16.pdf)
-* 标签组 (tag set)包含有15种词性标签 (POS tags).
+* 标签组 (tag set) 包含有15种词性标签 (POS tags).
 
   
-| Test set| # words (dev) | # words (test) | Genre |
+| Test set| # words (dev) | # words (test) | 主题 (Genre)  |
 | --- | --- | --- | --- |
-| UD Chinese | 12,663 | 12,012 | Learner essays, news, spoken language, Wiki |
+| UD Chinese | 12,663 | 12,012 | Learner essays, 新闻, 口语, Wiki百科 |
   
 ### 评价指标
 
@@ -80,9 +80,9 @@
  
 ### 相关资源
 
-|Train set | # words | Genre |
+|Train set | # words | 主题 (Genre)  |
 | --- | --- | --- |
-| UD Chinese | 98,608  | Learner essays, news, spoken language, Wiki |
+| UD Chinese | 98,608  | Learner essays, 新闻, 口语, Wiki百科 |
 
 ---
 
