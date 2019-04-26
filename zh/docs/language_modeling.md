@@ -56,7 +56,7 @@ Chinese Treebank数据集由Linguistic Data Consortium (LDC)发布，然而该�
 |   | Character ppl | Word ppl | Notes |
 | --- | --- | --- | --- |
 |  Glyce (glyph vectors). [We et al, 2019](https://arxiv.org/abs/1901.10125) | 51 | 176 | V6. 4,401个不同的字符。 数据划分 80/10/10. 分词工具: 结巴分词. 只出现过一次的次提出按为 UNK 。 |
-|  RNNG [Dyer et al, 2016](https://arxiv.org/abs/1602.07776) | -- | 171.9 | V5.1. 31,000的词表. 测试机包含348行。训练集包含50k行 (LDC声称有19k行)。 |
+|  RNNG [Dyer et al, 2016](https://arxiv.org/abs/1602.07776) | -- | 171.9 | V5.1. 31,000的词表. 测试集包含348行。训练集包含50k行 (LDC声称有19k行)。 |
 |  Segmental NLMs [Kawakami et al, 2016](https://arxiv.org/pdf/1811.09353.pdf) | 4.8 bits per character (not ppl) | -- | V5.1 手工分词。 评分为bits per character (bpc). [数据](https://s3.eu-west-2.amazonaws.com/k-kawakami/seg.zip). |
 
 ## <span class="t">Chinese Gigaword</span>.
