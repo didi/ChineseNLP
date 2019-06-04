@@ -10,3 +10,6 @@ Want to contribute? Please follow the [Instructions](contribute.md)
 
 **Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
+## Note
+This is not an official Didi product (experimental or otherwise), it is just code that happens to be owned by Didi.
+
