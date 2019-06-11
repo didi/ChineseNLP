@@ -11,5 +11,7 @@ Want to contribute? Please follow the [Instructions](contribute.md)
 **Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
 ## Note
-This is not an official Didi product (experimental or otherwise), it is just code that happens to be owned by Didi.
+This project is initiated and actively maitained by DiDi's NLP team under [DiDi AI Lab](https://www.didiglobal.com/science/ailabs).
+This is not an official DiDi product (experimental or otherwise), it is just code that happens to be owned by DiDi.
+![DiDi Logo](img/didi-log.jpg)
 
