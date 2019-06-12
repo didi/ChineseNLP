@@ -10,10 +10,15 @@ Want to contribute? Please follow the [Instructions](contribute.md)
 
 **Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
+
+
+
 ## Note
-This project is initiated and actively maitained by DiDi's NLP team under [DiDi AI Lab](https://www.didiglobal.com/science/ailabs).
 
-This is not an official DiDi product (experimental or otherwise), it is just code that happens to be owned by DiDi.
+This project is initiated and actively maitained by **DiDi NLP team** under [DiDi AI Labs](https://www.didiglobal.com/science/ailabs).
 
-![DiDi Logo](img/didi-logo.jpg)
+<img src="img/ailabs-logo.png" height="80px"></img>
+
+
+
 
