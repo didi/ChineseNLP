@@ -24,7 +24,7 @@ F-score for selecting correct piece of text (“mention”) and assigning the co
 
 
 
-## TAC-KBP / EDL Track (2015-2017)
+## <span class="t">TAC-KBP / EDL Track (2015-2017)</span>.
 
 The NIST TAC Knowledge Base Population (KBP) Entity Discovery and Linking (EDL) track includes Chinese entity tagging for 5 types: person (PER), geo-political entity (GPE), location (LOC), organization (ORG) and facility (FAC).
 * Shared task sites: [http://nlp.cs.rpi.edu/kbp/2017](http://nlp.cs.rpi.edu/kbp/2017) (likewise for 2015 and 2016)
@@ -102,6 +102,7 @@ Paper summarizing the bakeoff:
 
 | System | F-score |
 | --- | --- | 
+| [Liu et. al. (2019)](https://www.aclweb.org/anthology/N19-1247) | 93.74 | 
 | [Meng et. al. (2019)](https://arxiv.org/abs/1901.10125) | 93.89 | 
 | [Zhang & Yang (2018)](http://aclweb.org/anthology/P18-1144) | 93.18 |
  
@@ -129,9 +130,12 @@ Using the test split by http://www.aclweb.org/anthology/E17-2113:
 
 ### Results
 
-| System | F-score (name mentions) | F-score (nominal mentions) |
-| --- | --- | --- |
-| [Peng & Dredze (2015)](https://www.cs.jhu.edu/~npeng/papers/golden_horse_supplement.pdf) | 55.28 | 62.97 |
+| System | F-score (name mentions) | F-score (nominal mentions) | F-score (Overall) |
+| --- | --- | --- | --- |
+| [Liu et. al. (2019)](https://www.aclweb.org/anthology/N19-1247) | 52.55 | 67.41 | 59.84 |
+|[Zhu (2019)](https://www.aclweb.org/anthology/N19-1342)|55.38 | 62.98 | 59.31 |
+|[Zhang & Yang (2018)](http://aclweb.org/anthology/P18-1144)|53.04| 62.25 | 58.79 |
+| [Peng & Dredze (2015)](https://www.cs.jhu.edu/~npeng/papers/golden_horse_supplement.pdf) | 55.28 | 62.97 | 58.99 |
  
 ### Resources
 
