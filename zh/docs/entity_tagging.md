@@ -23,7 +23,7 @@
 F-score: 选择正确的文本提及（“mention”）并指定正确类型的。
 
 
-## TAC-KBP / EDL Track (2015-2017)
+## <span class="t">TAC-KBP / EDL Track (2015-2017)</span>.
 
 The NIST TAC Knowledge Base Population (KBP) Entity Discovery and Linking (EDL) track 包括5种类型的中文实体标注：人（PER），地缘政治实体（GPE），地点（LOC），组织（ORG）以及设施（FAC）。
 * 开放任务网站: [http://nlp.cs.rpi.edu/kbp/2017](http://nlp.cs.rpi.edu/kbp/2017) (与2015和 2016任务类似)
@@ -65,12 +65,12 @@ Ontonotes 5.0 ([https://catalog.ldc.upenn.edu/LDC2013T19](https://catalog.ldc.up
 
 ## <span class="t">ACE 2005</span>.
 
-ACE 2005任务评估七种实体类型：设施（FAC），地缘政治实体（GPE），位置（LOC），组织（ORG），人员（PER），车辆（VEH）和武器（WEA）。
+ACE 2005任务评估七种实体类型：设施（FAC），地缘政治实体（GPE），位置（LOC），组织（ORG），人员（PER），车辆（VEH）和武器(WEA).
 
 评估数据由Linguistic Data Consortium (LDC)发布.
 * [https://catalog.ldc.upenn.edu/LDC2006T06](https://catalog.ldc.upenn.edu/LDC2006T06)
 
-目前暂未发现任何一个训练集 (Train) /开发集 (dev) /测试集 (test) 的标准划分规范，较为常见的方式是8:1:1随机划分 ([Ju et. al. 2018](http://www.aclweb.org/anthology/N18-1131))。
+目前暂未发现任何一个训练集 (Train) /开发集 (dev) /测试集 (test) 的标准划分规范，较为常见的方式是8:1:1随机划分 ([Ju et. al. 2018](http://www.aclweb.org/anthology/N18-1131)).
 
   
 | Train + test set| 数量 (字符) | 主题(Genre) |
@@ -101,6 +101,7 @@ ACE 2005任务评估七种实体类型：设施（FAC），地缘政治实体（
 
 | System | F-score |
 | --- | --- | 
+| [Liu et. al. (2019)](https://www.aclweb.org/anthology/N19-1247) | 93.74 | 
 | [Meng et. al. (2019)](https://arxiv.org/abs/1901.10125) | 93.89 | 
 | [Zhang & Yang (2018)](http://aclweb.org/anthology/P18-1144) | 93.18 |
  
@@ -128,9 +129,12 @@ ACE 2005任务评估七种实体类型：设施（FAC），地缘政治实体（
 
 ### 结果
 
-| System | F-score (name mentions) | F-score (nominal mentions) |
-| --- | --- | --- |
-| [Peng & Dredze (2015)](https://www.cs.jhu.edu/~npeng/papers/golden_horse_supplement.pdf) | 55.28 | 62.97 |
+| System | F-score (name mentions) | F-score (nominal mentions) | F-score (Overall) |
+| --- | --- | --- | --- |
+| [Liu et. al. (2019)](https://www.aclweb.org/anthology/N19-1247) | 52.55 | 67.41 | 59.84 |
+|[Zhu (2019)](https://www.aclweb.org/anthology/N19-1342)|55.38 | 62.98 | 59.31 |
+|[Zhang & Yang (2018)](http://aclweb.org/anthology/P18-1144)|53.04| 62.25 | 58.79 |
+| [Peng & Dredze (2015)](https://www.cs.jhu.edu/~npeng/papers/golden_horse_supplement.pdf) | 55.28 | 62.97 | 58.99 |
  
 ### 相关资源
 
