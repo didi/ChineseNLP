@@ -49,7 +49,8 @@ MUC, B-cubed和CEAF三个指标各自的F1值 (F1-scores) 的平均值
 
 |  System | MUC, B-cubed和CEAF三个指标各自的F1值 (F1-scores) 的平均值 |
 | --- | --- |
-|  [[Clark & Manning, 2016](http://alt.qcri.org/semeval2016/task5/index.php?id=data-and-tools#)] | 63.66 |
+|  [[Clark & Manning, 2016](https://nlp.stanford.edu/static/pubs/clark2016deep.pdf)] | 63.88 |
+|  [[Clark & Manning, 2016](https://nlp.stanford.edu/static/pubs/clark2016improving.pdf)] | 63.66 |
 
 ### 其他资源
 
