@@ -81,8 +81,8 @@ ACE 2005 employs 6 relation types and 18 subtypes as listed below.
 
 |   | F1 (6 relation types) | F1 (18 relation types) | Train/Test split |
 | --- | --- | --- | --- |
+|  [Zhang et al. (2018)](http://aclweb.org/anthology/L18-1077) | 87.87 | 83.40 | 80% / 20% |
 |  [Chen et al. 2014](http://aclweb.org/anthology/P14-1054) | 90.35 | 75.44 | Unknown |
-|  [Zhang et al. (2018)](http://aclweb.org/anthology/L18-1077) | 87.87 | 83.4 | 80% / 20% |
 
 ### Resources
 
