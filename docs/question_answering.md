@@ -76,17 +76,23 @@ The test set was formed by human annotators who were given documents.  For each 
 
 ### Metrics
 
-MRR.
-MAP.
-Accuracy @ N.
+* MRR.
+* MAP.
+* Accuracy @ N.
+* F1
 
 ### Results
 
-35 teams participated.
+NLPCC DBQA 2016
+|  System | MRR | F1 |
+| --- | --- | --- | --- |
+|  [ERNIE(baidu)](https://arxiv.org/pdf/1904.09223.pdf) | 95.1 | 82.7 |
+|  [BERT](https://arxiv.org/pdf/1810.04805.pdf) | 94.6 | 80.8 |
 
+NLPCC DBQA 2017
 |  System | MRR | MAP | Accuracy @ 1 |
 | --- | --- | --- | --- |
-|  Best anonymous score reported | 0.72 | 0.71 | 0.59 |
+|  Best anonymous score reported | 72.0 | 71.7 | 59.2 |
 
 ### Resources
 

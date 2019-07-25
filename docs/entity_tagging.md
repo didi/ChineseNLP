@@ -83,6 +83,7 @@ A standard train/dev/test split does not seem to be available.  Authors frequent
 
 | System | F-score |
 | --- | --- |
+| [Wang & Lu. (2018)](https://arxiv.org/pdf/1810.01808.pdf) | 73.00 | 
 | [Ju et. al. (2018)](http://www.aclweb.org/anthology/N18-1131) | 72.25 | 
 
 

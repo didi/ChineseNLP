@@ -82,6 +82,7 @@ ACE 2005任务评估七种实体类型：设施（FAC），地缘政治实体（
 
 | System | F-score |
 | --- | --- |
+| [Wang & Lu. (2018)](https://arxiv.org/pdf/1810.01808.pdf) | 73.00 | 
 | [Ju et. al. (2018)](http://www.aclweb.org/anthology/N18-1131) | 72.25 | 
 
 

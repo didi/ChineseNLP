@@ -60,7 +60,8 @@ Chinese to English (WMT17)
 
 |  System | Direct Assessment (Ave z) | Bleu |
 | --- | --- | --- |
-|  [[Wang et al 17]](http://www.statmt.org/wmt17/pdf/WMT42.pdf) | 0.209 |  |
+|  [[Hany et al 18]](https://www.microsoft.com/en-us/research/uploads/prod/2018/03/final-achieving-human.pdf) |  | 27.4 |
+|  [[Wang et al 17]](http://www.statmt.org/wmt17/pdf/WMT42.pdf) | 0.209 | 26.4 |
 |  [[Sennrich et al 17]](http://www.aclweb.org/anthology/W17-4739) | 0.208 | 25.7 |
 |  [[Tan et al 17]](http://www.statmt.org/wmt17/pdf/WMT40.pdf) | 0.184 | 26 |
 
