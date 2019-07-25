@@ -103,10 +103,14 @@ F1-score
 
 |   | F1 | Accuracy |
 | --- | --- | --- |
-| fastText *| 0.9218 | 0.9218 |
+| [ERNIE](https://arxiv.org/pdf/1904.09223.pdf) |  | 0.954 |
+| BERT * |  | 0.943 |
+| fastText **| 0.9218 | 0.9218 |
 | [MCCNN](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648) | 0.9208 | 0.9208 |
 
-*Accuracy result is cited from [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648).
+*Bert accuracy result is cited from [ERNIE paper](https://arxiv.org/pdf/1904.09223.pdf).
+
+**fastText accuracy result is cited from [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648).
 
 ### Resources
 

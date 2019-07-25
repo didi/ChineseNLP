@@ -103,10 +103,14 @@ F1-score
 
 |   | F1 | Accuracy |
 | --- | --- | --- |
-| fastText *| 0.9218 | 0.9218 |
+| [ERNIE](https://arxiv.org/pdf/1904.09223.pdf) |  | 0.954 |
+| BERT * |  | 0.943 |
+| fastText **| 0.9218 | 0.9218 |
 | [MCCNN](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648) | 0.9208 | 0.9208 |
 
-*准确度 (Accuracy) 结果引用自 [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648).
+**BERT 准确度(Accuracy) 结果引用自 [ERNIE paper](https://arxiv.org/pdf/1904.09223.pdf).
+
+**fastText准确度 (Accuracy) 结果引用自 [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648).
 
 ### 相关资源
 
