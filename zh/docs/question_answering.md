@@ -89,7 +89,7 @@ The DBQA shared task at NLPCC 2017 任务要求:
 NLPCC DBQA 2016
 
 |  System | MRR | F1 |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 |  [ERNIE(baidu)](https://arxiv.org/pdf/1904.09223.pdf) | 95.1 | 82.7 |
 |  [BERT](https://arxiv.org/pdf/1810.04805.pdf) | 94.6 | 80.8 |
 
@@ -97,7 +97,6 @@ NLPCC DBQA 2017
 
 |  System | MRR | MAP | Accuracy @ 1 |
 | --- | --- | --- | --- |
-
 |  匿名汇报的最佳成绩 | 72.0 | 71.7 | 59.2 |
 
 ### 相关资源
