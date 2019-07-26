@@ -82,8 +82,7 @@ ACE 2005包含6种关系类型和18种子关系类型 (subtypes), 具体类型�
 |   | F1 (6 relation types) | F1 (18 relation types) | Train/Test split |
 | --- | --- | --- | --- |
 |  [Zhang et al. (2018)](http://aclweb.org/anthology/L18-1077) | 87.87 | 83.40 | 80% / 20% |
-|  [Chen et al. 2014](http://aclweb.org/anthology/P14-1054) | 
-90.35 | 75.44 | 未知 |
+|  [Chen et al. 2014](http://aclweb.org/anthology/P14-1054) | 90.35 | 75.44 | 未知 |
 
 ### 相关资源
 

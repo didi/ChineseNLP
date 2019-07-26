@@ -86,7 +86,7 @@ The test set was formed by human annotators who were given documents.  For each 
 NLPCC DBQA 2016
 
 |  System | MRR | F1 |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 |  [ERNIE(baidu)](https://arxiv.org/pdf/1904.09223.pdf) | 95.1 | 82.7 |
 |  [BERT](https://arxiv.org/pdf/1810.04805.pdf) | 94.6 | 80.8 |
 
