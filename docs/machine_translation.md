@@ -120,6 +120,7 @@ Note that this [paper](http://www.lrec-conf.org/proceedings/lrec2018/pdf/678.pdf
 
 |  System | Training sentence pairs | Eval script | NIST 02 | NIST 03 | NIST 04 | NIST 05 | NIST 06 | NIST 08 | Average |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  [[Zhang et al 2019]](https://arxiv.org/abs/1906.02448) | 1.25m | mteval-v11b |  | 48.31 | 49.40 | 48.72 | 48.45 |  | 48.72 |
 |  [[Hadiwinoto & Ng, 2018]](http://www.lrec-conf.org/proceedings/lrec2018/pdf/678.pdf) | 7.65m | mteval-v13a | 46.94 | 47.58 | 49.13 | 47.78 | 49.37 | 41.48 | 47.05 |
 |  [[Meng et al 2019]](https://arxiv.org/pdf/1901.10125.pdf) | 1.25m | unspecified | 40.56 (dev) | 39.93 | 41.54 | 38.01 | 37.45 | 29.07 | 37.76 |
 |  [[Ma et al 2018c]](https://arxiv.org/abs/1805.04871) | 1.25m | unspecified | 39.77 (dev) | 38.91 | 40.02 | 36.82 | 35.93 | 27.61 | 36.51 |
