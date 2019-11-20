@@ -103,8 +103,10 @@ Paper summarizing the bakeoff:
 
 | System | F-score |
 | --- | --- | 
-| [Liu et. al. (2019)](https://www.aclweb.org/anthology/N19-1247) | 93.74 | 
 | [Meng et. al. (2019)](https://arxiv.org/abs/1901.10125) | 93.89 | 
+| [Liu et. al. (2019)](https://www.aclweb.org/anthology/N19-1247) | 93.74 |
+| [Sui et al. (2019)](https://www.aclweb.org/anthology/D19-1396/) | 93.47 | 
+| [Gui et al. (2019)](https://www.aclweb.org/anthology/D19-1096/) | 93.46 |
 | [Zhang & Yang (2018)](http://aclweb.org/anthology/P18-1144) | 93.18 |
  
 ### Resources 
@@ -133,6 +135,8 @@ Using the test split by http://www.aclweb.org/anthology/E17-2113:
 
 | System | F-score (name mentions) | F-score (nominal mentions) | F-score (Overall) |
 | --- | --- | --- | --- |
+| [Sui et al. (2019)](https://www.aclweb.org/anthology/D19-1396/) | 56.45 | 68.32 | 63.09 |
+| [Gui et al. (2019)](https://www.aclweb.org/anthology/D19-1096/) | 55.34 | 64.98 | 60.21 |
 | [Liu et. al. (2019)](https://www.aclweb.org/anthology/N19-1247) | 52.55 | 67.41 | 59.84 |
 |[Zhu (2019)](https://www.aclweb.org/anthology/N19-1342)|55.38 | 62.98 | 59.31 |
 |[Zhang & Yang (2018)](http://aclweb.org/anthology/P18-1144)|53.04| 62.25 | 58.79 |
