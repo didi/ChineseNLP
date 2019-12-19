@@ -2,7 +2,7 @@
 
 ## Background
 
-Text summarization takes a long text document and creating a shorter text document that is a fluent and accurate summary of the longer text document.
+Text summarization takes a long text document and creates a shorter text document that is a fluent and accurate summary of the longer text document.
 
 ## Example
 
