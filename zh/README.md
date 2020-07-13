@@ -2,10 +2,26 @@
 
 中文自然语言处理相关的开放任务，数据集, 以及当前最佳结果
 
-## 新闻!
+## 任务列表
 
-我们非常高兴地宣布我们将在IWSLT 2020上举办开放领域(open domain)的中日文双向机器翻译挑战. IWSLT 2020将于2020年7月9-10号在美国西雅图同[ACL 2020](https://acl2020.org)共同举办.
-详细介绍请[参详](http://iwslt.org/doku.php?id=open_domain_translation). 欢迎大家踊跃参加!
+- [Co-reference Resolution](docs/co-reference_resolution.md) 
+- [Dialogue State Management](docs/dialogue_state_management.md)
+- [Emotion Classification](docs/emotion_classification.md)
+- [Entity Linking](docs/entity_linking.md)
+- [Entity Tagging](docs/entity_tagging.md)
+- [Language Modeling](docs/language_modeling.md) 
+- [Machine Translation](docs/machine_translation.md)
+- [Part-of-Speech (POS) Tagging](docs/pos_tagging.md)
+- [Question Answering](docs/question_answering.md)
+- [Relation Extraction](docs/relation_extraction.md)
+- [Sentiment Analysis](docs/sentiment_analysis.md)
+- [Simplified/Traditional Conversion](docs/simplified_traditional_Chinese_conversion.md)
+- [Spell Correction](docs/spell_correction.md)
+- [Text Summarization](docs/text_summarization.md)
+- [Topic Classification](docs/topic_classification.md)
+- [Transliteration](docs/transliteration.md)
+- [Word Embedding](docs/word_embedding.md)
+- [Word Segmentation](docs/word_segmentation.md)
 
 ## 参与贡献
 
@@ -19,5 +35,5 @@
 
 本项目由[滴滴人工智能实验室](https://www.didiglobal.com/science/ailabs)所属的自然语言处理团队创建并维护。
 
-<img src="img/ailabs-logo.png" height="80px"></img>
+<img src="../img/ailabs-logo.png" height="80px"></img>
 
