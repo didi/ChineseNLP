@@ -2,10 +2,26 @@
 
 Shared tasks, datasets and state-of-the-art results for Chinese Natural Language Processing (NLP)
 
-## What's new!
+## Table of Tasks
 
-Greetings, we are glad to announce that we are hosting a bidirectional Chinese-Japanese Machine Translation public task in IWSLT 2020. IWSLT 2020 will be held as an [ACL 2020](https://acl2020.org) event on July 9-10, 2020, in Seattle, WA, USA. 
-Please check out [task introduction](http://iwslt.org/doku.php?id=open_domain_translation), and we hope you will participate
+- [Co-reference Resolution](docs/co-reference_resolution.md) 
+- [Dialogue State Management](docs/dialogue_state_management.md)
+- [Emotion Classification](docs/emotion_classification.md)
+- [Entity Linking](docs/entity_linking.md)
+- [Entity Tagging](docs/entity_tagging.md)
+- [Language Modeling](docs/language_modeling.md) 
+- [Machine Translation](docs/machine_translation.md)
+- [Part-of-Speech (POS) Tagging](docs/pos_tagging.md)
+- [Question Answering](docs/question_answering.md)
+- [Relation Extraction](docs/relation_extraction.md)
+- [Sentiment Analysis](docs/sentiment_analysis.md)
+- [Simplified/Traditional Conversion](docs/simplified_traditional_Chinese_conversion.md)
+- [Spell Correction](docs/spell_correction.md)
+- [Text Summarization](docs/text_summarization.md)
+- [Topic Classification](docs/topic_classification.md)
+- [Transliteration](docs/transliteration.md)
+- [Word Embedding](docs/word_embedding.md)
+- [Word Segmentation](docs/word_segmentation.md)
 
 ## Contribute
 
