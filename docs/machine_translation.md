@@ -255,7 +255,7 @@ Participants must get data from [here](http://lotus.kuee.kyoto-u.ac.jp/WAT/paten
 |  Japanese-Chinese devtest | 2000 | Patents |
 
 
-### <span class="t">IWSLT2020 ZH-JA Open Domain Transaltion</span>.
+### <span class="t">IWSLT2020 ZH-JA Open Domain Translation</span>.
 
 [The shared task](http://iwslt.org/doku.php?id=open_domain_translation) is to promote research on translation between Asian languages, exploitation of noisy parallel web corpora for MT and smart processing of data and provenance.
 
