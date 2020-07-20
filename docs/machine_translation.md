@@ -35,8 +35,9 @@ The United States and China may soon reach a trade agreement.
 * BLEU-SBP ((Chiang et al 08)[http://aclweb.org/anthology/D08-1064]).  Addresses decomposability problems with Bleu, proposing a cross between Bleu and word error rate.
 * HTER.  Returns the number of edits performed by a human posteditor to get an automatic translation into good shape.
 
+## <span class="t">ZH-EN</span>.
 
-## <span class="t">WMT</span>.
+### <span class="t">WMT</span>.
 
 The Second Conference on Machine Translation (WMT17) has a Chinese/English MT component, done in cooperation with CWMT 2017.
 * [Website](http://www.statmt.org/wmt17)
@@ -78,7 +79,7 @@ English - Chinese (WMT17)
 
 There are many parallel English/Chinese text resources to train MT systems on.  These are publicly available:
 
-|  Train set | Size (words on English side) | Genre |
+|  Dataset | Size (words on English side) | Genre |
 | --- | --- | --- |
 |  UN | 327m | Political |
 |  New Commentary v12 | 5m | News opinions |
@@ -90,7 +91,7 @@ The Linguistic Data Consortium has additional resources, such as FBIS and NIST t
 
 
 
-## <span class="t">NIST</span>.
+### <span class="t">NIST</span>.
 
 NIST has a long history of supporting Chinese-English translation by creating annual test sets and running annual NIST OpenMT evaluations during the 2000s.  Many sites have reported results on NIST test sets.  
 
@@ -122,6 +123,7 @@ Note that this [paper](http://www.lrec-conf.org/proceedings/lrec2018/pdf/678.pdf
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |  [[Zhang et al 2019]](https://arxiv.org/abs/1906.02448) | 1.25m | mteval-v11b |  | 48.31 | 49.40 | 48.72 | 48.45 |  | 48.72 |
 |  [[Hadiwinoto & Ng, 2018]](http://www.lrec-conf.org/proceedings/lrec2018/pdf/678.pdf) | 7.65m | mteval-v13a | 46.94 | 47.58 | 49.13 | 47.78 | 49.37 | 41.48 | 47.05 |
+|  [[Yang te al, 2020]](https://www.aclweb.org/anthology/2020.acl-main.531/) | 1.2m | unspecified |  | 46.56 |  | 46.04 |  | 37.53 |  |
 |  [[Meng et al 2019]](https://arxiv.org/pdf/1901.10125.pdf) | 1.25m | unspecified | 40.56 (dev) | 39.93 | 41.54 | 38.01 | 37.45 | 29.07 | 37.76 |
 |  [[Ma et al 2018c]](https://arxiv.org/abs/1805.04871) | 1.25m | unspecified | 39.77 (dev) | 38.91 | 40.02 | 36.82 | 35.93 | 27.61 | 36.51 |
 |  [[Chen et al 2017]](http://aclweb.org/anthology/P17-1177) | 1.6m | multibleu | 36.57 | 35.64 | 36.63 | 34.35 | 30.57 |  |  |
@@ -132,13 +134,13 @@ The Linguistic Data Consortium provides training materials typically used for NI
 
 
 
-## <span class="t">IWSLT 2015</span>.
+### <span class="t">IWSLT 2015</span>.
 
 * Translation of TED talks
 * Chinese-to-English track
 * [Shared task overview](https://cris.fbk.eu/retrieve/handle/11582/303031/9811/main.pdf)
 
-|  Test sets | Size (sentences) | # of talks | Genre |
+|  Dataset | Size (sentences) | # of talks | Genre |
 | --- | --- | --- | --- |
 |  tst2014 | 1068 | 12 | TED talks |
 |  tst2015 | 1,080 | 12 | TED talks |
@@ -165,7 +167,7 @@ English to Chinese (tst2015)
 
 ### Resources
 
-|   | Size (sentences) | # of talks | Genre |
+|  Dataset | Size (sentences) | # of talks | Genre |
 | --- | --- | --- | --- |
 |  Train | 210k | 1718 | TED talks |
 
@@ -201,8 +203,9 @@ English to Chinese
 [The Multitarget TED Talks Task (MTTT)](http://cs.jhu.edu/~kevinduh/a/multitarget-tedtalks/)
 
 
+## <span class="t">ZH-JA</span>.
 
-## <span class="t">Workshop on Asian Translation</span>.
+### <span class="t">Workshop on Asian Translation</span>.
 
 [The Workshop on Asian Translation](http://lotus.kuee.kyoto-u.ac.jp/WAT/) has run since 2014.  Here, we include the 2018 Chinese/Japanese evaluations.
 
@@ -245,15 +248,59 @@ Participants must get data from [here](http://lotus.kuee.kyoto-u.ac.jp/WAT/paten
 
 ### Resources
 
-|  Test set | Size (sentences) | Genre |
+|  Dataset | Size (sentences) | Genre |
 | --- | --- | --- |
 |  Japanese-Chinese train | 250,000 | Patents |
 |  Japanese-Chinese dev | 2000 | Patents |
 |  Japanese-Chinese devtest | 2000 | Patents |
 
 
+### <span class="t">IWSLT2020 ZH-JA Open Domain Transaltion</span>.
 
-## <span class="t">CWMT</span>.
+[The shared task](http://iwslt.org/doku.php?id=open_domain_translation) is to promote research on translation between Asian languages, exploitation of noisy parallel web corpora for MT and smart processing of data and provenance.
+
+### Metrics
+* 4-gram character BlEU.
+
+A (secret) mixed-genre test set was intended to cover a variety of topics. The test data was selected from high-quality (human translated) parallel web content, authored between January and March 2020.
+
+|  Test set | Size (sentences) | Genre |
+| --- | --- | --- |
+|  Chinese-Japanese | 875 | mixed-genre |
+|  Japanese-Chinese | 875 | mixed-genre |
+
+
+### Results
+
+Chinese to Japanese
+
+|  System | Bleu |
+| --- | --- |
+|  [CASIA*](https://www.aclweb.org/anthology/2020.iwslt-1.15/) | 43.0 |
+|  [Xiaomi](https://www.aclweb.org/anthology/2020.iwslt-1.18/) | 34.3 |
+|  [TSUKUBA](https://www.aclweb.org/anthology/2020.iwslt-1.17/) | 33.0 |
+
+Japanese to Chinese
+
+|  System | Bleu |
+| --- | --- |
+|  [CASIA*](https://www.aclweb.org/anthology/2020.iwslt-1.15/) | 55.8 |
+|  [Samsung Research China](https://www.aclweb.org/anthology/2020.iwslt-1.12/) | 34.0 |
+|  [OPPO](https://www.aclweb.org/anthology/2020.iwslt-1.13/) | 32.9 |
+
+\* means system collected external parallel training data that inadvertently overlapped with the blind test set.
+
+### Resources
+
+|  Dataset | Size (sentences) | Genre |
+| --- | --- | --- |
+|  Web crawled | 18,966,595 | mixed-genre |
+|  Existing parallel sources | 1,963,238 | mixed-genre |
+
+
+## <span class="t">Others</span>.
+
+### <span class="t">CWMT</span>.
 
 [CWMT 2017](http://ee.dlut.edu.cn/CWMT2017/index_en.html)
 and [2018](http://www.cipsc.org.cn/cwmt/2018/english/)
