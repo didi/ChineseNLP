@@ -80,7 +80,7 @@ F1 = 0.857
 |Data set|Test set (Tokens)|
 | ---: | ---: |
 |CTB6|81,578|
-|CTB7|81,578|
+|CTB7|245K|
 |CTB9|242,317|
 
 ### Results
@@ -91,7 +91,7 @@ F1 = 0.857
 | [Tian, Song, Xia, Zhang, Wang (2020)](https://www.aclweb.org/anthology/2020.acl-main.734.pdf) | 97.3 | |
 | [Yan et al. (2020)](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00301) | | 97.1| 97.6 |
 | [Huang et al. (2019)](https://arxiv.org/pdf/1903.04190.pdf)|97.6| | |
-| [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.7 | 96.6 | |
+| [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.7 | 96.6* | |
 | [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 96.2 |  | |
 | [Zhou et al. (2017)](https://www.aclweb.org/anthology/D17-1079) | 96.2 | | |
 
@@ -103,7 +103,7 @@ F1 = 0.857
 |  Train set | Training Size (Words) |
 | --- | ----: |
 |  CTB6 | 641,368 |
-|  CTB7 | 950,138 |
+|  CTB7 | 718K |
 |  CTB9 | 1,696,322 |
 
 
