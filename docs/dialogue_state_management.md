@@ -122,12 +122,14 @@ https://arxiv.org/abs/2002.11893
 * Rule-based user simulator also provided for evaluation
 
 ### Overview
+| CrossWoz | |
 | --- | --- |
 |  Language | Chinese with English translations |
 |  Speakers | Human-to-Human |
 |  \# Domains | 5 |
 |  \# Slots | 72 |
 |  \# Values | 7,871 |
+
 ### Datasets
 | Split                 | Train  | Valid | Test  |
 | --------------------- | ------ | ----- | ----- |
