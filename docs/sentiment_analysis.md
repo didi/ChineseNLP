@@ -21,7 +21,7 @@ Positive
 
 ## Standard Metrics
 
-Accuracy 
+Accuracy
   * The percentage of correctly classified samples on test set.
 
 F1-score
@@ -50,7 +50,7 @@ F1-score
 | --- | --- | --- |
 |  [SenHint](http://www.wowbigdata.com.cn/main/paper/www2018wang.pdf) | 0.7958 | 0.8711 |
 
- 
+
 ### Resources
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
@@ -88,7 +88,7 @@ F1-score
 ## <span class="t">ChnSentiCorp</span>.
 
 
-[ChnSentiCorp](https://www.sciencedirect.com/science/article/pii/S0957417407001534): It contains 1021 documents in three domains: education, movie and house. 
+[ChnSentiCorp](https://www.sciencedirect.com/science/article/pii/S0957417407001534): It contains 1021 documents in three domains: education, movie and house.
 
 
 | Source | Genre | # Classes | Size(sentences)|Size(words) |
@@ -103,14 +103,16 @@ F1-score
 
 |   | F1 | Accuracy |
 | --- | --- | --- |
+| [Chen et al., 2020: 3SiBert](https://www.aclweb.org/anthology/2020.lrec-1.293.pdf) | | 0.967 | https://www.aclweb.org/anthology/2020.lrec-1.293.pdf
+| [ERNIE 2.0](https://arxiv.org/pdf/1907.12412.pdf) | | 0.958 |
 | [ERNIE](https://arxiv.org/pdf/1904.09223.pdf) |  | 0.954 |
 | BERT * |  | 0.943 |
 | fastText **| 0.9218 | 0.9218 |
-| [MCCNN](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648) | 0.9208 | 0.9208 |
+| [MCCNN](https://arxiv.org/pdf/1808.02961.pdf) | 0.9208 | 0.9208 |
 
 *Bert accuracy result is cited from [ERNIE paper](https://arxiv.org/pdf/1904.09223.pdf).
 
-**fastText accuracy result is cited from [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648).
+**fastText accuracy result is cited from [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf).
 
 ### Resources
 
@@ -136,11 +138,11 @@ F1-score
 |   | F1 | Accuracy |
 | --- | --- | --- |
 | fastText* | 0.9261 | 0.9261 |
-| [MCCNN](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648) | 0.9302 | 0.9304 |
+| [MCCNN](https://arxiv.org/pdf/1808.02961.pdf) | 0.9302 | 0.9304 |
 | [Zhang, P., &amp; He, Z. (2013)](https://journals.sagepub.com/doi/10.1177/0165551513480330) | 0.9402 | 0.9500 |
 
 
-*Accuracy result is cited from [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648).
+\*Accuracy result is cited from [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf).
 
 
 
@@ -160,8 +162,7 @@ F1-score
 |   | Accuracy |
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 77.8 |
-|  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 77.7 |
-
+| [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 77.7 |
 
 
 ### Resources
@@ -187,8 +188,7 @@ F1-score
 |   | Accuracy |
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 54.1 |
-|  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 52.0 |
-
+| [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 52.0 |
 
 
 ### Resources
@@ -213,8 +213,7 @@ F1-score
 |   | Accuracy |
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 92.2 |
-|  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 91.3 |
-
+| [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 91.3 |
 
 ### Resources
 
@@ -223,11 +222,20 @@ F1-score
 | JD Binary | shopping reviews | 2 | 4,000,000 |
 
 
-
 ## Other Resources
 
-* Overview paper in this area: 
+* Overview paper in this area:
     * [chinese-sentiment-analysis-review](http://sentic.net/chinese-sentiment-analysis-review.pdf)
+
+* An incomplete list of new corpora (as of 2020)
+
+| Name | Description | Domain/ Source | Size (positive/ negative where applicable) | Accuracy |  F1 | Link |
+| Chinese Sarcasm Dataset | Text manually labelled as sarcastic or not | news | 2500 / 90 000 | 0.7611 | 0.7368 | [Gong et al., 2020](https://www.aclweb.org/anthology/2020.lrec-1.619.pdf)
+| CH-SIMS | Individually labelled multi-modal (text, video, audio) | movies, TV shows | 2281 video segments | - | 0.827 | [Yu et al., 2020](https://www.aclweb.org/anthology/2020.acl-main.343.pdf)
+| FiTSA | Aspect-based sentiment analysis for financial news | news | 8314 sentences, 647 000 characters | - | 0.798 | [Yuan et al., 2020](https://www.aclweb.org/anthology/2020.lrec-1.620.pdf)
+| MPDD | Emotion in multi-party dialogs | TV shows | 25 500 utterances | 0.595 | - | [Cheng et al., 2020](https://www.aclweb.org/anthology/2020.lrec-1.76.pdf)
+| MIMN | Multimodal (text, image) and aspect-based analysis | zol.com (shopping site) | 5200 reviews | 0.616 | 0.605 | [Xu et al., 2019] https://github.com/xunan0812/MIMN
+
 
 ---
 
