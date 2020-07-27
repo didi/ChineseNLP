@@ -57,19 +57,20 @@ Data for this evaluation is part of Ontonotes, distributed by the Linguistic Dat
 
 ---
 
-## <span class="t">Zero pronoun resolution (OntoNotes 5.0)</span>.
+## <span class="t">Subtask: zero pronoun resolution (CoNLL 2012 / OntoNotes 5.0) </span>.
 
 ### Results
 
-|  System | Overall F1 (w/ gold trees) | Overall F1 (w/o gold trees)
+|  System | Overall F1 (w/ gold syntactic info) | Overall F1 (w/o gold syntactic info) |
 | --- | --- | --- |
-|  [Song et al. (2020)](https://www.aclweb.org/anthology/2020.acl-main.482.pdf) | | 26.1 |
-|  [Aloraini & Poesio (2020)](https://www.aclweb.org/anthology/2020.lrec-1.11/) | 63.5 | |
+|  [Aloraini & Poesio (2020)](https://www.aclweb.org/anthology/2020.lrec-1.11/) | 63.5<sup>*</sup> | |
+|  [Song et al. (2020)](https://www.aclweb.org/anthology/2020.acl-main.482/) | 58.5 | 26.1 |
+|  [Yang et al. (2019)](https://www.aclweb.org/anthology/W19-4108/) | 58.1<sup>*</sup> | |
 |  [Yin et al. (2018)](https://www.aclweb.org/anthology/C18-1002/) | 57.3 | |
 |  [Liu et al. (2017)](https://www.aclweb.org/anthology/P17-1010/) | 55.3 | |
 |  [Yin et al. (2017)](https://www.aclweb.org/anthology/D17-1135/) | 54.9 | 22.7 |
 
-
+<sup>*</sup> These models use pretraining on other datasets or pretrained embeddings, so the results might not be comparable.
 
 **Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
