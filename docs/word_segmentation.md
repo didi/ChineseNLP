@@ -59,7 +59,7 @@ F1 = 0.857
 |  [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 95.7 | 96.9 | 97.5 | 96.3 |
 |  [Zhou et al. (2017)](https://www.aclweb.org/anthology/D17-1079) |  |  | 97.8 | 96.0 |
 
-<sup>*</sup>Unlike others, [Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) do not report converting traditional Chinese to simplified Chinese.
+<sup>*</sup> Unlike others, [Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) do not report converting traditional Chinese to simplified Chinese.
 
 ### Resources
 
@@ -97,7 +97,7 @@ F1 = 0.857
 | [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 96.2 |  | |
 | [Zhou et al. (2017)](https://www.aclweb.org/anthology/D17-1079) | 96.2 | | |
 
-<sup>**</sup>[Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) report different statistics for their CTB7 split (950K/60K/82K), so the results might not be comparable.
+<sup>**</sup> [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) report different statistics for their CTB7 split (950K/60K/82K), so the results might not be comparable.
 
 
 ### Resources
