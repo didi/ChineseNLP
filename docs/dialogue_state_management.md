@@ -111,11 +111,11 @@ This task aims at tracking the dialog state defined as a frame structure filled 
 |  Dev | Chinese | 2 | 3,130 |
 
 ## <span class="t">CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset</span>.
-https://github.com/thu-coai/CrossWOZ
+- [GitHub](https://github.com/thu-coai/CrossWOZ)
+- [arxiv](https://arxiv.org/abs/2002.11893)
 
-https://arxiv.org/abs/2002.11893
+The first large-scale, Chinese Cross-Domain Wizard-of-Oz task-oriented dataset.
 
-* The first large-scale, Chinese Cross-Domain Wizard-of-Oz task-oriented dataset
 * 5 Domains: hotel, restaurant, attraction, metro, taxi
 * Annotation of dialog states and dialog acts on both user and system sides
 * About 60% of dialogs have cross-domain user-goals
