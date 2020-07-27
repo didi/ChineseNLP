@@ -24,13 +24,12 @@ Average of F1-scores returned by these three precision/recall metrics:
 - B-cubed.  
 - Entity-based CEAF.  
 
-
 ## <span class="t">CoNLL 2012 Co-reference task</span>.
 
 CoNLL 2012 introduced a co-reference task in Chinese.
 - http://conll.cemantix.org/2012/introduction.html 
 
-Data for this evaluation is part of Ontonotes, distributed by the Linguistic Data Consortium (LDC).
+Data for this evaluation is part of OntoNotes, distributed by the Linguistic Data Consortium (LDC).
 - https://catalog.ldc.upenn.edu/LDC2013T19 
 
 |  Test set | # of co-referring mentions | Genre |
@@ -47,17 +46,22 @@ Scoring code: https://github.com/conll/reference-coreference-scorers
 
 |  System | Average F1 of MUC, B-cubed, CEAF |
 | --- | --- |
+|  [Fang & Jian (2019)](https://www.ijcai.org/Proceedings/2019/700) | 63.85 |
 |  [Clark & Manning (2016b)](https://nlp.stanford.edu/static/pubs/clark2016deep.pdf) | 63.88 |
 |  [Clark & Manning (2016a)](https://nlp.stanford.edu/static/pubs/clark2016improving.pdf) | 63.66 |
 
 ### Resources
 
-Data for this evaluation is part of Ontonotes, distributed by the Linguistic Data Consortium (LDC).
+Data for this evaluation is part of OntoNotes, distributed by the Linguistic Data Consortium (LDC).
 - https://catalog.ldc.upenn.edu/LDC2013T19 
 
 ---
 
 ## <span class="t">Subtask: zero pronoun resolution (CoNLL 2012 / OntoNotes 5.0) </span>.
+
+### Metrics
+
+F1 score computed on resolution hits ([Zhao & Ng 2007](https://www.aclweb.org/anthology/D07-1057.pdf)).
 
 ### Results
 
@@ -69,6 +73,10 @@ Data for this evaluation is part of Ontonotes, distributed by the Linguistic Dat
 |  [Yin et al. (2018)](https://www.aclweb.org/anthology/C18-1002/) | 57.3 | |
 |  [Liu et al. (2017)](https://www.aclweb.org/anthology/P17-1010/) | 55.3 | |
 |  [Yin et al. (2017)](https://www.aclweb.org/anthology/D17-1135/) | 54.9 | 22.7 |
+
+### Resources
+
+Training and testing is performed on the train and dev splits of OntoNotes 5.0 respectively.
 
 **Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
