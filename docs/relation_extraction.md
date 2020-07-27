@@ -82,6 +82,7 @@ ACE 2005 employs 6 relation types and 18 subtypes as listed below.
 |   | F1 (6 relation types) | F1 (18 relation types) | Train/Test split |
 | --- | --- | --- | --- |
 |  [Zhang et al. (2018)](http://aclweb.org/anthology/L18-1077) | 87.87 | 83.40 | 80% / 20% |
+|  [Li et. al. (2019)](https://www.aclweb.org/anthology/P19-1430.pdf) | - | 78.17 | 75% / 25% |  
 |  [Chen et al. 2014](http://aclweb.org/anthology/P14-1054) | 90.35 | 75.44 | Unknown |
 
 ### Resources
@@ -92,6 +93,20 @@ ACE 2005 employs 6 relation types and 18 subtypes as listed below.
 |  Broadcast news | 120513 | 298 |
 |  Web blogs | 65681 | 97 |
 |  Total | 307991 | 633 |
+
+## <span class="t">Chinese-Literature-NER-RE-Dataset </span>.
+* [Data link](https://github.com/lancopku/Chinese-Literature-NER-RE-Dataset)
+* [Description paper](https://arxiv.org/pdf/1711.07010.pdf)
+* Well defined train, development and test data splits. 
+* Contains 9 types of relations (Located, Part-Whole, Family, General-Special, Social, Ownership, Use, Create, Near)
+
+### Results
+
+|   | F1 |
+| --- | --- |
+|  [Li et. al. (2019)](https://www.aclweb.org/anthology/P19-1430.pdf) | 65.61 | 
+|  [Zhang et. al. (2020)](https://dl.acm.org/doi/abs/10.1145/3395260.3395276) | 63.13 |
+|  [Xu et. al. (2020)](https://ieeexplore.ieee.org/abstract/document/9085019) | 57.43 |
 
 ---
 
