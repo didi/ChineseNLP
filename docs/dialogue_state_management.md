@@ -118,9 +118,8 @@ The first large-scale, Chinese Cross-Domain Wizard-of-Oz task-oriented dataset.
 * About 60% of dialogs have cross-domain user-goals
 * Rule-based user simulator also provided for evaluation
 
-[GitHub](https://github.com/thu-coai/CrossWOZ)
-
-[arxiv](https://arxiv.org/abs/2002.11893)
+- [GitHub](https://github.com/thu-coai/CrossWOZ)
+- [arxiv](https://arxiv.org/abs/2002.11893)
 
 ### Overview
 | CrossWoz | |
