@@ -110,8 +110,41 @@ This task aims at tracking the dialog state defined as a frame structure filled 
 |  Train | English | 35 | 31,304 |
 |  Dev | Chinese | 2 | 3,130 |
 
+## <span class="t">CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset</span>.
+https://github.com/thu-coai/CrossWOZ
+https://arxiv.org/abs/2002.11893
+
+* The first large-scale, Chinese Cross-Domain Wizard-of-Oz task-oriented dataset
+* 5 Domains: hotel, restaurant, attraction, metro, taxi
+* Annotation of dialog states and dialog acts on both user and system sides
+* About 60% of dialogs have cross-domain user-goals
+* Rule-based user simulator also provided for evaluation
+
+|  CrossWOZ | --- |
+| --- | --- |
+|  Language | Chinese with English translations |
+|  Speakers | Human-to-Human |
+|  \# Domains | 5 |
+|  \# Slots | 72 |
+|  \# Values | 7,871 |
+
+| Split                 | Train  | Valid | Test  |
+| --------------------- | ------ | ----- | ----- |
+| \# dialogues          | 5,012  | 500   | 500   |
+| \# Turns (utterances) | 84,692 | 8,458 | 8,476 |
+| Vocab                 | 12,502 | 5,202 | 5,143 |
+| Avg. user sub-goals   | 3.24   | 3.26  | 3.26  |
+| Avg. turns            | 16.9   | 16.9  | 17.0  |
+| Avg. tokens per turn  | 16.3   | 16.3  | 16.2  |
+
+### Example data
+A piece of dialogue: (Names of hotels are replaced by A,B,C for simplicity.)
+
+![example](https://github.com/thu-coai/CrossWOZ/blob/master/example.png)
+
+### Benchmark Model Evaluations
+![result](https://github.com/thu-coai/CrossWOZ/blob/master/result.png)
+
 ---
 
 **Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
-
-
