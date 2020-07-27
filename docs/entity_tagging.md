@@ -82,7 +82,9 @@ A standard train/dev/test split does not seem to be available.  Authors frequent
 ### Results
 
 | System | F-score |
-| --- | --- |
+| --- | --- | 
+| [Wang et al (2020)](https://www.aclweb.org/anthology/2020.acl-main.525/) | 81.7 |
+| [Huang et al (2020)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0235796) | 81.7 |
 | [Wang & Lu. (2018)](https://arxiv.org/pdf/1810.01808.pdf) | 73.00 | 
 | [Ju et. al. (2018)](http://www.aclweb.org/anthology/N18-1131) | 72.25 | 
 
@@ -103,7 +105,11 @@ Paper summarizing the bakeoff:
 
 | System | F-score |
 | --- | --- | 
-| [Meng et. al. (2019)](https://arxiv.org/abs/1901.10125) | 93.89 | 
+| [Liu et al (2020)](https://arxiv.org/pdf/1909.07606.pdf) | 95.7 |
+| [Meng et. al. (2019)](https://arxiv.org/abs/1901.10125) | 95.5 | 
+| [Ma et al (2020)](https://www.aclweb.org/anthology/2020.acl-main.528.pdf) | 95.4 |
+| [Sun et al (2020)](https://arxiv.org/pdf/1907.12412.pdf) | 95.0 |
+| [Yan et al (2020)](https://ieeexplore.ieee.org/abstract/document/9141551) | 94.1 |
 | [Liu et. al. (2019)](https://www.aclweb.org/anthology/N19-1247) | 93.74 |
 | [Sui et al. (2019)](https://www.aclweb.org/anthology/D19-1396/) | 93.47 | 
 | [Gui et al. (2019)](https://www.aclweb.org/anthology/D19-1096/) | 93.46 |
@@ -135,11 +141,14 @@ Using the test split by http://www.aclweb.org/anthology/E17-2113:
 
 | System | F-score (name mentions) | F-score (nominal mentions) | F-score (Overall) |
 | --- | --- | --- | --- |
+| [Ma et al (2020)](https://www.aclweb.org/anthology/2020.acl-main.528.pdf) | 70.9 | 67.0 | 70.5 |
+| [Meng et. al. (2019)](https://arxiv.org/abs/1901.10125) | 67.6 | | | 
+| [Hu and Zheng (2020)](https://www.jstage.jst.go.jp/article/transinf/E103.D/7/E103.D_2019EDP7253/_pdf/-char/ja) | 56.4 | | |
 | [Sui et al. (2019)](https://www.aclweb.org/anthology/D19-1396/) | 56.45 | 68.32 | 63.09 |
 | [Gui et al. (2019)](https://www.aclweb.org/anthology/D19-1096/) | 55.34 | 64.98 | 60.21 |
 | [Liu et. al. (2019)](https://www.aclweb.org/anthology/N19-1247) | 52.55 | 67.41 | 59.84 |
-|[Zhu (2019)](https://www.aclweb.org/anthology/N19-1342)|55.38 | 62.98 | 59.31 |
-|[Zhang & Yang (2018)](http://aclweb.org/anthology/P18-1144)|53.04| 62.25 | 58.79 |
+| [Zhu (2019)](https://www.aclweb.org/anthology/N19-1342)|55.38 | 62.98 | 59.31 |
+| [Zhang & Yang (2018)](http://aclweb.org/anthology/P18-1144)|53.04| 62.25 | 58.79 |
 | [Peng & Dredze (2015)](https://www.cs.jhu.edu/~npeng/papers/golden_horse_supplement.pdf) | 55.28 | 62.97 | 58.99 |
  
 ### Resources
