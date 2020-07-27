@@ -86,7 +86,8 @@ F1 = 0.857
 
 |  Model | CTB6 | CTB7 |
 | --- | --- | --- |
-|  [Tian et al. (2020)](https://www.aclweb.org/anthology/2020.acl-main.734.pdf) | 97.3 | |
+| [Tian et al. (2020)](https://www.aclweb.org/anthology/2020.acl-main.735.pdf) | 97.5 | 97.3 |
+| [Tian et al. (2020)](https://www.aclweb.org/anthology/2020.acl-main.734.pdf) | 97.3 | |
 | [Yan et al. (2020)](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00301) | | 97.1|
 |[Huang et al. (2019)](https://arxiv.org/pdf/1903.04190.pdf)|97.6||
 | [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.7 | 96.6 |
@@ -116,6 +117,7 @@ F1 = 0.857
 
 |  Model | UD |
 | --- | --- | 
+| [Tian et al. (2020)](https://www.aclweb.org/anthology/2020.acl-main.735.pdf) | 98.3 |
 | [Huang et al. (2019)](https://arxiv.org/pdf/1903.04190.pdf)|97.3 |
 | [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.9 |
 
