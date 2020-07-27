@@ -1,8 +1,9 @@
-# Chinese Spell Correction
+# Chinese Spelling Correction
 
 ## Background
 
-A spell corrector finds and correct typographical errors in text.
+A spelling corrector finds and correct typographical errors in text. These errors often occur between characters that are similar in appearance, pronunciation, or both.
+
 
 
 ## Example
@@ -22,10 +23,10 @@ Output:
 
 ## Standard Metrics
 
+Spelling correction performance is typically evaluated using accuracy, precision, recall, and F1 score. These metrics can be computed at the character level or the sentence level. Detection and correction are typically evaluated separately.
+
 * Detection: all locations of incorrect characters in a given passage should be completely identical with the gold standard.  
 * Correction: all locations and corresponding corrections of incorrect characters should be completely identical with the gold standard.
-
-
 
 ## <span class="t">SIGHAN Bake-off: Chinese Spelling Check Task</span>.
 
@@ -36,6 +37,8 @@ Output:
 | test set | # sentence pairs | # characters | # spelling errors (chars) | character set | genre |
 | --- | --- | --- | --- | --- | --- |
 | SIGHAN 2015 ([Tseng et. al. 2015](http://aclweb.org/anthology/W15-3106))| 1,100 | 33,711 | 715 | traditional | second-language learning | 
+| SIGHAN 2014 ([Yu et. al. 2014](https://www.aclweb.org/anthology/W14-6820))| 1,062 | 53,114 | 792 | traditional | second-language learning | 
+| SIGHAN 2013 ([Wu et. al. 2013](https://www.aclweb.org/anthology/W13-4406))| 2,000 | 143,039 | 1,641 | traditional | second-language learning | 
 
   
   
@@ -50,13 +53,24 @@ Output:
 
 | System | False Positive Rate | Detection Accuracy | Detection Precision | Detection Recall| Detection F1| Correction Accuracy | Correction Precision | Correction Recall | Correction F1| 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
-| CAS ([Zhang et. al. 2015](http://aclweb.org/anthology/W15-3107))| 0.11 | 0.68 | 0.80 | 0.49 | 0.61 | 0.68| 0.80 | 0.47 | 0.59 |
- 
+| Soft-Masked BERT ([Zhang et. al. 2020](https://www.aclweb.org/anthology/2020.acl-main.82))| - | 80.9 | 73.7 | 73.2 | 73.5 | 77.4 | 66.7 | 66.2 | 66.4 |
+| Confusion-set ([Wang et. al. 2019](https://www.aclweb.org/anthology/P19-1578/))| - | - | 66.8 | 73.1 | 69.8 | - | 71.5 | 59.5 | 64.9 |
+| FASPell ([Hong et. al. 2019](https://www.aclweb.org/anthology/D19-5522/))| - | 74.2 | 67.6 | 60.0 | 63.5 | 73.7 | 66.6 | 59.1 | 62.6 |
+| CAS ([Zhang et. al. 2015](http://aclweb.org/anthology/W15-3107))| 11.6 | 70.1 | 80.3 | 53.3 | 64.0 | 69.2 | 79.7 | 51.5 | 62.5 |
+
 ### Resources
 
   | Source | # sentence pairs | # chars | # spelling errors | character set | genre |
   | --- | --- | --- | --- | --- | --- |
-  | SIGHAN 2015 Training data ([Tseng et. al. 2015](http://aclweb.org/anthology/W15-3106)) | 2,334  | 146,076 | 2,594 | traditional | second-language learning|
+  | SIGHAN 2015 Training data ([Tseng et. al. 2015](http://aclweb.org/anthology/W15-3106)) | 3,174 | 95,220 | 4,237 | traditional | second-language learning|
+  | SIGHAN 2014 Training data ([Yu et. al. 2014](http://ir.itc.ntnu.edu.tw/lre/clp14csc.html)) | 6,526  | 324,342 | 10,087 | traditional | second-language learning|
+  | SIGHAN 2013 Training data ([Wu et. al. 2013](http://ir.itc.ntnu.edu.tw/lre/sighan7csc.html)) | 350  | 17,220 | 350 | traditional | second-language learning|
+
+## Other Resources
+
+  | Source | # sentence pairs | # chars | # spelling errors | character set | genre |
+  | --- | --- | --- | --- | --- | --- |
+  | Synthetic training dataset ([Wang et. al. 2018](https://www.aclweb.org/anthology/P19-1578)) 271,329 | 12M | 382,702 | simplified | news |
 
 ---
 
