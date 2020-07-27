@@ -47,8 +47,8 @@ Scoring code: https://github.com/conll/reference-coreference-scorers
 
 |  System | Average F1 of MUC, B-cubed, CEAF |
 | --- | --- |
-|  [[Clark & Manning, 2016](https://nlp.stanford.edu/static/pubs/clark2016deep.pdf)] | 63.88 |
-|  [[Clark & Manning, 2016](https://nlp.stanford.edu/static/pubs/clark2016improving.pdf)] | 63.66 |
+|  [Clark & Manning (2016b)](https://nlp.stanford.edu/static/pubs/clark2016deep.pdf) | 63.88 |
+|  [Clark & Manning (2016a)](https://nlp.stanford.edu/static/pubs/clark2016improving.pdf) | 63.66 |
 
 ### Resources
 
@@ -56,6 +56,20 @@ Data for this evaluation is part of Ontonotes, distributed by the Linguistic Dat
 - https://catalog.ldc.upenn.edu/LDC2013T19 
 
 ---
+
+## <span class="t">Zero pronoun resolution (OntoNotes 5.0)</span>.
+
+### Results
+
+|  System | Overall F1 (w/ gold trees) | Overall F1 (w/o gold trees)
+| --- | --- | --- |
+|  [Song et al. (2020)](https://www.aclweb.org/anthology/2020.acl-main.482.pdf) | | 26.1 |
+|  [Aloraini & Poesio (2020)](https://www.aclweb.org/anthology/2020.lrec-1.11/) | 63.5 | |
+|  [Yin et al. (2018)](https://www.aclweb.org/anthology/C18-1002/) | 57.3 | |
+|  [Liu et al. (2017)](https://www.aclweb.org/anthology/P17-1010/) | 55.3 | |
+|  [Yin et al. (2017)](https://www.aclweb.org/anthology/D17-1135/) | 54.9 | 22.7 |
+
+
 
 **Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
