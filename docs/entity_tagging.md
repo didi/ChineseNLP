@@ -105,10 +105,10 @@ Paper summarizing the bakeoff:
 
 | System | F-score |
 | --- | --- | 
-| [Liu et al (2020)] (https://arxiv.org/pdf/1909.07606.pdf) | 95.7 |
+| [Liu et al (2020)](https://arxiv.org/pdf/1909.07606.pdf) | 95.7 |
 | [Meng et. al. (2019)](https://arxiv.org/abs/1901.10125) | 95.5 | 
-| [Ma et al (2020)] (https://www.aclweb.org/anthology/2020.acl-main.528.pdf) | 95.4 |
-| [Sun et al (2020)] (https://arxiv.org/pdf/1907.12412.pdf) | 95.0 |
+| [Ma et al (2020)](https://www.aclweb.org/anthology/2020.acl-main.528.pdf) | 95.4 |
+| [Sun et al (2020)](https://arxiv.org/pdf/1907.12412.pdf) | 95.0 |
 | [Yan et al (2020)](https://ieeexplore.ieee.org/abstract/document/9141551) | 94.1 |
 | [Liu et. al. (2019)](https://www.aclweb.org/anthology/N19-1247) | 93.74 |
 | [Sui et al. (2019)](https://www.aclweb.org/anthology/D19-1396/) | 93.47 | 
