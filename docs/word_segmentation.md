@@ -71,38 +71,40 @@ F1 = 0.857
 
 ## <span class="t">Chinese Penn Treebank</span>.
 
-* [Website](https://verbs.colorado.edu/chinese/ctb.html)
-* Includes 2 datasets:
+* [Website](https://www.cs.brandeis.edu/~clp/ctb/)
+* Includes 3 datasets:
   * [CTB6](https://catalog.ldc.upenn.edu/LDC2007T36): consisting of 780,000 words (over 1.28 million Chinese characters)
   * [CTB7](https://catalog.ldc.upenn.edu/LDC2010T07): consists of 2,448 text files, 51,447 sentences, 1,196,329 words and 1,931,381 hanzi (Chinese characters)
-
+  * [CTB9](https://catalog.ldc.upenn.edu/LDC2016T13): consists of 3,726 text files, 132,076 sentences, 2,084,387 words, 3,247,331 characters (hanzi or foreign)
 
 |Data set|Test set (Tokens)|
 | ---: | ---: |
 |CTB6|81,578|
 |CTB7|81,578|
+|CTB9|242,317|
 
 ### Results
 
-|  Model | CTB6 | CTB7 |
-| --- | --- | --- |
-| [Tian, Song, Ao, Xia, Quan, Zhang, Wang (2020)](https://www.aclweb.org/anthology/2020.acl-main.735.pdf) | 97.5 | 97.3 |
+|  Model | CTB6 | CTB7 | CTB9 |
+| --- | --- | --- | --- |
+| [Tian, Song, Ao, Xia, Quan, Zhang, Wang (2020)](https://www.aclweb.org/anthology/2020.acl-main.735.pdf) | 97.5 | 97.3 | 97.8 |
 | [Tian, Song, Xia, Zhang, Wang (2020)](https://www.aclweb.org/anthology/2020.acl-main.734.pdf) | 97.3 | |
-| [Yan et al. (2020)](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00301) | | 97.1|
-|[Huang et al. (2019)](https://arxiv.org/pdf/1903.04190.pdf)|97.6||
-| [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.7 | 96.6 |
-| [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 96.2 |  |
-| [Zhou et al. (2017)](https://www.aclweb.org/anthology/D17-1079) | 96.2 |  |
+| [Yan et al. (2020)](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00301) | | 97.1| 97.6 |
+| [Huang et al. (2019)](https://arxiv.org/pdf/1903.04190.pdf)|97.6| | |
+| [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.7 | 96.6 | |
+| [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 96.2 |  | |
+| [Zhou et al. (2017)](https://www.aclweb.org/anthology/D17-1079) | 96.2 | | |
 
 
 
 
 ### Resources
 
-|  Train set | Training Size(Words) |
+|  Train set | Training Size (Words) |
 | --- | ----: |
 |  CTB6 | 641,368 |
 |  CTB7 | 950,138 |
+|  CTB9 | 1,696,322 |
 
 
 ## <span class="t">Chinese Universal Treebank (UD)</span>.
@@ -141,7 +143,6 @@ F1 = 0.857
 
 |  Model | Weibo |
 | --- | --- | 
-| [Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) | 96.0 |  
 | [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 95.5 | 
 
 
