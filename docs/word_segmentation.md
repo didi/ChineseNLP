@@ -87,7 +87,6 @@ F1 = 0.857
 | --- | --- | --- |
 | [Yan et al. (2020)](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00301) | | 97.1|
 |[Huang et al. (2019)](https://arxiv.org/pdf/1903.04190.pdf)|97.6|96.6|
-| [Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) | 96.6 |  |
 | [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.7 | 96.6 |
 | [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 96.2 |  |
 | [Zhou et al. (2017)](https://www.aclweb.org/anthology/D17-1079) | 96.2 |  |
