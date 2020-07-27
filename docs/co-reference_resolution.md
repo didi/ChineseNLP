@@ -46,7 +46,7 @@ Scoring code: https://github.com/conll/reference-coreference-scorers
 
 |  System | Average F1 of MUC, B-cubed, CEAF |
 | --- | --- |
-|  [Fang & Jian (2019)](https://www.ijcai.org/Proceedings/2019/700) | 63.85 |
+|  [Kong & Jian (2019)](https://www.ijcai.org/Proceedings/2019/700) | 63.85 |
 |  [Clark & Manning (2016b)](https://nlp.stanford.edu/static/pubs/clark2016deep.pdf) | 63.88 |
 |  [Clark & Manning (2016a)](https://nlp.stanford.edu/static/pubs/clark2016improving.pdf) | 63.66 |
 
@@ -76,7 +76,13 @@ F1 score computed on resolution hits ([Zhao & Ng 2007](https://www.aclweb.org/an
 
 ### Resources
 
-Training and testing is performed on the train and dev splits of OntoNotes 5.0 respectively.
+Training and testing is performed on the train and dev splits of OntoNotes 5.0 respectively (statistics reported by [Yin et al. (2018)](https://www.aclweb.org/anthology/C18-1002/))
+
+|   | Documents | Sentences | Words | Anaphoric Zero Pronouns | 
+| --- | --- | --- |
+|  Train | 1,391 | 36,487 | 756K | 12,111 |
+|  Dev | 172 | 6,083 | 110K | 1,713 |
+
 
 **Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
