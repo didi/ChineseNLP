@@ -122,6 +122,7 @@ https://arxiv.org/abs/2002.11893
 * Rule-based user simulator also provided for evaluation
 
 ### Overview
+| --- | --- |
 |  Language | Chinese with English translations |
 |  Speakers | Human-to-Human |
 |  \# Domains | 5 |
