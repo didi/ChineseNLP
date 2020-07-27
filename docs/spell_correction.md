@@ -58,6 +58,8 @@ Spelling correction performance is typically evaluated using accuracy, precision
 | FASPell ([Hong et. al. 2019](https://www.aclweb.org/anthology/D19-5522/))| - | 74.2 | 67.6 | 60.0 | 63.5 | 73.7 | 66.6 | 59.1 | 62.6 |
 | CAS ([Zhang et. al. 2015](http://aclweb.org/anthology/W15-3107))| 11.6 | 70.1 | 80.3 | 53.3 | 64.0 | 69.2 | 79.7 | 51.5 | 62.5 |
 
+Results above are all on the SIGHAN 2015 test set.
+
 ### Resources
 
   | Source | # sentence pairs | # chars | # spelling errors | character set | genre |
