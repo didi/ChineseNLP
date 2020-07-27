@@ -83,7 +83,7 @@ F1 = 0.857
 
 ### Results
 
-|  Model | CTB6 | CBT7 |
+|  Model | CTB6 | CTB7 |
 | --- | --- | --- |
 | [Yan et al. (2020)](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00301) | | 97.1|
 |[Huang et al. (2019)](https://arxiv.org/pdf/1903.04190.pdf)|97.6||
