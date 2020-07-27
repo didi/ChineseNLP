@@ -52,8 +52,9 @@ F1 = 0.857
 
 |  Model | AS | CITYU | MSR | PKU |
 | --- | --- | --- | --- | --- |
+|  [Tian et al. (2020)](https://www.aclweb.org/anthology/2020.acl-main.734.pdf) | 96.6 | 97.9 | 98.4 | 96.5 |
 |  [Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) | 96.7 | 97.9 | 98.3 | 96.7 |
-|[Huang et al. (2019)](https://arxiv.org/pdf/1903.04190.pdf)|96.6|97.6|97.9|96.6|
+|  [Huang et al. (2019)](https://arxiv.org/pdf/1903.04190.pdf)|96.6|97.6|97.9|96.6|
 |  [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.2 | 97.2 | 97.4 | 96.1 |
 |  [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 95.7 | 96.9 | 97.5 | 96.3 |
 |  [Zhou et al. (2017)](https://www.aclweb.org/anthology/D17-1079) |  |  | 97.8 | 96 |
@@ -85,6 +86,7 @@ F1 = 0.857
 
 |  Model | CTB6 | CTB7 |
 | --- | --- | --- |
+|  [Tian et al. (2020)](https://www.aclweb.org/anthology/2020.acl-main.734.pdf) | 97.3 | |
 | [Yan et al. (2020)](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00301) | | 97.1|
 |[Huang et al. (2019)](https://arxiv.org/pdf/1903.04190.pdf)|97.6||
 | [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.7 | 96.6 |
