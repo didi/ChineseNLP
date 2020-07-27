@@ -78,8 +78,8 @@ F1 score computed on resolution hits ([Zhao & Ng 2007](https://www.aclweb.org/an
 
 Training and testing is performed on the train and dev splits of OntoNotes 5.0 respectively (statistics reported by [Yin et al. (2018)](https://www.aclweb.org/anthology/C18-1002/))
 
-|   | Documents | Sentences | Words | Anaphoric Zero Pronouns | 
-| --- | --- | --- |
+| Split | Documents | Sentences | Words | Anaphoric Zero Pronouns | 
+| --- | --- | --- | --- | --- |
 |  Train | 1,391 | 36,487 | 756K | 12,111 |
 |  Dev | 172 | 6,083 | 110K | 1,713 |
 
