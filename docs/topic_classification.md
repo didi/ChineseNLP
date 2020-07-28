@@ -1,4 +1,4 @@
-# Chinese Topic Classification
+# Chinese Text Classification / Topic Classification
 
 
 ## Background
@@ -39,6 +39,10 @@ Sina News RSS subscription channel data from 2005 to 2011, which contains 74 mil
 
 |   | Accuracy |
 | --- | --- |
+| [J. Chen, C. Cao, X. Jiang](https://www.aclweb.org/anthology/2020.lrec-1.293.pdf) |  98.7% |
+| [Y. Song](https://iopscience.iop.org/article/10.1088/1742-6596/1453/1/012156/pdf)| 97.56% |
+| [W. Liu, P. Zhou, et al](https://www.aclweb.org/anthology/2020.acl-main.537.pdf) | 96.71% |
+| [S. Xin](https://iopscience.iop.org/article/10.1088/1742-6596/1549/2/022011/pdf) | 96.04% |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 94.85% |
 
 
@@ -85,7 +89,7 @@ contains 9804 documents of long sentences and paragraphs in 20 categories.
 |   | Accuracy |
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 97.8% |
-| [[Meng et al, 2019]](https://arxiv.org/pdf/1901.10125.pdf) | 96.3% |
+| [Meng et al, 2019](https://arxiv.org/pdf/1901.10125.pdf) | 96.3% |
 
 ### Resources
 
