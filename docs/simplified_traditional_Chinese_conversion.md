@@ -39,6 +39,8 @@ Public toolkits:
 
 Related paper in this area:
 - [Key Problems in Conversion from Simplified to Traditional Chinese Characters](http://www.mt-archive.info/10/MTS-2013-Shi.pdf)
+- [Simplified-traditional Chinese character conversion based on multi-data resources: Towards a fused conversion algorithm](https://www.researchgate.net/profile/Tianyong_Hao/publication/224250593_Simplified-traditional_Chinese_character_conversion_based_on_multi-data_resources_Towards_a_fused_conversion_algorithm/links/0deec527b00822c51a000000.pdf)
+- [A Simplified-Traditional Chinese Character Conversion Model Based on Log-Linear Models](https://ieeexplore.ieee.org/abstract/document/6121456)
 
 ---
 
