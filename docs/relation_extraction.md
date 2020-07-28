@@ -83,7 +83,7 @@ ACE 2005 employs 6 relation types and 18 subtypes as listed below.
 | --- | --- | --- | --- |
 |  [Zhang et al. (2018)](http://aclweb.org/anthology/L18-1077) | 87.87 | 83.40 | 80% / 20% |
 |  [Li et. al. (2019)](https://www.aclweb.org/anthology/P19-1430.pdf) | - | 78.17 | 75% / 25% |  
-|  [Chen et al. 2014](http://aclweb.org/anthology/P14-1054) | 90.35 | 75.44 | Unknown |
+|  [Chen et al. 2014](http://aclweb.org/anthology/P14-1054) | 90.35 | 75.44 | - |
 
 ### Resources
 
