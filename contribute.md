@@ -2,7 +2,7 @@
 
 
 There are two ways to contribute:
-* **Edit in Github inplace**. It's suitable for small changes on exsiting markdown files.
+* **Edit in Github inplace**. It's suitable for small changes on existing markdown files.
 * **Fork and pull request**. It's suitable for big changes, e.g. adding a new task.
 
 ## Edit in Github inplace
