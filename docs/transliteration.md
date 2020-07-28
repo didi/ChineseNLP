@@ -51,7 +51,7 @@ Chinese-English
 |  EDI (University of Edinburgh) | 0.276 | 0.83 | 0.386 | 0.276 |
 
 ### Resources
-NEWS 2018 also releases training and development data for English-Chinese and Chinese-English.
+- NEWS 2018 also releases training and development data for English-Chinese and Chinese-English.
 
 |  Train set name | Source | Target | Train set size (phrase pairs) |
 | --- | --- | --- | --- |
@@ -59,6 +59,16 @@ NEWS 2018 also releases training and development data for English-Chinese and Ch
 |  NEWS 2018 Dataset_03<br/>B-ChEn | Chinese | English | 32002 |
 
 ---
+
+- TRANSLIT: A Large-scale Name Transliteration Resource  
+  - Dataset for transliteration of person names and geolocations
+  - Contains about 1.6 million entries in more than 180 languages (including Chinese), and approx. 3 million name variations.
+  - [Project link](https://github.com/fbenites/TRANSLIT) 
+  - [Paper](https://www.aclweb.org/anthology/2020.lrec-1.399.pdf)
+
+---
+
+
 
 **Suggestions? Changes? Please send email to [chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**
 
