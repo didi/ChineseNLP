@@ -92,6 +92,30 @@ Given “France : Paris :: China : ?”, a system should come up with the answer
 | [Yin et. al. (2016)](https://www.aclweb.org/anthology/D16-1100) (MGE) | 0.89 | 0.88 | 0.39 | 0.76 |
 | CBOW (baseline) | 0.84 | 0.88 | 0.60 | 0.79 |
 
+## <span class="t">Chinese sentiment analysis</span>.
+
+* This test measures how much the sentiment analysis task benefits from different word vectors.
+* There is no agreed-upon baseline (e.g., sentiment classifier code), so it is difficult to compare across papers.
+* Sentiment dataset available at [http://sentic.net/chinese-review-datasets.zip](http://sentic.net/chinese-review-datasets.zip) ([Peng et. al. (2018)](https://www.sciencedirect.com/science/article/abs/pii/S0950705118300972))
+   * Consists of Chinese reviews in 4 domains: notebook, car, camera and phone
+   * Binary classification task: reviews are either positive or negative
+   * Does not have train/dev/test split.
+
+| Test set | # positive reviews | # negative reviews |
+| --- | --- | --- |
+| Notebook | 417 | 206 |
+| Car | 886 | 286 |
+| Camera | 1,558 | 673 |
+| Phone | 1,713 | 843 |
+
+### Results
+
+| System | Accuracy (notebook) | Accuracy (car) | Accuracy (camera) | Accuracy (phone) | Accuracy (overall) |
+| --- | --- | --- | --- | ---| ---|
+| [Sun et. al. (2019)](https://arxiv.org/pdf/1902.08795.pdf) (VCWE) | 80.95 | 85.59 | 83.93 | 84.38 | 88.92 |
+| [Yu et. al. (2017)](https://www.aclweb.org/anthology/D17-1027) (JWE) | 77.78 | 78.81 | 81.70 | 81.64 | 85.13 |
+| Baseline (skip-gram) | 69.84 | 77.12 | 80.80 | 81.25 | 86.65 |
+
 
 ## <span class="t">Chinese name tagging</span>.
 
@@ -116,6 +140,8 @@ Given “France : Paris :: China : ?”, a system should come up with the answer
 | --- | --- | --- |
 | SIGHAN 2006 NER MSRA | 1.3M  | Newswire, Broadcast News, Weblog |
 
+## Other Resources
+
 ### Various Word embeddings
 
 | Name | Additional features | Training Corpus Size | Source |
@@ -123,8 +149,6 @@ Given “France : Paris :: China : ?”, a system should come up with the answer
 | FastText | - | 374M characters | [Grave et al., 2018](https://arxiv.org/pdf/1802.06893.pdf) |
 | Mimick | Interpolate between similar characters to improve rare words, multilingual |  | [Pinter et al., 2017](https://www.aclweb.org/anthology/D17-1010.pdf) |
 | Glyph2vec | Uses character bitmaps, canjie to address OOV problem | 10M chars | [Chen et al., 2020](https://www.aclweb.org/anthology/2020.acl-main.256.pdf) |
-
-## Other Resources
 
 ### Text corpora
 
