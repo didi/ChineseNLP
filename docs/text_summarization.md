@@ -42,10 +42,11 @@ Implementations
 
 | System | ROUGE-1 | ROUGE-2 | ROUGE-L |
 | --- | --- | --- | --- |
+| [Duan et al. (2019)](https://www.aclweb.org/anthology/D19-1301) | 44.35 | 30.65 | 40.58 |
+| [Wang et. al. (2018)](https://arxiv.org/pdf/1805.03616.pdf) | 39.9 | 21.5 | 37.9 |
 | [Lin et. al. (2018)](https://arxiv.org/pdf/1805.03989.pdf) | 39.4 | 26.9 | 36.5 |
 | [Ma et. al. (2018)](https://arxiv.org/pdf/1805.04869v1.pdf) | 39.2 | 26.0 | 36.2 |
 | [Wei et. al. (2018)](https://arxiv.org/pdf/1805.04033v1.pdf) | 36.2 | 24.3 | 33.8 |
-| [Wang et. al. (2018)](https://arxiv.org/pdf/1805.03616.pdf) | 39.9 | 21.5 | 37.9 |
 | Seq2Seq (baseline) | 32.1 | 19.9 | 29.2 |
  
 ### Resources
@@ -58,8 +59,8 @@ Implementations
 ## Other Resources
 
 * [List of Chinese text summarization papers](https://github.com/mathsyouth/awesome-text-summarization#chinese-text-summarization) 
+* [MAT-INF dataset](https://www.aclweb.org/anthology/2020.acl-main.330) (ACL 2020), multi-task dataset that includes a 1M  document summarization corpus, and shows improved summarization quality after training on other tasks.
 * Recent work [Abstractive Text Summarization by Incorporating Reader Comments](https://arxiv.org/pdf/1812.05407.pdf) (AAAI 2019), does not use the LCSTS dataset but their own version of SinaWeibo dataset  
-* Recent work [Autoencoder as Assistant Supervisor: Improving Text Representation for Chinese Social Media Text Summarization](https://arxiv.org/pdf/1805.04869v1.pdf) (ACL 2018), code available at [https://github.com/lancopku/superAE](https://github.com/lancopku/superAE) 
 * Toolkit for abstractive summarization: [https://github.com/lancopku/LancoSum](https://github.com/lancopku/LancoSum) 
 
 ---
