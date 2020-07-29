@@ -46,8 +46,8 @@ Scoring code: https://github.com/conll/reference-coreference-scorers
 
 |  System | Average F1 of MUC, B-cubed, CEAF |
 | --- | --- |
-|  [Kong & Jian (2019)](https://www.ijcai.org/Proceedings/2019/700) | 63.85 |
 |  [Clark & Manning (2016b)](https://nlp.stanford.edu/static/pubs/clark2016deep.pdf) | 63.88 |
+|  [Kong & Jian (2019)](https://www.ijcai.org/Proceedings/2019/700) | 63.85 |
 |  [Clark & Manning (2016a)](https://nlp.stanford.edu/static/pubs/clark2016improving.pdf) | 63.66 |
 
 ### Resources
