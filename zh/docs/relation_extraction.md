@@ -17,7 +17,7 @@
 
 ```
 (entity1: 李晓华, entity2: 王大牛, relation: 夫妻) 
-````
+```
 
 ## 标准评价指标
 
@@ -82,7 +82,8 @@ ACE 2005包含6种关系类型和18种子关系类型 (subtypes), 具体类型�
 |   | F1 (6 relation types) | F1 (18 relation types) | Train/Test split |
 | --- | --- | --- | --- |
 |  [Zhang et al. (2018)](http://aclweb.org/anthology/L18-1077) | 87.87 | 83.40 | 80% / 20% |
-|  [Chen et al. 2014](http://aclweb.org/anthology/P14-1054) | 90.35 | 75.44 | 未知 |
+|  [Li et. al. (2019)](https://www.aclweb.org/anthology/P19-1430.pdf) | - | 78.17 | 75% / 25% |  
+|  [Chen et al. 2014](http://aclweb.org/anthology/P14-1054) | 90.35 | 75.44 | - |
 
 ### 相关资源
 
@@ -92,6 +93,22 @@ ACE 2005包含6种关系类型和18种子关系类型 (subtypes), 具体类型�
 |  Broadcast news | 120513 | 298 |
 |  Web blogs | 65681 | 97 |
 |  Total | 307991 | 633 |
+
+
+## <span class="t">Chinese-Literature-NER-RE-Dataset </span>.
+* [Data](https://github.com/lancopku/Chinese-Literature-NER-RE-Dataset)
+* [论文](https://arxiv.org/pdf/1711.07010.pdf)
+* 清晰的train/dev/test数据集划分
+* 包括了9种relation(Located, Part-Whole, Family, General-Special, Social, Ownership, Use, Create, Near)
+
+
+### 结果
+
+|   | F1 |
+| --- | --- |
+|  [Li et. al. (2019)](https://www.aclweb.org/anthology/P19-1430.pdf) | 65.61 | 
+|  [Zhang et. al. (2020)](https://dl.acm.org/doi/abs/10.1145/3395260.3395276) | 63.13 |
+|  [Xu et. al. (2020)](https://ieeexplore.ieee.org/abstract/document/9085019) | 57.43 |
 
 ---
 

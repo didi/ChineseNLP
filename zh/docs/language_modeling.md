@@ -77,6 +77,31 @@ Chinese Gigaword也是由Linguistic Data Consortium (LDC)发布.
 |  [Huang et al, 2010 [GW v2]](http://www.imaging.org/site/PDFS/Reporter/Articles/2010_25/Rep25_2_EI2010_HUANG.pdf) | -- | 220.6 | 610M 的字符, 随机11m字符作为测试集， 使用MSR分词工具。 |
 |  Neural Lattice Models [v5] [Buckman+Neubig, 2018](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00036) | 32.19 | -- | *光明日报, 最高频的10k字符+UNK, 长度<150. 934k行训练集, 30k行测试集。 [数据](https://github.com/jbuckman/neural-lattice-language-models). |
 
+
+## 其他资源
+
+### <span class="t">Common Crawl Data</span>
+
+[CommonCrawl](https://commoncrawl.org) 发布了海量的基于网络爬虫的中文文本.
+
+CLUE从CommonCrawl的数据中提取了"Clue Corpus 2020"数据集(简称C5). 数据集收集了100GB文本, 包含了350亿中文字符.很适合用于训练中文预训练模型.
+
+更多信息详见论文[Xu, Zhang, and Dong](https://arxiv.org/abs/2003.01355v2)
+
+
+### <span class="t">CLUECorpusSmall </span>
+
+CLUECorpusSmall是一个公开可获取的数据集,详情可参见
+* https://github.com/CLUEbenchmark/CLUECorpus2020 
+* https://github.com/brightmart/nlp_chinese_corpus
+
+数据集包括:
+1. Wikipedia (wiki2019zh), 1百万中文entries
+2. News corpus (news2016zh), 250万新闻,包括了关键词和具体描述
+3. Baike 2018qa (baike2018qa), 150万问答(question-and-answer)
+4. Community Q&A json version (webtext2019zh), 410万高质量的网络社区的问答(question-and-answer)
+5. Translation corpus (translation2019zh), 520万句子级别对齐的中英文平行语料
+
 ---
 
 **建议? 修改? 请发邮件到[chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**

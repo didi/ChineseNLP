@@ -54,11 +54,14 @@ F1 = 0.857
 
 |  Model | AS | CITYU | MSR | PKU |
 | --- | --- | --- | --- | --- |
-|  [Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) | 96.7 | 97.9 | 98.3 | 96.7 |
-|[Huang et al. (2019)](https://arxiv.org/pdf/1903.04190.pdf)|96.6|97.6|97.9|96.6|
+|  [Tian, Song, Xia, Zhang, Wang (2020)](https://www.aclweb.org/anthology/2020.acl-main.734/) | 96.6 | 97.9 | 98.4 | 96.5 |
+|  [Meng et al. (2019)](https://arxiv.org/abs/1901.10125) | 96.7<sup>*</sup> | 97.9<sup>*</sup> | 98.3 | 96.7 |
+|  [Huang et al. (2019)](https://arxiv.org/abs/1903.04190)| 96.6 | 97.6 | 97.9 | 96.6 |
 |  [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.2 | 97.2 | 97.4 | 96.1 |
 |  [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 95.7 | 96.9 | 97.5 | 96.3 |
 |  [Zhou et al. (2017)](https://www.aclweb.org/anthology/D17-1079) |  |  | 97.8 | 96.0 |
+
+<sup>*</sup> 不同于其他模型,[Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf)在论文中并未提及将繁体中文转换成简体中文.
 
 ### 相关资源
 
@@ -76,31 +79,35 @@ F1 = 0.857
 * 包含2个数据集:
   * [CTB6](https://catalog.ldc.upenn.edu/LDC2007T36): 包括78,000个词 (word), 超过128万个中文字符。 
   * [CTB7](https://catalog.ldc.upenn.edu/LDC2010T07): 包括2448个文档，51447句子，1,196,329个词 (word)以及超过190万个中文字符。 
-
+  * [CTB9](https://catalog.ldc.upenn.edu/LDC2016T13): 包括3726个文档，132,076句子，2,084,387个词 (word)以及超过324万个中文字符。 
 
 |Data set|Test set (Tokens)|
 | ---: | ---: |
 |CTB6|81,578|
 |CTB7|81,578|
+|CTB9|242K|
 
 ### 结果
 
 |  Model | CTB6 | CBT7 |
 | --- | --- | --- |
-|[Huang et al. (2019)](https://arxiv.org/pdf/1903.04190.pdf)|97.6|96.6|
-| [Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) | 96.6 |  |
-| [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.7 | 96.6 |
-| [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 96.2 |  |
-| [Zhou et al. (2017)](https://www.aclweb.org/anthology/D17-1079) | 96.2 |  |
+| [Tian, Song, Ao, Xia, Quan, Zhang, Wang (2020)](https://www.aclweb.org/anthology/2020.acl-main.735/) | 97.5 | 97.3 | 97.8 |
+| [Tian, Song, Xia, Zhang, Wang (2020)](https://www.aclweb.org/anthology/2020.acl-main.734/) | 97.3 | |
+| [Yan et al. (2020)](https://transacl.org/ojs/index.php/tacl/article/view/1876) | | 97.1| 97.6 |
+| [Huang et al. (2019)](https://arxiv.org/abs/1903.04190)|97.6| | |
+| [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.7 | 96.6<sup>**</sup> | |
+| [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 96.2 |  | |
+| [Zhou et al. (2017)](https://www.aclweb.org/anthology/D17-1079) | 96.2 | | |
 
+<sup>**</sup> [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529)在处理CTB7数据集时采用了不同的不同的train/dev/test划分方法,因此结果并不能直接相比较.
 
 ### 相关资源
 
 |  Train set | Training Size(Words) |
 | --- | ----: |
-|  CTB6 | 641,368 |
-|  CTB7 | 950,138 |
-
+|  CTB6 | 641K |
+|  CTB7 | 718K |
+|  CTB9 | 1,696K |
 
 ## <span class="t">Chinese Universal Treebank (UD)</span>.
 
@@ -115,7 +122,8 @@ F1 = 0.857
 
 |  Model | UD |
 | --- | --- | 
-| [Huang et al. (2019)](https://arxiv.org/pdf/1903.04190.pdf)|97.3 |
+| [Tian, Song, Ao, Xia, Quan, Zhang, Wang (2020)](https://www.aclweb.org/anthology/2020.acl-main.735/) | 98.3 |
+| [Huang et al. (2019)](https://arxiv.org/abs/1903.04190)|97.3 |
 | [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.9 |
 
 ### 相关资源
@@ -138,7 +146,6 @@ F1 = 0.857
 
 |  Model | Weibo |
 | --- | --- | 
-| [Meng et al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) | 96.0 |  
 | [Yang et al. (2017)](http://aclweb.org/anthology/P17-1078) | 95.5 | 
 
 ### 相关资源

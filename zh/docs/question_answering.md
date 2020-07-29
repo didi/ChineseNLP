@@ -90,8 +90,10 @@ NLPCC DBQA 2016
 
 |  System | MRR | F1 |
 | --- | --- | --- |
-|  [ERNIE(baidu)](https://arxiv.org/pdf/1904.09223.pdf) | 95.1 | 82.7 |
-|  [BERT](https://arxiv.org/pdf/1810.04805.pdf) | 94.6 | 80.8 |
+| [ERNIE 2.0](https://arxiv.org/pdf/1907.12412.pdf) | 95.8 | 85.8 |
+| [Meng et. al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) (Glyce + BERT) | - | 83.4 |
+| [ERNIE(baidu)](https://arxiv.org/pdf/1904.09223.pdf) | 95.1 | 82.7 |
+| [BERT](https://arxiv.org/pdf/1810.04805.pdf) | 94.6 | 80.8 |
 
 NLPCC DBQA 2017
 
@@ -106,6 +108,28 @@ NLPCC DBQA 2017
 |  NLPCC DBQA 2016/2017 | 8772 | 开放领域 |
 
 
+## <span class="t">Machine Reading Comprehension (MRC) tasks from CLUE benchmark</span>.
+
+[CLUE](https://github.com/CLUEbenchmark/CLUE)是一个中文自然语言理解任务基准测评benchmark. benchmark中包括了机器阅读理解(MRC)的子任务,机器阅读理解任务试图让机器能够理解非结构化的文本并且从文本中寻找答案回答用户问题. 
+
+CLUE中包含了3个机器阅读理解的数据集,分别是: **CMRC 2018** [(Cui et al.)](https://www.aclweb.org/anthology/D19-1600.pdf), **ChID** [(Zheng et al.)](https://www.aclweb.org/anthology/P19-1075.pdf)和 **C<sup>3</sup>** [(Sun et al.)](https://arxiv.org/pdf/1904.09679.pdf).
+
+
+
+### 评价指标
+* Exact Match (CMRC 2018)
+* Accuracy (ChID and C<sup>3</sup>)
+
+### 结果
+|  System | CMRC 2018 | ChID | C<sup>3</sup> |
+| --- | --- | --- | --- |
+| [HUMAN (CLUE origin)](https://github.com/CLUEbenchmark/CLUE) | 92.40 | 87.10 | 96.00 |
+| [RoBERTa-wwm-ext-large (CLUE origin)](https://github.com/CLUEbenchmark/CLUE) | 76.58 | 85.37 | 72.32 |
+| [BERT-base (CLUE origin)](https://github.com/CLUEbenchmark/CLUE) | 69.72 | 82.04 | 64.50 |
+
+### 相关资源
+
+[CLUE benchmark](https://www.cluebenchmarks.com/)
 
 ## 其他资源
 

@@ -35,6 +35,7 @@ The United States and China may soon reach a trade agreement.
 * BLEU-SBP ((Chiang et al 08)[http://aclweb.org/anthology/D08-1064]). 解决了Bleu的解耦（decomposability) 问题，在Bleu和单词错误率取得一个折中。 
 * HTER. 修改为一个良好的翻译所需要的人工编辑次数 (the number of edits)。
 
+## 中英翻译
 
 ## <span class="t">WMT</span>.
 
@@ -79,7 +80,7 @@ The United States and China may soon reach a trade agreement.
 
 目前有许多英文/中文平行语料资源可以用来训练机器翻译(MT)系统。 以下是一些公开可获取的资源：
 
-|  Train set | Size (words on English side) | 主题 (Genre) |
+|  Dataset | Size (words on English side) | 主题 (Genre) |
 | --- | --- | --- |
 |  UN | 327m | 政治 |
 |  New Commentary v12 | 5m | 新闻 |
@@ -124,6 +125,7 @@ NIST在支持中英文机器翻译领域发展上有着很长的历史，许多�
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |  [[Zhang et al 2019]](https://arxiv.org/abs/1906.02448) | 1.25m | mteval-v11b |  | 48.31 | 49.40 | 48.72 | 48.45 |  | 48.72 |
 |  [[Hadiwinoto & Ng, 2018]](http://www.lrec-conf.org/proceedings/lrec2018/pdf/678.pdf) | 7.65m | mteval-v13a | 46.94 | 47.58 | 49.13 | 47.78 | 49.37 | 41.48 | 47.05 |
+|  [[Yang te al, 2020]](https://www.aclweb.org/anthology/2020.acl-main.531/) | 1.2m | unspecified |  | 46.56 |  | 46.04 |  | 37.53 |  |
 |  [[Meng et al 2019]](https://arxiv.org/pdf/1901.10125.pdf) | 1.25m | unspecified | 40.56 (dev) | 39.93 | 41.54 | 38.01 | 37.45 | 29.07 | 37.76 |
 |  [[Ma et al 2018c]](https://arxiv.org/abs/1805.04871) | 1.25m | unspecified | 39.77 (dev) | 38.91 | 40.02 | 36.82 | 35.93 | 27.61 | 36.51 |
 |  [[Chen et al 2017]](http://aclweb.org/anthology/P17-1177) | 1.6m | multibleu | 36.57 | 35.64 | 36.63 | 34.35 | 30.57 |  |  |
@@ -204,6 +206,7 @@ The Linguistic Data Consortium (LDC) 提供了用于NIST OpenMT任务的训练�
 [The Multitarget TED Talks Task (MTTT)](http://cs.jhu.edu/~kevinduh/a/multitarget-tedtalks/)
 
 
+## 中日翻译
 
 ## <span class="t">Workshop on Asian Translation</span>.
 
@@ -255,6 +258,50 @@ ASPEC 中日翻译 (ASPEC Chinese-Japanese)
 |  Japanese-Chinese devtest | 2000 | 专利 |
 
 
+## <span class="t">IWSLT2020 ZH-JA Open Domain Translation</span>.
+
+[Shared task](http://iwslt.org/doku.php?id=open_domain_translation) 
+旨在促进亚洲语言之间的机器翻译的研究工作,鼓励通过更好的利用大量noisy parallel的数据来提升机器翻译的能力.
+
+### 评价指标
+* 4-gram character BlEU.
+
+Shared task提供了一个包括了多个主题的非公开的测试集,测试集数据从高质量人工翻译的中日双语的网页内容中提取,测试集的时间跨度为2020年1月到2020年3月.
+
+|  Test set | Size (sentences) | Genre |
+| --- | --- | --- |
+|  日译中 | 875 | mixed-genre |
+|  中译日 | 875 | mixed-genre |
+
+
+### 结果
+
+中译日
+
+|  System | Bleu |
+| --- | --- |
+|  [CASIA*](https://www.aclweb.org/anthology/2020.iwslt-1.15/) | 43.0 |
+|  [Xiaomi](https://www.aclweb.org/anthology/2020.iwslt-1.18/) | 34.3 |
+|  [TSUKUBA](https://www.aclweb.org/anthology/2020.iwslt-1.17/) | 33.0 |
+
+日译中
+
+|  System | Bleu |
+| --- | --- |
+|  [CASIA*](https://www.aclweb.org/anthology/2020.iwslt-1.15/) | 55.8 |
+|  [Samsung Research China](https://www.aclweb.org/anthology/2020.iwslt-1.12/) | 34.0 |
+|  [OPPO](https://www.aclweb.org/anthology/2020.iwslt-1.13/) | 32.9 |
+
+\* 表示用于训练模型的外部数据意外与测试集有部分重合.
+
+### 相关资源
+
+|  Dataset | Size (sentences) | Genre |
+| --- | --- | --- |
+|  Web crawled | 18,966,595 | mixed-genre |
+|  Existing parallel sources | 1,963,238 | mixed-genre |
+
+## 其他 shared tasks
 
 ## <span class="t">CWMT</span>.
 

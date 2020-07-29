@@ -45,7 +45,9 @@
 
 | System | F1 score |
 | --- | --- |
-| [Meng et. al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) (Glyce)| 95.61 |
+| [Tian el. al. (2020)](https://www.aclweb.org/anthology/2020.acl-main.735.pdf) | 96.92 | 
+| [Meng et. al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) (Glyce + BERT)| 96.61 |
+| [Meng et. al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) (BERT)| 96.06 |
 | [Shao et. al. 2017](http://www.aclweb.org/anthology/I17-1018) | 94.38 |
  
 ### 相关资源
@@ -75,7 +77,9 @@
 
 | System | F1 score|
 | --- | --- |
-| [Meng et. al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) (Glyce)| 90.77 |
+| [Meng et. al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) (Glyce + BERT)| 96.14 |
+| [Tian el. al. (2020)](https://www.aclweb.org/anthology/2020.acl-main.735.pdf) | 95.69 | 
+| [Meng et. al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) (BERT)| 94.79 |
 | [Shao et. al. (2017)](http://www.aclweb.org/anthology/I17-1018) | 89.75 |
  
 ### 相关资源
