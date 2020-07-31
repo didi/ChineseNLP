@@ -42,10 +42,11 @@ ROUGE将自动生成的摘要与参考摘要进行比较, 其中ROUGE-1衡量uni
 
 | System | ROUGE-1 | ROUGE-2 | ROUGE-L |
 | --- | --- | --- | --- |
+| [Duan et al. (2019)](https://www.aclweb.org/anthology/D19-1301) | 44.35 | 30.65 | 40.58 |
+| [Wang et. al. (2018)](https://arxiv.org/pdf/1805.03616.pdf) | 39.9 | 21.5 | 37.9 |
 | [Lin et. al. (2018)](https://arxiv.org/pdf/1805.03989.pdf) | 39.4 | 26.9 | 36.5 |
 | [Ma et. al. (2018)](https://arxiv.org/pdf/1805.04869v1.pdf) | 39.2 | 26.0 | 36.2 |
 | [Wei et. al. (2018)](https://arxiv.org/pdf/1805.04033v1.pdf) | 36.2 | 24.3 | 33.8 |
-| [Wang et. al. (2018)](https://arxiv.org/pdf/1805.03616.pdf) | 39.9 | 21.5 | 37.9 |
 | Seq2Seq (baseline) | 32.1 | 19.9 | 29.2 |
  
 ### 相关资源
@@ -58,6 +59,7 @@ ROUGE将自动生成的摘要与参考摘要进行比较, 其中ROUGE-1衡量uni
 ## 其他资源
 
 * [中文文本摘要领域论文列表](https://github.com/mathsyouth/awesome-text-summarization#chinese-text-summarization) 
+* [MAT-INF数据集](https://www.aclweb.org/anthology/2020.acl-main.330) (ACL 2020),文章提出了一个多任务学习的数据集,其中包括了一个100万文档摘要的语料集.文章同时证明通过多任务训练,文档摘要的质量能够得到提升.
 * AAAI 2019的一篇论文 [Abstractive Text Summarization by Incorporating Reader Comments](https://arxiv.org/pdf/1812.05407.pdf) 没有使用LCSTS数据集，而是使用了他们自己收集的的新浪微博数据集。
 * ACL 2018上的一篇论文 [Autoencoder as Assistant Supervisor: Improving Text Representation for Chinese Social Media Text Summarization](https://arxiv.org/pdf/1805.04869v1.pdf), 公开的代码实现: [https://github.com/lancopku/superAE](https://github.com/lancopku/superAE) 
 * 一个用于抽象摘要 (abstractive summarization)的工具包: [https://github.com/lancopku/LancoSum](https://github.com/lancopku/LancoSum) 

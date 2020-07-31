@@ -17,7 +17,7 @@ Output:
 
 ```
 (entity1: 李晓华, entity2: 王大牛, relation: 夫妻) 
-````
+```
 
 ## Standard Metrics
 

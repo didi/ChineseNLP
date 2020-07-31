@@ -35,9 +35,9 @@ The United States and China may soon reach a trade agreement.
 * BLEU-SBP ((Chiang et al 08)[http://aclweb.org/anthology/D08-1064]).  Addresses decomposability problems with Bleu, proposing a cross between Bleu and word error rate.
 * HTER.  Returns the number of edits performed by a human posteditor to get an automatic translation into good shape.
 
-## <span class="t">ZH-EN</span>.
+## ZH-EN
 
-### <span class="t">WMT</span>.
+## <span class="t">WMT</span>.
 
 The Second Conference on Machine Translation (WMT17) has a Chinese/English MT component, done in cooperation with CWMT 2017.
 * [Website](http://www.statmt.org/wmt17)
@@ -91,7 +91,7 @@ The Linguistic Data Consortium has additional resources, such as FBIS and NIST t
 
 
 
-### <span class="t">NIST</span>.
+## <span class="t">NIST</span>.
 
 NIST has a long history of supporting Chinese-English translation by creating annual test sets and running annual NIST OpenMT evaluations during the 2000s.  Many sites have reported results on NIST test sets.  
 
@@ -134,13 +134,13 @@ The Linguistic Data Consortium provides training materials typically used for NI
 
 
 
-### <span class="t">IWSLT 2015</span>.
+## <span class="t">IWSLT 2015</span>.
 
 * Translation of TED talks
 * Chinese-to-English track
 * [Shared task overview](https://cris.fbk.eu/retrieve/handle/11582/303031/9811/main.pdf)
 
-|  Dataset | Size (sentences) | # of talks | Genre |
+|  Test sets | Size (sentences) | # of talks | Genre |
 | --- | --- | --- | --- |
 |  tst2014 | 1068 | 12 | TED talks |
 |  tst2015 | 1,080 | 12 | TED talks |
@@ -203,9 +203,9 @@ English to Chinese
 [The Multitarget TED Talks Task (MTTT)](http://cs.jhu.edu/~kevinduh/a/multitarget-tedtalks/)
 
 
-## <span class="t">ZH-JA</span>.
+## ZH-JA
 
-### <span class="t">Workshop on Asian Translation</span>.
+## <span class="t">Workshop on Asian Translation</span>.
 
 [The Workshop on Asian Translation](http://lotus.kuee.kyoto-u.ac.jp/WAT/) has run since 2014.  Here, we include the 2018 Chinese/Japanese evaluations.
 
@@ -255,7 +255,7 @@ Participants must get data from [here](http://lotus.kuee.kyoto-u.ac.jp/WAT/paten
 |  Japanese-Chinese devtest | 2000 | Patents |
 
 
-### <span class="t">IWSLT2020 ZH-JA Open Domain Translation</span>.
+## <span class="t">IWSLT2020 ZH-JA Open Domain Translation</span>.
 
 [The shared task](http://iwslt.org/doku.php?id=open_domain_translation) is to promote research on translation between Asian languages, exploitation of noisy parallel web corpora for MT and smart processing of data and provenance.
 
@@ -298,9 +298,9 @@ Japanese to Chinese
 |  Existing parallel sources | 1,963,238 | mixed-genre |
 
 
-## <span class="t">Others</span>.
+## Others
 
-### <span class="t">CWMT</span>.
+## <span class="t">CWMT</span>.
 
 [CWMT 2017](http://ee.dlut.edu.cn/CWMT2017/index_en.html)
 and [2018](http://www.cipsc.org.cn/cwmt/2018/english/)

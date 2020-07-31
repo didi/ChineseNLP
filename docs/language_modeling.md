@@ -77,9 +77,9 @@ These numbers are not comparable, given different training conditions.
 |  [Huang et al, 2010 [GW v2]](http://www.imaging.org/site/PDFS/Reporter/Articles/2010_25/Rep25_2_EI2010_HUANG.pdf) | -- | 220.6 | 610m chars, random 11m for test. MSR segmenter. |
 |  Neural Lattice Models [v5] [Buckman+Neubig, 2018](https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00036) | 32.19 | -- | *Guangming Daily subset, top 10k chars + UNK, length <150. 934k lines train, 30k line test. Data [here](https://github.com/jbuckman/neural-lattice-language-models). |
 
-### Other Resources
+## Other Resources
 
-## <span class="t">Common Crawl Data</span>
+### <span class="t">Common Crawl Data</span>
 
 [CommonCrawl](https://commoncrawl.org) has released enormous quantities of web-crawled data that can be mined for Chinese text. Several groups have built their own pipelines to do the extraction and filtering.
 
@@ -87,7 +87,7 @@ The CLUE Organization extracted "Clue Corpus 2020" (also called "C5") from the C
 Intended to be a large-scale corpus for pre-training Chinese language models.
 Preprint paper by [Xu, Zhang, and Dong](https://arxiv.org/abs/2003.01355v2)
 
-## <span class="t">CLUECorpusSmall </span>
+### <span class="t">CLUECorpusSmall </span>
 
 Publicly-available data, collected at https://github.com/CLUEbenchmark/CLUECorpus2020 and https://github.com/brightmart/nlp_chinese_corpus
 Includes:

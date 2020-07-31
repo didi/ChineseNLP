@@ -1,4 +1,4 @@
-# Chinese Text Classification / Topic Classification
+# Chinese Text Classification
 
 
 ## Background
@@ -113,9 +113,9 @@ First paragraphs of Chinese news articles from 2006-2016 were evenly split into 
 
 |   | Accuracy |
 | --- | --- |
-| [[Meng et al, 2019]](https://arxiv.org/pdf/1901.10125.pdf) | 85.8% |
+| [Meng et al, 2019](https://arxiv.org/pdf/1901.10125.pdf) | 85.8% |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 84.4% |
-| [[Zhang and Lecun 2017]](https://arxiv.org/abs/1708.02657) | 83.7% |
+| [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 83.7% |
 
 ### Resources
 
@@ -140,8 +140,8 @@ Chinese news articles from 2008- 2016 were evenly split into 7 news channels, re
 |   | Accuracy |
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 92.0% |
-| [[Meng et al, 2019]](https://arxiv.org/pdf/1901.10125.pdf) | 91.9% |
-| [[Zhang and Lecun 2017]](https://arxiv.org/abs/1708.02657) | 90.9% |
+| [Meng et al, 2019](https://arxiv.org/pdf/1901.10125.pdf) | 91.9% |
+| [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 90.9% |
 
 ### Resources
 

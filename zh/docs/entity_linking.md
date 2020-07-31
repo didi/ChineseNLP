@@ -53,7 +53,10 @@ NERC F-score
 
 |  系统 | TAC-KBP / EDL 2015<br/>Names | TAC-KBP / EDL 2016<br/>Names and nominals | TAC-KBP / EDL 2017<br/>Names and nominals |
 | --- | --- | --- | --- |
-|  开放任务记录中的最佳系统 | 76.9 | 76.2 | 67.8 |
+| [Sil et al (2018)](https://arxiv.org/abs/1712.01813) | 84.4 | | |
+| [Pan et al (2020)](https://www.aclweb.org/anthology/D19-6107.pdf) | 84.2 | | |
+| [Pan et al (2020)](https://www.aclweb.org/anthology/D19-6107.pdf) | 81.2 (无监督)| | |
+|  开放任务记录中的最佳匿名系统 | 76.9 | 76.2 | 67.8 |
 
 ### 相关资源
 

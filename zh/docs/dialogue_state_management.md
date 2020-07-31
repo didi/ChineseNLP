@@ -110,6 +110,57 @@ DSTC5任务旨在跟踪对话状态。
 |  训练集 (Train) | 英语 | 35 | 31,304 |
 |  开发集 (dev) | 中文 | 2 | 3,130 |
 
+
+## <span class="t">CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset</span>.
+第一个中文大规模cross-domain的Wizard-of-Oz式的任务导向对话数据集.
+* 包含5个Domains: hotel, restaurant, attraction, metro, taxi
+* 对用户和系统双方的对话状态(dialog states)以及对话行为(dialog acts)都进行了标注
+* 约60%的对话中用户目标(user-goals)是跨越多个场景的(cross-domain)
+* 提供了基于规则的user simulator用于评估
+
+### 相关链接
+* [github](https://github.com/thu-coai/CrossWOZ)
+* [arxiv](https://arxiv.org/abs/2002.11893)
+
+| CrossWoz | |
+| --- | --- |
+|  语言 | 中文(以及对应英文翻译) |
+|  对话形式 | Human-to-Human |
+|  \# Domains | 5 |
+|  \# Slots | 72 |
+|  \# Values | 7,871 |
+
+
+|                       | Test  |
+| --------------------- | ----- |
+| \# dialogues          |  500  |
+| \# Turns (utterances) | 8,476 |
+| Vocab                 | 5,143 |
+| Avg. user sub-goals   | 3.26  |
+| Avg. turns            | 17.0  |
+| Avg. tokens per turn  | 16.2  |
+
+### 数据示例
+A piece of dialogue: (Names of hotels are replaced by A,B,C for simplicity.)
+下图展示了一个dialogue, 其中酒店的名字用A,B和C替代.
+
+![example](https://github.com/thu-coai/CrossWOZ/blob/master/example.png)
+
+### 基准模型评估
+![result](https://github.com/thu-coai/CrossWOZ/blob/master/result.png)
+
+### 相关资源
+
+| Split                 | Train  | Valid |
+| --------------------- | ------ | ----- |
+| \# dialogues          | 5,012  | 500   |
+| \# Turns (utterances) | 84,692 | 8,458 |
+| Vocab                 | 12,502 | 5,202 |
+| Avg. user sub-goals   | 3.24   | 3.26  |
+| Avg. turns            | 16.9   | 16.9  |
+| Avg. tokens per turn  | 16.3   | 16.3  |
+
+
 ---
 
 **建议? 修改? 请发邮件到[chinesenlp.xyz@gmail.com](mailto:chinesenlp.xyz@gmail.com)**

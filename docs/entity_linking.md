@@ -57,7 +57,7 @@ NERC F-score
 | --- | --- | --- | --- |
 | [Sil et al (2018)](https://arxiv.org/abs/1712.01813) | 84.4 | | |
 | [Pan et al (2020)](https://www.aclweb.org/anthology/D19-6107.pdf) | 84.2 | | |
-| [Pan et al (2020)](https://www.aclweb.org/anthology/D19-6107.pdf) | 81.2 (unsup)| | |
+| [Pan et al (2020)](https://www.aclweb.org/anthology/D19-6107.pdf) | 81.2 (unsupervised)| | |
 | Best anonymous system in shared task writeup | 76.9 | 76.2 | 67.8 |
 
 ### Resources

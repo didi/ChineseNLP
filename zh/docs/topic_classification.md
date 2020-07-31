@@ -1,9 +1,9 @@
-# 中文话题分类 (Topic Classification)
+# 中文文本分类 (Text Classification)
 
 
 ## 背景
 
-话题分类 (Topic Classification) 根据文本主题内容为文本赋予标签或类别。主题 (topic) 有时广泛，类似于流派（新闻，体育，艺术），但有时也会有像标签 (hashtag) 一样的细粒度。
+文本分类 (Text Classification) 根据文本主题内容为文本赋予标签或类别。主题 (topic) 有时广泛，类似于流派（新闻，体育，艺术），但有时也会有像标签 (hashtag) 一样的细粒度。
 
 ## 示例
 
@@ -41,6 +41,10 @@
 
 |   | Accuracy |
 | --- | --- |
+| [J. Chen, C. Cao, X. Jiang](https://www.aclweb.org/anthology/2020.lrec-1.293.pdf) |  98.7% |
+| [Y. Song](https://iopscience.iop.org/article/10.1088/1742-6596/1453/1/012156/pdf)| 97.56% |
+| [W. Liu, P. Zhou, et al](https://www.aclweb.org/anthology/2020.acl-main.537.pdf) | 96.71% |
+| [S. Xin](https://iopscience.iop.org/article/10.1088/1742-6596/1549/2/022011/pdf) | 96.04% |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 94.85% |
 
 
@@ -88,7 +92,7 @@
 |   | Accuracy |
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 97.8% |
-| [[Meng et al, 2019]](https://arxiv.org/pdf/1901.10125.pdf) | 96.3% |
+| [Meng et al, 2019](https://arxiv.org/pdf/1901.10125.pdf) | 96.3% |
 
 ### 相关资源
 
@@ -113,9 +117,9 @@
 
 |   | Accuracy |
 | --- | --- |
-| [[Meng et al, 2019]](https://arxiv.org/pdf/1901.10125.pdf) | 85.8% |
+| [Meng et al, 2019](https://arxiv.org/pdf/1901.10125.pdf) | 85.8% |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 84.4% |
-| [[Zhang and Lecun 2017]](https://arxiv.org/abs/1708.02657) | 83.7% |
+| [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 83.7% |
 
 ### 相关资源
 
@@ -141,8 +145,8 @@
 |   | Accuracy |
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 92.0% |
-| [[Meng et al, 2019]](https://arxiv.org/pdf/1901.10125.pdf) | 91.9% |
-| [[Zhang and Lecun 2017]](https://arxiv.org/abs/1708.02657) | 90.9% |
+| [Meng et al, 2019](https://arxiv.org/pdf/1901.10125.pdf) | 91.9% |
+| [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 90.9% |
 
 ### 相关资源
 

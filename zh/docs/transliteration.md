@@ -53,12 +53,18 @@ Named Entity Workshop (NEWS)长期组织音译任务的评测，其中中文/英
 |  EDI (University of Edinburgh) | 0.276 | 0.83 | 0.386 | 0.276 |
 
 ### 相关资源
-NEWS 2018 提供了英文-中文音译和中文-英文音译任务的训练集和开发集。
+- NEWS 2018 提供了英文-中文音译和中文-英文音译任务的训练集和开发集。
 
 |  Train set name | Source | Target | Train set size (phrase pairs) |
 | --- | --- | --- | --- |
 |  NEWS 2018 Dataset_03<br/>T-EnCh | English | Chinese | 41318 |
 |  NEWS 2018 Dataset_03<br/>B-ChEn | Chinese | English | 32002 |
+
+- TRANSLIT: 大规模名称音译资源
+  - 数据集包含人名和地理位置的音译
+  - 数据集收集了包括中文在内的180种语言共160万条目(entry),覆盖了大约3百万name variations.
+  - [项目GitHub](https://github.com/fbenites/TRANSLIT) 
+  - [论文](https://www.aclweb.org/anthology/2020.lrec-1.399.pdf)
 
 ---
 

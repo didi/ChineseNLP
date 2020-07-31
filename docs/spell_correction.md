@@ -72,7 +72,7 @@ Results above are all on the SIGHAN 2015 test set.
 
   | Source | # sentence pairs | # chars | # spelling errors | character set | genre |
   | --- | --- | --- | --- | --- | --- |
-  | Synthetic training dataset ([Wang et. al. 2018](https://www.aclweb.org/anthology/P19-1578)) 271,329 | 12M | 382,702 | simplified | news |
+  | Synthetic training dataset ([Wang et. al. 2018](https://www.aclweb.org/anthology/P19-1578)) | 271,329 | 12M | 382,702 | simplified | news |
 
 ---
 
