@@ -103,14 +103,16 @@ F1-score
 
 |   | F1 | Accuracy |
 | --- | --- | --- |
+| [Chen et al., 2020: 3SiBert](https://www.aclweb.org/anthology/2020.lrec-1.293.pdf) | | 0.967 | https://www.aclweb.org/anthology/2020.lrec-1.293.pdf
+| [ERNIE 2.0](https://arxiv.org/pdf/1907.12412.pdf) | | 0.958 |
 | [ERNIE](https://arxiv.org/pdf/1904.09223.pdf) |  | 0.954 |
 | BERT * |  | 0.943 |
 | fastText **| 0.9218 | 0.9218 |
-| [MCCNN](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648) | 0.9208 | 0.9208 |
+| [MCCNN](https://arxiv.org/pdf/1808.02961.pdf) | 0.9208 | 0.9208 |
 
 **BERT 准确度(Accuracy) 结果引用自 [ERNIE paper](https://arxiv.org/pdf/1904.09223.pdf).
 
-**fastText准确度 (Accuracy) 结果引用自 [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648).
+**fastText准确度 (Accuracy) 结果引用自 [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf).
 
 ### 相关资源
 
@@ -136,11 +138,11 @@ F1-score
 |   | F1 | Accuracy |
 | --- | --- | --- |
 | fastText* | 0.9261 | 0.9261 |
-| [MCCNN](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648) | 0.9302 | 0.9304 |
+| [MCCNN](https://arxiv.org/pdf/1808.02961.pdf) | 0.9302 | 0.9304 |
 | [Zhang, P., &amp; He, Z. (2013)](https://journals.sagepub.com/doi/10.1177/0165551513480330) | 0.9402 | 0.9500 |
 
 
-*准确度 (Accuracy) 结果引用自 [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf#page=8&amp;zoom=100,0,648).
+*准确度 (Accuracy) 结果引用自 [MCCNN paper](https://arxiv.org/pdf/1808.02961.pdf).
 
 
 
@@ -161,7 +163,6 @@ F1-score
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 77.8 |
 |  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 77.7 |
-
 
 
 ### 相关资源
@@ -188,7 +189,6 @@ F1-score
 | --- | --- |
 | [Sun, Baohua, et al](https://arxiv.org/abs/1810.07653) | 54.1 |
 |  [Zhang and Lecun 2017](https://arxiv.org/abs/1708.02657) | 52.0 |
-
 
 
 ### 相关资源
@@ -228,6 +228,17 @@ F1-score
 
 * 中文情感分析综述论文: 
     * [chinese-sentiment-analysis-review](http://sentic.net/chinese-sentiment-analysis-review.pdf)
+* 一些新的语料资源(持续更新中) 
+
+| Name | Description | Domain/ Source | Size (positive/ negative where applicable) | Accuracy |  F1 | Link |
+| --- | --- | --- | --- | --- | --- | --- |
+| Chinese Sarcasm Dataset | Text manually labelled as sarcastic or not | news | 2500 / 90 000 | 0.7611 | 0.7368 | [Gong et al., 2020](https://www.aclweb.org/anthology/2020.lrec-1.619.pdf)
+| CH-SIMS | Individually labelled multi-modal (text, video, audio) | movies, TV shows | 2281 video segments | - | 0.827 | [Yu et al., 2020](https://www.aclweb.org/anthology/2020.acl-main.343.pdf)
+| FiTSA | Aspect-based sentiment analysis for financial news | news | 8314 sentences, 647 000 characters | - | 0.798 | [Yuan et al., 2020](https://www.aclweb.org/anthology/2020.lrec-1.620.pdf)
+| MPDD | Emotion in multi-party dialogs | TV shows | 25 500 utterances | 0.595 | - | [Cheng et al., 2020](https://www.aclweb.org/anthology/2020.lrec-1.76.pdf)
+| MIMN | Multimodal (text, image) and aspect-based analysis | zol.com (shopping site) | 5200 reviews | 0.616 | 0.605 | [github](https://github.com/xunan0812/MIMN)
+
+
 
 ---
 

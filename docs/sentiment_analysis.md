@@ -230,11 +230,12 @@ F1-score
 * An incomplete list of new corpora (as of 2020)
 
 | Name | Description | Domain/ Source | Size (positive/ negative where applicable) | Accuracy |  F1 | Link |
+| --- | --- | --- | --- | --- | --- | --- |
 | Chinese Sarcasm Dataset | Text manually labelled as sarcastic or not | news | 2500 / 90 000 | 0.7611 | 0.7368 | [Gong et al., 2020](https://www.aclweb.org/anthology/2020.lrec-1.619.pdf)
 | CH-SIMS | Individually labelled multi-modal (text, video, audio) | movies, TV shows | 2281 video segments | - | 0.827 | [Yu et al., 2020](https://www.aclweb.org/anthology/2020.acl-main.343.pdf)
 | FiTSA | Aspect-based sentiment analysis for financial news | news | 8314 sentences, 647 000 characters | - | 0.798 | [Yuan et al., 2020](https://www.aclweb.org/anthology/2020.lrec-1.620.pdf)
 | MPDD | Emotion in multi-party dialogs | TV shows | 25 500 utterances | 0.595 | - | [Cheng et al., 2020](https://www.aclweb.org/anthology/2020.lrec-1.76.pdf)
-| MIMN | Multimodal (text, image) and aspect-based analysis | zol.com (shopping site) | 5200 reviews | 0.616 | 0.605 | [Xu et al., 2019] https://github.com/xunan0812/MIMN
+| MIMN | Multimodal (text, image) and aspect-based analysis | zol.com (shopping site) | 5200 reviews | 0.616 | 0.605 | [github](https://github.com/xunan0812/MIMN)
 
 
 ---

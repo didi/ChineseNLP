@@ -32,8 +32,7 @@ vec(“查询”) = [-0.059569, 0.126913, 0.273161, 0.225467, -0.185914, 0.01874
 * 在中文命名实体识别 (named entity recognition) 任务上的F1 score
 * 在中文词性标注 (part-of-speech tagging) 任务上的准确率 (Accuracy)
 
-
-
+更多关于word embedding评价指标的比较可以参考这篇文章[Torregrossa et al., 2020](https://www.aclweb.org/anthology/2020.lrec-1.589.pdf) 
 
 ## <span class="t">Chinese word similarity lists</span>.
 
@@ -45,9 +44,9 @@ vec(“查询”) = [-0.059569, 0.126913, 0.273161, 0.225467, -0.185914, 0.01874
 | --- | --- |
 | [wordsim-240](https://github.com/Leonard-Xu/CWE/blob/master/data/240.txt) | 240 |
 | [wordsim-296](https://github.com/Leonard-Xu/CWE/blob/master/data/297.txt) | 297 |
-  
-  
-  
+
+
+
 ### 评价指标
 
 * 人工标注的相似性分数和词向量得到的相似性分数之间的Spearman correlation (⍴). 
@@ -147,6 +146,17 @@ vec(“查询”) = [-0.059569, 0.126913, 0.273161, 0.225467, -0.185914, 0.01874
 
 
 ## 其他资源
+
+### 一些 Word embedding
+
+| Name | Additional features | Training Corpus Size | Source |
+| --- | --- | --- | --- |
+| FastText | - | 374M characters | [Grave et al., 2018](https://arxiv.org/pdf/1802.06893.pdf) |
+| Mimick | Interpolate between similar characters to improve rare words, multilingual |  | [Pinter et al., 2017](https://www.aclweb.org/anthology/D17-1010.pdf) |
+| Glyph2vec | Uses character bitmaps, canjie to address OOV problem | 10M chars | [Chen et al., 2020](https://www.aclweb.org/anthology/2020.acl-main.256.pdf) |
+
+
+### 文本语料
 
 | Corpus | Size (words) | Size (vocabulary) | 主题 (Genre) |
 | --- | --- | --- | --- |
