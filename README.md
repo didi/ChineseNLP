@@ -11,6 +11,7 @@ Shared tasks, datasets and state-of-the-art results for Chinese Natural Language
 - [Entity Tagging](docs/entity_tagging.md)
 - [Language Modeling](docs/language_modeling.md) 
 - [Machine Translation](docs/machine_translation.md)
+- [Multi-task Learning](docs/multi-task_learning.md)
 - [Part-of-Speech (POS) Tagging](docs/pos_tagging.md)
 - [Question Answering](docs/question_answering.md)
 - [Relation Extraction](docs/relation_extraction.md)
