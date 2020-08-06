@@ -24,6 +24,10 @@
 - [Word Embedding](docs/word_embedding.md)
 - [Word Segmentation](docs/word_segmentation.md)
 
+### 其他语言
+
+对于跟踪英语和其他语言自然语言处理领域的进展, [NLP-progress](http://nlpprogress.com/) 是一个非常好的项目, 它包括了大部分自然语言处理任务以及每个任务相关的开放任务，数据集, 以及当前最佳结果.
+
 ## 参与贡献
 
 想要参与贡献? 请遵循[贡献指南](contribute.md)

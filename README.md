@@ -24,6 +24,10 @@ Shared tasks, datasets and state-of-the-art results for Chinese Natural Language
 - [Word Embedding](docs/word_embedding.md)
 - [Word Segmentation](docs/word_segmentation.md)
 
+### Besides Chinese NLP
+
+To track more progress in Natural Language Processing (NLP) in English and other languages, you can check [NLP-progress](http://nlpprogress.com/), which includes the datasets and the current state-of-the-art for the most common NLP tasks.
+
 ## Contribute
 
 Want to contribute? Please follow the [Instructions](contribute.md)
