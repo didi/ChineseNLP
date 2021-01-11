@@ -5,6 +5,7 @@ Shared tasks, datasets and state-of-the-art results for Chinese Natural Language
 ## Table of Tasks
 
 - [Co-reference Resolution](docs/co-reference_resolution.md) 
+- [Constituency Parsing](docs/constituency_parsing.md)
 - [Dialogue State Management](docs/dialogue_state_management.md)
 - [Emotion Classification](docs/emotion_classification.md)
 - [Entity Linking](docs/entity_linking.md)
