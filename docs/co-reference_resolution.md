@@ -24,7 +24,7 @@ Average of F1-scores returned by these three precision/recall metrics:
 - B-cubed.  
 - Entity-based CEAF.  
 - BLANC.
-- the link based entity aware LEA metric.
+- Link-Based Entity-Aware metric (LEA).
 
 ## <span class="t">CoNLL 2012 Co-reference task</span>.
 
