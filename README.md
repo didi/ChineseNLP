@@ -29,6 +29,26 @@ Shared tasks, datasets and state-of-the-art results for Chinese Natural Language
 
 To track more progress in Natural Language Processing (NLP) in English and other languages, you can check [NLP-progress](http://nlpprogress.com/), which includes the datasets and the current state-of-the-art for the most common NLP tasks.
 
+## What's new!
+
+We have a new shared task at this year's WMT titled "Triangular MT: Using English to improve Russian-to-Chinese machine translation". We would encourage you to participate in this shared task.
+
+More details of the shared task is present at http://www.statmt.org/wmt21/triangular-mt-task.html 
+
+Please pass on the pointer to any of your colleagues and friends who might be interested in participating. 
+
+Important Dates
+
+- Apr 5, 2021:  Release of training and development resources 
+- Apr 5, 2021:  Release of the baseline system
+- Jul 12, 2021: Release of test data
+- Jul 19, 2021: Official submissions due by web upload
+- Jul 20, 2021: Release of the official results
+- Aug 5, 2021:  System description paper due
+- Sep 5, 2021:  Review feedback
+- Sep 15, 2021: Camera-ready papers due
+- Nov 10-11, 2021: Workshop 
+
 ## Contribute
 
 Want to contribute? Please follow the [Instructions](contribute.md)
