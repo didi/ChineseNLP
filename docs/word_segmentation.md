@@ -37,7 +37,7 @@ F1 = 0.857
 ## <span class="t">The Second International Chinese Word Segmentation Bakeoff in SIGHAN 2005 Workshop (Emerson, 2005)</span>.
 
 * [Website](http://sighan.cs.uchicago.edu/bakeoff2005/), [Detailed Instruction](http://sighan.cs.uchicago.edu/bakeoff2005/data/instructions.php.html), [Overview Paper](http://aclweb.org/anthology/I05-3017)
-* Includes 4 datasets: AS, CityU in traditional Chinese, PK, MSR in simplified Chinese.
+* Includes 4 datasets: AS, CityU in traditional Chinese, PK, MSRA in simplified Chinese.
 
 | Corpus | Abbrev. | Encoding | Test Size (Tokens/Types) |
 | ---: | ---: | ---: | ---: |
@@ -46,12 +46,14 @@ F1 = 0.857
 |City University of Hong Kong|CityU|HKSCS Unicode/Big Five|104K / 13K|
 | **Simplified Chinese** |
 |Peking University|PK|CP936/Unicode|41K / 9K|
-|Microsoft Research|MSR|CP936/Unicode|107K / 13K|
+|Microsoft Research|MSRA|CP936/Unicode|107K / 13K|
 
 ### Results
 
-|  Model | AS | CITYU | MSR | PKU |
+|  Model | AS | CITYU | MSRA | PKU |
 | --- | --- | --- | --- | --- |
+|  [Ke et al. (2021)](https://aclanthology.org/2021.naacl-main.436/) | 97.0 | 98.2 | 98.5 | 96.9 |
+|  [Qiu, Pei, Yan, Huang (2020)](https://aclanthology.org/2020.findings-emnlp.260/) | 96.4 | 96.9 | 98.1 | 96.4 |
 |  [Tian, Song, Xia, Zhang, Wang (2020)](https://www.aclweb.org/anthology/2020.acl-main.734/) | 96.6 | 97.9 | 98.4 | 96.5 |
 |  [Meng et al. (2019)](https://arxiv.org/abs/1901.10125) | 96.7<sup>*</sup> | 97.9<sup>*</sup> | 98.3 | 96.7 |
 |  [Huang et al. (2019)](https://arxiv.org/abs/1903.04190)| 96.6 | 97.6 | 97.9 | 96.6 |
@@ -67,7 +69,7 @@ F1 = 0.857
 | --- | ----: |
 |  AS | 5.45M |
 |  CityU | 1.46M |
-|  MSR | 2.37M |
+|  MSRA | 2.37M |
 |  PKU | 1.1M |
 
 
@@ -89,6 +91,7 @@ F1 = 0.857
 
 |  Model | CTB6 | CTB7 | CTB9 |
 | --- | --- | --- | --- |
+|  [Ke et al. (2021)](https://aclanthology.org/2021.naacl-main.436/) | 97.9 |  |  |
 | [Tian, Song, Ao, Xia, Quan, Zhang, Wang (2020)](https://www.aclweb.org/anthology/2020.acl-main.735/) | 97.5 | 97.3 | 97.8 |
 | [Tian, Song, Xia, Zhang, Wang (2020)](https://www.aclweb.org/anthology/2020.acl-main.734/) | 97.3 | |
 | [Yan et al. (2020)](https://transacl.org/ojs/index.php/tacl/article/view/1876) | | 97.1| 97.6 |
@@ -121,6 +124,7 @@ F1 = 0.857
 
 |  Model | UD |
 | --- | --- | 
+|  [Ke et al. (2021)](https://aclanthology.org/2021.naacl-main.436/) | 98.6 |
 | [Tian, Song, Ao, Xia, Quan, Zhang, Wang (2020)](https://www.aclweb.org/anthology/2020.acl-main.735/) | 98.3 |
 | [Huang et al. (2019)](https://arxiv.org/abs/1903.04190)|97.3 |
 | [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.9 |
