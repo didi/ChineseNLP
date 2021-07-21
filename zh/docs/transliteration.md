@@ -43,6 +43,7 @@ Named Entity Workshop (NEWS)长期组织音译任务的评测，其中中文/英
 
 |   | ACC | F-score | MRR | MAP |
 | --- | --- | --- | --- | --- |
+| [He, Cohen (2020)](https://aclanthology.org/2020.aacl-main.40/)  | 0.299 | 0.6799 |  |  |
 |  EDI (University of Edinburgh) | 0.304 | 0.6791 | 0.4364 | 0.304 |
 
 中文-英文
