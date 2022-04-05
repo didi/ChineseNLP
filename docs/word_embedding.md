@@ -146,6 +146,7 @@ Given “France : Paris :: China : ?”, a system should come up with the answer
 
 | Name | Additional features | Training Corpus Size | Source |
 | --- | --- | --- | --- |
+| [Tencent Embedding](https://ai.tencent.com/ailab/nlp/en/embedding.html) | 8M Chinese words, 200 dimension |  | [Song et al. (2018)](https://aclanthology.org/N18-2028/) |
 | FastText | - | 374M characters | [Grave et al., 2018](https://arxiv.org/pdf/1802.06893.pdf) |
 | Mimick | Interpolate between similar characters to improve rare words, multilingual |  | [Pinter et al., 2017](https://www.aclweb.org/anthology/D17-1010.pdf) |
 | Glyph2vec | Uses character bitmaps, canjie to address OOV problem | 10M chars | [Chen et al., 2020](https://www.aclweb.org/anthology/2020.acl-main.256.pdf) |
