@@ -48,6 +48,7 @@ EM, F1, LP and LR can be calculated using the [Evalb](https://nlp.cs.nyu.edu/eva
 | System | EM | F1 | LP | LR | code |
 | --- | --- | --- | --- | --- | --- |
 | [Liu and Zhang (2017)](https://www.aclweb.org/anthology/Q17-1029/) | 44.94 | 91.81 | - | - | [Github](https://github.com/dpfried/rnng-bert) |
+| [Fried et al. (2019)](https://aclanthology.org/P19-1031/) | 44.42 | 92.14 | - | - | [Github](https://github.com/dpfried/rnng-bert) |
 | [Zhou and Zhao (2019)](https://www.aclweb.org/anthology/P19-1230/) | - | 92.18 | 92.33 | 92.03 | [Github](https://github.com/DoodleJZ/HPSG-Neural-Parser) |
 | [Mrini et al. (2020)](https://arxiv.org/abs/1911.03875) | - | 92.64 | 93.45 | 91.85 | [Github](https://github.com/KhalilMrini/LAL-Parser) |
 | [Tian et al. (2020)](https://aclanthology.org/2020.findings-emnlp.153/) | - | 92.66 | 92.50 | 92.83 | [Github](https://github.com/cuhksz-nlp/SAPar) |
