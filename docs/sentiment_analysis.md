@@ -105,6 +105,7 @@ F1-score
 | --- | --- | --- |
 | [Chen et al., 2020: 3SiBert](https://www.aclweb.org/anthology/2020.lrec-1.293.pdf) | | 0.967 | https://www.aclweb.org/anthology/2020.lrec-1.293.pdf
 | [ZEN 2.0](https://arxiv.org/abs/2105.01279) | | 0.965 |
+| [ZEN](https://aclanthology.org/2020.findings-emnlp.425/) | | 0.961 |
 | [ERNIE 2.0](https://arxiv.org/pdf/1907.12412.pdf) | | 0.958 |
 | [ERNIE](https://arxiv.org/pdf/1904.09223.pdf) |  | 0.954 |
 | BERT * |  | 0.943 |
