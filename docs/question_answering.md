@@ -87,6 +87,7 @@ NLPCC DBQA 2016
 
 |  System | MRR | F1 |
 | --- | --- | --- |
+| [ZEN 2.0](https://arxiv.org/abs/2105.01279) | 96.1 | 86.5 |
 | [ERNIE 2.0](https://arxiv.org/pdf/1907.12412.pdf) | 95.8 | 85.8 |
 | [Meng et. al. (2019)](https://arxiv.org/pdf/1901.10125.pdf) (Glyce + BERT) | - | 83.4 |
 | [ERNIE(baidu)](https://arxiv.org/pdf/1904.09223.pdf) | 95.1 | 82.7 |

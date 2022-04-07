@@ -53,8 +53,8 @@ F1 = 0.857
 |  Model | AS | CITYU | MSRA | PKU |
 | --- | --- | --- | --- | --- |
 |  [Ke et al. (2021)](https://aclanthology.org/2021.naacl-main.436/) | 97.0 | 98.2 | 98.5 | 96.9 |
-|  [Qiu, Pei, Yan, Huang (2020)](https://aclanthology.org/2020.findings-emnlp.260/) | 96.4 | 96.9 | 98.1 | 96.4 |
 |  [Tian, Song, Xia, Zhang, Wang (2020)](https://www.aclweb.org/anthology/2020.acl-main.734/) | 96.6 | 97.9 | 98.4 | 96.5 |
+|  [Qiu, Pei, Yan, Huang (2020)](https://aclanthology.org/2020.findings-emnlp.260/) | 96.4 | 96.9 | 98.1 | 96.4 |
 |  [Meng et al. (2019)](https://arxiv.org/abs/1901.10125) | 96.7<sup>*</sup> | 97.9<sup>*</sup> | 98.3 | 96.7 |
 |  [Huang et al. (2019)](https://arxiv.org/abs/1903.04190)| 96.6 | 97.6 | 97.9 | 96.6 |
 |  [Ma et al. (2018)](http://aclweb.org/anthology/D18-1529) | 96.2 | 97.2 | 97.4 | 96.1 |

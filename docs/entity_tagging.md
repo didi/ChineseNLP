@@ -105,9 +105,11 @@ Paper summarizing the bakeoff:
 
 | System | F-score |
 | --- | --- | 
+| [Song et al. (2021)](https://arxiv.org/abs/2105.01279) | 96.2 |
 | [Liu et al (2020)](https://arxiv.org/pdf/1909.07606.pdf) | 95.7 |
 | [Meng et. al. (2019)](https://arxiv.org/abs/1901.10125) | 95.5 | 
 | [Ma et al (2020)](https://www.aclweb.org/anthology/2020.acl-main.528.pdf) | 95.4 |
+| [Diao et al. (2020)](https://aclanthology.org/2020.findings-emnlp.425/)| 95.3 |
 | [Sun et al (2020)](https://arxiv.org/pdf/1907.12412.pdf) | 95.0 |
 | [Yan et al (2020)](https://ieeexplore.ieee.org/abstract/document/9141551) | 94.1 |
 | [Liu et. al. (2019)](https://www.aclweb.org/anthology/N19-1247) | 93.74 |
@@ -142,6 +144,8 @@ Using the test split by http://www.aclweb.org/anthology/E17-2113:
 | System | F-score (name mentions) | F-score (nominal mentions) | F-score (Overall) |
 | --- | --- | --- | --- |
 | [Ma et al (2020)](https://www.aclweb.org/anthology/2020.acl-main.528.pdf) | 70.9 | 67.0 | 70.5 |
+| [Nie et al. (2020)](https://aclanthology.org/2020.emnlp-main.107/)| | | 69.80 |
+| [Nie et al. (2020)](https://aclanthology.org/2020.findings-emnlp.378/)| | | 69.78 |
 | [Meng et. al. (2019)](https://arxiv.org/abs/1901.10125) | 67.6 | | | 
 | [Hu and Zheng (2020)](https://www.jstage.jst.go.jp/article/transinf/E103.D/7/E103.D_2019EDP7253/_pdf/-char/ja) | 56.4 | | |
 | [Sui et al. (2019)](https://www.aclweb.org/anthology/D19-1396/) | 56.45 | 68.32 | 63.09 |
